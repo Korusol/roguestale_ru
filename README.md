@@ -14,7 +14,7 @@ GUI-приложение для перевода игры **Rogue's Tale** с а
 
 Так же есть переведенный гайд по игре, где используются английские названия — если кому-то нужен только перевод гайда, а играть остается на английском:
 
-https://docs.google.com/document/d/1fwlSHcZMc4aLwV_qoWCEhD-p9csyPYc3VHuCNZz9hxI/edit?tab=t.0
+https://docs.google.com/document/d/1fwlSHcZMc4aLwV_qoWCEhD-p9csyPYc3VHuCNZz9hxI/
 
 ## Установка
 
