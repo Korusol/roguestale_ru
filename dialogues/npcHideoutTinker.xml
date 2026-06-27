@@ -1,0 +1,207 @@
+<dialogue name="_npcHideoutTinker" entry="intro" checksum="fd8aedb41e8658e9bd147026193d062c844261c4">
+  <choices id="intro" title="Oh, you must be STR_PLAYER.">
+    <choice title="Uhh, yeah, who are you?" response="I'm Tinker, your interior decorator." result="" next="intro_reply_1"/>
+  </choices>
+  <choices id="intro_reply_1" title="STR_INTRO_6">
+    <choice title="So, uhm, what is it that you do?" response="I'm here to decorate the interiors." result="" next="intro_reply_2"/>
+  </choices>
+  <choices id="intro_reply_2" title="STR_INTRO_6">
+    <choice title="How do you do that, with a magic wand?" response="Oh, no no no. You'll do all the heavy lifting." result="" next="intro_reply_3"/>
+  </choices>
+  <choices id="intro_reply_3" title="STR_INTRO_6">
+    <choice title="What?" response="Here's how it works." result="" next="intro_reply_4"/>
+  </choices>
+  <choices id="intro_reply_4" title="STR_INTRO_6">
+    <choice title="Uhuh." response="I'll give you tasks to complete." result="" next="intro_reply_5"/>
+  </choices>
+  <choices id="intro_reply_5" title="STR_INTRO_6">
+    <choice title="Then what?" response="You complete the tasks." result="" next="intro_reply_6"/>
+  </choices>
+  <choices id="intro_reply_6" title="STR_INTRO_6">
+    <choice title="Obviously." response="Artisans' guild gets richer." result="" next="intro_reply_7"/>
+  </choices>
+  <choices id="intro_reply_7" title="STR_INTRO_6">
+    <choice title="Wow." response="I get paid my fair share." result="" next="intro_reply_8"/>
+  </choices>
+  <choices id="intro_reply_8" title="STR_INTRO_6">
+    <choice title="And?" response="And then you will get new interiors." result="" next="intro_reply_9"/>
+  </choices>
+  <choices id="intro_reply_9" title="STR_INTRO_6">
+    <choice title="So, I'm paying a loan I didn't ask for?" response="You kill the bear you buy the cave." result="" next="intro_reply_10"/>
+  </choices>
+  <choices id="intro_reply_10" title="STR_INTRO_6">
+    <choice title="Why do I feel like the sucker here?" response="Beats me, but would you like to see your tasks?" result="" next="outro"/>
+  </choices>
+  <choices id="outro" title="Are you here for more tasks?">
+    <choice title="STR_YES" response="Excellent." result="SHOW_PROGRESS" next=""/>
+    <choice title="STR_NO" response="See you later then." result="CLOSE_DIALOGUE" next=""/>
+  </choices>
+  <choices id="adamas_intro" title="You're back. Good.">
+    <choice title="What's up?" response="I need you to get some friends and kill something." result="" next="adamas_reply_1"/>
+  </choices>
+  <choices id="adamas_reply_1" title="You're back. Good.">
+    <choice title="Uhh, what?" response="When I was young I was tasked to build a prison..." result="" next="adamas_reply_2"/>
+  </choices>
+  <choices id="adamas_reply_2" title="You're back. Good.">
+    <choice title="Ok." response="That could trap and contain a powerful daemon..." result="" next="adamas_reply_3"/>
+  </choices>
+  <choices id="adamas_reply_3" title="You're back. Good.">
+    <choice title="Go on." response="Before it would become unstoppable." result="" next="adamas_reply_4"/>
+  </choices>
+  <choices id="adamas_reply_4" title="You're back. Good.">
+    <choice title="Why do I need friends for this?" response="First you need to release it and then kill it..." result="" next="adamas_reply_5"/>
+  </choices>
+  <choices id="adamas_reply_5" title="You're back. Good.">
+    <choice title="And?" response="And in order to release it you will need to stand..." result="" next="adamas_reply_6"/>
+  </choices>
+  <choices id="adamas_reply_6" title="You're back. Good.">
+    <choice title="Uhuh?" response="On four floor plates, but there is a catch." result="" next="adamas_reply_7"/>
+  </choices>
+  <choices id="adamas_reply_7" title="You're back. Good.">
+    <choice title="Of course there is." response="Three of the four plates capture the daemon's aura..." result="" next="adamas_reply_8"/>
+  </choices>
+  <choices id="adamas_reply_8" title="You're back. Good.">
+    <choice title="Aura?" response="Split into fire, frost and shock from left to right." result="" next="adamas_reply_9"/>
+  </choices>
+  <choices id="adamas_reply_9" title="You're back. Good.">
+    <choice title="What's the catch?" response="Any unresisted damage that is caused by the plates..." result="" next="adamas_reply_10"/>
+  </choices>
+  <choices id="adamas_reply_10" title="You're back. Good.">
+    <choice title="Go on." response="Is also caused to everyone else as magic damage..." result="" next="adamas_reply_11"/>
+  </choices>
+  <choices id="adamas_reply_11" title="You're back. Good.">
+    <choice title="And?" response="And if your friends fail to resist each element..." result="" next="adamas_reply_12"/>
+  </choices>
+  <choices id="adamas_reply_12" title="You're back. Good.">
+    <choice title="Bad things will happen?" response="It will quicky escalate and you will die in seconds." result="" next="adamas_reply_13"/>
+  </choices>
+  <choices id="adamas_reply_13" title="You're back. Good.">
+    <choice title="What does the fourth plate do?" response="If the daemon reaches it everyone dies." result="" next="adamas_reply_14"/>
+  </choices>
+  <choices id="adamas_reply_14" title="You're back. Good.">
+    <choice title="So someone needs to stand on it?" response="Yes, someone who can hold the daemon back." result="" next="adamas_reply_15"/>
+  </choices>
+  <choices id="adamas_reply_15" title="You're back. Good.">
+    <choice title="You're kidding me, right?" response="No, I'm dead serious." result="" next="adamas_reply_16"/>
+  </choices>
+  <choices id="adamas_reply_16" title="You're back. Good.">
+    <choice title="Why do you need this done now?" response="The prison was always a temporary solution..." result="" next="adamas_reply_17"/>
+  </choices>
+  <choices id="adamas_reply_17" title="You're back. Good.">
+    <choice title="And?" response="And time is running out as it gains more power." result="" next="adamas_reply_18"/>
+  </choices>
+  <choices id="adamas_reply_18" title="You're back. Good.">
+    <choice title="Why don't you just let it run free?" response="Because everyone will die if that happens." result="" next="adamas_reply_19"/>
+  </choices>
+  <choices id="adamas_reply_19" title="You're back. Good.">
+    <choice title="Oh, I see." response="Good, now get some friends and kill the daemon." result="" next="adamas_outro"/>
+  </choices>
+  <choices id="adamas_outro" title="Get some friends and go to town when ready.">
+    <choice title="Sir, yes, sir!" response="(Tinker sighs in despair.)" result="ADAMAS_EXPLAINED" next="adamas_outro"/>
+  </choices>
+  <choices id="faust_intro" title="You're back. Good.">
+    <choice title="Oh, no, not again." response="Yes, I could use your help again." result="" next="faust_reply_1"/>
+  </choices>
+  <choices id="faust_reply_1" title="You're back. Good.">
+    <choice title="What is it this time?" response="I seem to have misplaced something..." result="" next="faust_reply_2"/>
+  </choices>
+  <choices id="faust_reply_2" title="You're back. Good.">
+    <choice title="And?" response="And I would like you to find it." result="" next="faust_reply_3"/>
+  </choices>
+  <choices id="faust_reply_3" title="You're back. Good.">
+    <choice title="How am I supposed to do that?" response="Here, take this Glittergoo." result="GIVE_GLITTERGOO" next="faust_reply_4"/>
+  </choices>
+  <choices id="faust_reply_4" title="You're back. Good.">
+    <choice title="Okay." response="I need you to throw it at a goblin." result="" next="faust_reply_5"/>
+  </choices>
+  <choices id="faust_reply_5" title="You're back. Good.">
+    <choice title="A goblin?" response="Those green fellas you call loot hoarders." result="" next="faust_reply_6"/>
+  </choices>
+  <choices id="faust_reply_6" title="You're back. Good.">
+    <choice title="Uhh, okay." response="Then you need to spank the loot hoarder." result="" next="faust_reply_7"/>
+  </choices>
+  <choices id="faust_reply_7" title="You're back. Good.">
+    <choice title="What?" response="Do not kill it, just make it half dead." result="" next="faust_reply_8"/>
+  </choices>
+  <choices id="faust_reply_8" title="You're back. Good.">
+    <choice title="Sounds easy enough." response="Trust me, it won't be easy." result="" next="faust_reply_9"/>
+  </choices>
+  <choices id="faust_reply_9" title="You're back. Good.">
+    <choice title="Why is that?" response="When the goblin is weakened, the goo kicks in." result="" next="faust_reply_10"/>
+  </choices>
+  <choices id="faust_reply_10" title="You're back. Good.">
+    <choice title="Doing what exactly?" response="It compels the goblin to broadcast a loot call." result="" next="faust_reply_11"/>
+  </choices>
+  <choices id="faust_reply_11" title="You're back. Good.">
+    <choice title="What is a loot call?" response="It tells other goblins that there's a huge stash." result="" next="faust_reply_12"/>
+  </choices>
+  <choices id="faust_reply_12" title="You're back. Good.">
+    <choice title="Ohh, and then they come for it?" response="Yes, and then you can clear them..." result="" next="faust_reply_13"/>
+  </choices>
+  <choices id="faust_reply_13" title="You're back. Good.">
+    <choice title="And?" response="And return the thing I have misplaced." result="" next="faust_reply_14"/>
+  </choices>
+  <choices id="faust_reply_14" title="You're back. Good.">
+    <choice title="Which is what?" response="Just a scroll, you'll know it when you see it." result="" next="faust_reply_15"/>
+  </choices>
+  <choices id="faust_reply_15" title="You're back. Good.">
+    <choice title="Ok, is there anything else?" response="You may want to take a friend or two with you." result="" next="faust_entry_16"/>
+  </choices>
+  <choices id="faust_entry_16" title="You're back. Good.">
+    <choice title="Why is that?" response="To help you carry all the loot of course!" result="" next="faust_outro"/>
+  </choices>
+  <choices id="faust_outro" title="Didn't you have some goblins to kill?">
+    <choice title="Oh, haha, I'll get right on it." response="Excellent." result="FAUSTER_EXPLAINED" next="faust_outro"/>
+  </choices>
+  <choices id="settle_intro" title="You're back. Good.">
+    <choice title="Ohh, here we go again." response="Ohh, not this time." result="" next="settle_entry_1"/>
+  </choices>
+  <choices id="settle_entry_1" title="You're back. Good.">
+    <choice title="What, are you sick or something?" response="No no no, I'm just settling down." result="" next="settle_entry_2"/>
+  </choices>
+  <choices id="settle_entry_2" title="You're back. Good.">
+    <choice title="I hope you pay your rent on time." response="You should be paying me for all the repairs." result="" next="settle_entry_3"/>
+    <choice title="You can stay as long as you want." response="I was hoping you would say that." result="" next="settle_entry_3"/>
+  </choices>
+  <choices id="settle_entry_3" title="You're back. Good.">
+    <choice title="So, what's your plan for retirement?" response="I'll just hang around and fix things." result="" next="settle_entry_4"/>
+  </choices>
+  <choices id="settle_entry_4" title="You're back. Good.">
+    <choice title="Oh, like what?" response="Like the doors you keep breaking." result="" next="settle_entry_5"/>
+  </choices>
+  <choices id="settle_entry_5" title="You're back. Good.">
+    <choice title="Uhh, yeah, any other plans?" response="I might just start training again." result="" next="settle_entry_6"/>
+  </choices>
+  <choices id="settle_entry_6" title="You're back. Good.">
+    <choice title="Ohh, training what?" response="Well, I used to be in the Seal Team 69." result="" next="settle_entry_7"/>
+  </choices>
+  <choices id="settle_entry_7" title="You're back. Good.">
+    <choice title="And that means?" response="It means that I'm really good at clubbing seals." result="" next="settle_entry_8"/>
+  </choices>
+  <choices id="settle_entry_8" title="You're back. Good.">
+    <choice title="Wow." response="Indeed, and you know what else?" result="" next="settle_entry_9"/>
+  </choices>
+  <choices id="settle_entry_9" title="You're back. Good.">
+    <choice title="There's more?" response="I was one of the few trained to..." result="" next="settle_entry_10"/>
+  </choices>
+  <choices id="settle_entry_10" title="You're back. Good.">
+    <choice title="Uhuh." response="Stop the threat from a distance." result="" next="settle_entry_11"/>
+  </choices>
+  <choices id="settle_entry_11" title="You're back. Good.">
+    <choice title="You shot baby seals?" response="Indeed, they must be put down!" result="" next="settle_entry_12"/>
+  </choices>
+  <choices id="settle_entry_12" title="You're back. Good.">
+    <choice title="Uhh, huh." response="If you want, I can show you how." result="" next="settle_entry_13"/>
+  </choices>
+  <choices id="settle_entry_13" title="You're back. Good.">
+    <choice title="Ok, let's see what you got." response="Excellent." result="" next="settle_outro"/>
+  </choices>
+  <choices id="settle_outro" title="You're back. Good.">
+    <choice title="STR_ASK_TEACH_TALENT_27" response="STR_CONFIRM" result="" next="confirm_slow_and_steady"/>
+    <choice title="Uhh, I gotta run, see you later." response="See you later then." result="CLOSE_DIALOGUE" next="settle_outro"/>
+  </choices>
+  <choices id="confirm_slow_and_steady" title="STR_INTRO_READY">
+    <choice title="STR_YES_PLEASE" response="STR_TEACH_TALENT" result="LEARN_SLOW_AND_STEADY" next="settle_outro"/>
+    <choice title="Uhh, I gotta run, see you later." response="See you later then." result="CLOSE_DIALOGUE" next="settle_outro"/>
+  </choices>
+</dialogue>

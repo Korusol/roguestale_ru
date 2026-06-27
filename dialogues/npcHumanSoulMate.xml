@@ -1,0 +1,5 @@
+<dialogue name="npcHumanSoulMate" entry="intro" checksum="f663c972f6660f1ae0514e9687f6cff3ec08cd23">
+  <choices id="intro" title="STR_INTRO_SOUL_MATE">
+    <choice title="STR_ATTACK_SOUL_MATE" response="STR_FUBAR_SOUL_MATE" result="SET_ENEMY" next=""/>
+  </choices>
+</dialogue>

@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+venv/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Generated output
+dialogues_Rus/
+Russian1.xml
+Russian1.xml.txt
+*.bak
+
+# Temp test files
+test_*.py
+__test_*.xml
+
+# OS
+Thumbs.db
+.DS_Store

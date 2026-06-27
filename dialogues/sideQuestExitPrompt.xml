@@ -1,0 +1,11 @@
+<dialogue name="sideQuestExitPrompt" entry="intro" checksum="42dc19cfd74a6c7a756e5c8a5b92ee23f6b4b3b7">
+  <choices id="intro" title="Are you sure you want to exit the level?">
+    <choice title="Yes" response="Move along then..." result="ABORT_QUEST" next=""/>
+    <choice title="No" response="Enjoy your stay..." result="CLOSE_DIALOGUE" next=""/>
+    <choice title="What is this?" response="Well, you can't come back once you exit..." result="" next="intro_why"/>
+  </choices>
+  <choices id="intro_why" title="Are you sure you want to exit the level?">
+    <choice title="Alrighty, just let me exit already." response="Move along then..." result="ABORT_QUEST" next=""/>
+    <choice title="Uhh ok, let me think about this again." response="Enjoy your stay..." result="CLOSE_DIALOGUE" next=""/>
+  </choices>
+</dialogue>

@@ -1,0 +1,5 @@
+<dialogue name="npcHumanFollower" entry="intro" checksum="cc048f08266071ff3c0a9962f0f3161e84ade3cf">
+  <choices id="intro" title="STR_INTRO_SCARED">
+    <choice title="STR_ATTACK_8" response="STR_BREAK_UP_1" result="SET_ENEMY" next=""/>
+  </choices>
+</dialogue>

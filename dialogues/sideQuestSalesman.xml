@@ -1,0 +1,125 @@
+<dialogue name="sideQuestSalesman" entry="intro" checksum="7fa1d8a5c421db08788ec1993eb2a3f8bc3d60cd">
+  <choices id="intro" title="Hello there little one.">
+    <choice title="Uhh, hi." response="Don't be afraid, I won't bite." result="" next="intro_desc_1"/>
+    <choice title="Die, you evil looking creature!" response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_desc_1" title=" ">
+    <choice title="Ok, I'll take your word for it." response="What are you doing here?" result="" next="intro_desc_2"/>
+  </choices>
+  <choices id="intro_desc_2" title=" ">
+    <choice title="I'm here for the best deal ever." response="Ohh, let's introduce ourselves first." result="" next="intro_desc_3"/>
+  </choices>
+  <choices id="intro_desc_3" title=" ">
+    <choice title="STR_SAY_PLAYER" response="Well met, I'm Archibald..." result="" next="intro_desc_4"/>
+    <choice title="STR_SAY_ALIAS" response="Well met, I'm Archibald..." result="" next="intro_desc_4"/>
+    <choice title="I'm Duffy the Demonslayer!" response="I'll send you back to Bunnyvale." result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_desc_4" title=" ">
+    <choice title="Ok." response="Bartholomew..." result="" next="intro_desc_5"/>
+  </choices>
+  <choices id="intro_desc_5" title=" ">
+    <choice title="Nice." response="Cummingston the III." result="" next="intro_desc_6"/>
+  </choices>
+  <choices id="intro_desc_6" title=" ">
+    <choice title="Cool." response="But you can call me Archie." result="" next="intro_desc_7"/>
+  </choices>
+  <choices id="intro_desc_7" title=" ">
+    <choice title="Ok, Archie, why am I here?" response="You are here to invest in your future." result="" next="intro_desc_8"/>
+  </choices>
+  <choices id="intro_desc_8" title=" ">
+    <choice title="And how would I do that?" response="You sell a portion of your soul to me..." result="" next="intro_desc_9"/>
+  </choices>
+  <choices id="intro_desc_9" title=" ">
+    <choice title="Uhh..." response="And I will give you access to great power!" result="" next="intro_desc_10"/>
+  </choices>
+  <choices id="intro_desc_10" title=" ">
+    <choice title="Wow, just like that?" response="Yes, all you have to do is..." result="" next="intro_desc_11"/>
+  </choices>
+  <choices id="intro_desc_11" title=" ">
+    <choice title="Sit on a couch and get railed by infernals?" response="Haha, no, sign this standard contract..." result="" next="intro_desc_12"/>
+  </choices>
+  <choices id="intro_desc_12" title=" ">
+    <choice title="I knew it! With my blood, right?" response="With your blood." result="" next="intro_desc_13"/>
+  </choices>
+  <choices id="intro_desc_13" title=" ">
+    <choice title="Wow, that's so original." response="That's why it's called a standard contract." result="" next="intro_desc_14"/>
+    <choice title="I'll spill your blood instead!" response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_desc_14" title=" ">
+    <choice title="So, basically it's take it or leave it?" response="Do you want to see the contract or not?" result="" next="intro_desc_15"/>
+  </choices>
+  <choices id="intro_desc_15" title=" ">
+    <choice title="Yes." response="Talk to me again once you've signed it." result="TAKE_CONTRACT" next="contract"/>
+    <choice title="No." response="Well, it's your loss." result="TELEPORT_AWAY" next=""/>
+  </choices>
+  <choices id="contract" title="Have you signed the contract?">
+    <choice title="Yes." response="Excellent! I'll take that and you can have this..." result="RETURN_CONTRACT" next="intro_desc_16"/>
+    <choice title="No." response="Well, I don't have all day." result="TELEPORT_AWAY" next=""/>
+  </choices>
+  <choices id="intro_desc_16" title=" ">
+    <choice title="What's that?" response="Let me go through the fine print first..." result="" next="intro_desc_17"/>
+  </choices>
+  <choices id="intro_desc_17" title=" ">
+    <choice title="Ok." response="So, in exchange of 99% of your soul..." result="" next="intro_desc_18"/>
+  </choices>
+  <choices id="intro_desc_18" title=" ">
+    <choice title="Wait, what, it was 1% in the contract!" response="No, the contract says that you get to keep 1%." result="" next="intro_desc_19"/>
+  </choices>
+  <choices id="intro_desc_19" title=" ">
+    <choice title="So, I got railed by a used wagon salesman." response="Nah, you just signed something with blood..." result="" next="intro_desc_20"/>
+  </choices>
+  <choices id="intro_desc_20" title=" ">
+    <choice title="Uhuh?" response="That you clearly couldn't fully understand..." result="" next="intro_desc_21"/>
+  </choices>
+  <choices id="intro_desc_21" title=" ">
+    <choice title="Damn it!" response="That happens to almost every person." result="" next="intro_desc_22"/>
+  </choices>
+  <choices id="intro_desc_22" title=" ">
+    <choice title="Fine. Let's hear the fine print then." response="So, in exchange of 99% of your soul..." result="" next="intro_desc_23"/>
+  </choices>
+  <choices id="intro_desc_23" title=" ">
+    <choice title="Blah, blah." response="You will receive this strange device..." result="" next="intro_desc_24"/>
+  </choices>
+  <choices id="intro_desc_24" title=" ">
+    <choice title="Yada, yada." response="That allows you to siphon souls and..." result="" next="intro_desc_25"/>
+  </choices>
+  <choices id="intro_desc_25" title=" ">
+    <choice title="Wow." response="Keep some of that siphoned energy..." result="" next="intro_desc_26"/>
+  </choices>
+  <choices id="intro_desc_26" title=" ">
+    <choice title="This just keeps getting better." response="To give you unimaginable power!" result="" next="intro_desc_27"/>
+  </choices>
+  <choices id="intro_desc_27" title=" ">
+    <choice title="Great. Just what I needed!" response="Ohh, one more thing." result="" next="intro_desc_28"/>
+  </choices>
+  <choices id="intro_desc_28" title=" ">
+    <choice title="What's that?" response="Souls cannot be just taken unless..." result="" next="intro_desc_29"/>
+  </choices>
+  <choices id="intro_desc_29" title=" ">
+    <choice title="Go on." response="The target is properly angered or gullible..." result="" next="intro_desc_30"/>
+  </choices>
+  <choices id="intro_desc_30" title=" ">
+    <choice title="Like me?" response="Uhm, kind of, but fortunately for you..." result="" next="intro_desc_31"/>
+  </choices>
+  <choices id="intro_desc_31" title=" ">
+    <choice title="Uhuh?" response="The device can help you with angering..." result="" next="intro_desc_32"/>
+  </choices>
+  <choices id="intro_desc_32" title=" ">
+    <choice title="Really?" response="Your prey enough for their souls to depart." result="" next="intro_desc_33"/>
+  </choices>
+  <choices id="intro_desc_33" title=" ">
+    <choice title="So, basically, I have to murder for you?" response="No, no, no. You murder for yourself..." result="" next="intro_desc_34"/>
+  </choices>
+  <choices id="intro_desc_34" title=" ">
+    <choice title="And?" response="And I take most of the siphoned souls." result="" next="intro_desc_35"/>
+  </choices>
+  <choices id="intro_desc_35" title=" ">
+    <choice title="So, it was an employment contract?" response="Standard perpetual servitude contract." result="" next="intro_desc_36"/>
+  </choices>
+  <choices id="intro_desc_36" title=" ">
+    <choice title="Wait, what, perpetual servitude?" response="Your numerous offsprings will love you for it." result="" next="intro_desc_37"/>
+  </choices>
+  <choices id="intro_desc_37" title=" ">
+    <choice title="Somehow I doubt that." response="Happy hunting and welcome to the dark side!" result="TELEPORT_AWAY" next=""/>
+  </choices>
+</dialogue>

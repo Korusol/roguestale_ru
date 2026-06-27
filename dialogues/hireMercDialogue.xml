@@ -1,0 +1,43 @@
+<dialogue name="hireMercDialogue" entry="intro" checksum="be8f9eb85d3b9d1ce3c74f6577c83aba1b9c31fb">
+  <choices id="intro" title="What would you like to do?">
+    <choice title="Hire a mercenary." response="Melee, ranged or caster?" result="" next="hire_merc"/>
+    <choice title="View cost structure." response="Hiring cost or upkeep cost?" result="" next="view_terms"/>
+  </choices>
+  <choices id="hire_merc" title=" ">
+    <choice title="Melee." response="Warrior, fighter or duelist?" result="" next="hire_melee"/>
+    <choice title="Ranged." response="Archer, bowman or marksman?" result="" next="hire_ranged"/>
+    <choice title="Caster." response="Cleric, priest or wizard?" result="" next="hire_caster"/>
+  </choices>
+  <choices id="hire_melee" title=" ">
+    <choice title="Warrior." response="STR_HIRE_MERC" result="HIRE_WARRIOR" next=""/>
+    <choice title="Fighter." response="STR_HIRE_MERC" result="HIRE_FIGHTER" next=""/>
+    <choice title="Duelist." response="STR_HIRE_MERC" result="HIRE_DUELIST" next=""/>
+  </choices>
+  <choices id="hire_ranged" title=" ">
+    <choice title="Archer." response="STR_HIRE_MERC" result="HIRE_ARCHER" next=""/>
+    <choice title="Bowman." response="STR_HIRE_MERC" result="HIRE_BOWMAN" next=""/>
+    <choice title="Marksman." response="STR_HIRE_MERC" result="HIRE_MARKSMAN" next=""/>
+  </choices>
+  <choices id="hire_caster" title=" ">
+    <choice title="Cleric." response="STR_HIRE_MERC" result="HIRE_CLERIC" next=""/>
+    <choice title="Priest." response="STR_HIRE_MERC" result="HIRE_PRIEST" next=""/>
+    <choice title="Wizard." response="STR_HIRE_MERC" result="HIRE_WIZARD" next=""/>
+  </choices>
+  <choices id="view_terms" title=" ">
+    <choice title="Hiring cost." response="Hiring cost is 25g per experience level." result="" next="view_terms_1"/>
+    <choice title="Upkeep cost." response="Upkeep cost is 25g per cleared dungeon." result="" next="view_terms_2"/>
+    <choice title="Nevermind." response="What would you like to do?" result="" next="intro"/>
+  </choices>
+  <choices id="view_terms_1" title=" ">
+    <choice title="Upkeep cost." response="Upkeep cost is 25g per cleared dungeon." result="" next="view_terms_3"/>
+  </choices>
+  <choices id="view_terms_2" title=" ">
+    <choice title="Hiring cost." response="Hiring cost is 25g per experience level." result="" next="view_terms_3"/>
+  </choices>
+  <choices id="view_terms_3" title=" ">
+    <choice title="Hire a mercenary." response="Melee, ranged or caster?" result="" next="hire_merc"/>
+  </choices>
+  <choices id="outro" title=" ">
+    <choice title="Nevermind." response="See you later." result="CLOSE_DIALOGUE" next=""/>
+  </choices>
+</dialogue>

@@ -1,0 +1,47 @@
+<dialogue name="sideQuestSkaldir" entry="intro" checksum="c94d3a298d4daca01da7d0e1cfc6ea1217e66d8e">
+  <choices id="intro" title="I smell a human!">
+    <choice title="Uhm, the bone job makes it highly unlikely." response="Silence, fool!" result="" next="intro_reply_1"/>
+    <choice title="You found me, now point me to the treasure." response="The only treasure you will find here is death!" result="" next="intro_reply_1"/>
+  </choices>
+  <choices id="intro_reply_1" title="">
+    <choice title="Here comes the pointless threats." response="The insolence in this one is strong!" result="" next="intro_reply_2"/>
+    <choice title="Tick, tock, I got a boner to kill." response="Tick, tock... Indeed!" result="" next="intro_reply_2"/>
+  </choices>
+  <choices id="intro_reply_2" title="">
+    <choice title="So, are we there yet?" response="Yes, your time is up!" result="" next="intro_reply_3"/>
+  </choices>
+  <choices id="intro_reply_3" title="">
+    <choice title="I decide when my time is up." response="Simpleton, I am the timeless and I rule time!" result="" next="intro_reply_4"/>
+    <choice title="Let's cut the chitchat." response="Let's have it your way." result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_reply_4" title="">
+    <choice title="Go on, anything else you'd like to divulge?" response="Uhm... Nope, nothing at all!" result="" next="intro_reply_5"/>
+    <choice title="Let's cut the chitchat." response="Let's have it your way." result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_reply_5" title="">
+    <choice title="And here it folds like a house of cards." response="You can't make me fold on my footprint!" result="" next="intro_reply_6"/>
+    <choice title="Let's cut the chitchat." response="Let's have it your way." result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_reply_6" title="">
+    <choice title="I hope your master's insurance covers you." response="You don't have to worry about that!" result="" next="intro_reply_7"/>
+    <choice title="Let's cut the chitchat." response="Let's have it your way." result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_reply_7" title="">
+    <choice title="I'll be the architect of your demise." response="You'll need more firepower than that!" result="" next="intro_reply_8"/>
+    <choice title="Let's cut the chitchat." response="Let's have it your way." result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_reply_8" title="">
+    <choice title="I'll turn you into a furnace if that's what it takes." response="I'm made from asbestos so good luck with that!" result="" next="intro_reply_9"/>
+    <choice title="Let's cut the chitchat." response="Let's have it your way." result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_reply_9" title="">
+    <choice title="Are we done with the mental gymnastics?" response="You're the one still talking!" result="" next="intro_reply_10"/>
+    <choice title="Let's cut the chitchat." response="Let's have it your way." result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_reply_10" title="">
+    <choice title="Ok, let's finish this." response="Hmm, whatever." result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="set_enemy" title="Hahaha, keep feeding me with your anger!">
+    <choice title="Why don't you just die?" response="Because gamers killed all the simple bosses!" result="SET_ENEMY" next=""/>
+  </choices>
+</dialogue>

@@ -1,0 +1,71 @@
+<dialogue name="npcHideoutDummy" entry="intro" checksum="577e1de3e1919139b8bcc72e4e982a4d504c71b3">
+  <choices id="intro" title="Wassup?">
+    <choice title="Set physical resistance." response="Low, medium or high?" result="" next="physical_res"/>
+    <choice title="Set other resistances." response="Elemental or natural?" result="" next="other_res"/>
+    <choice title="Reset settings and heal." response="STR_DONE" result="RESET_SETTINGS" next="intro"/>
+  </choices>
+  <choices id="physical_res" title="Low, medium or high?">
+    <choice title="Low. (0-2)" response="0, 1 or 2?" result="" next="physical_res_02"/>
+    <choice title="Medium. (3-5)" response="3, 4 or 5?" result="" next="physical_res_35"/>
+    <choice title="High. (6-8)" response="6, 7 or 8?" result="" next="physical_res_68"/>
+  </choices>
+  <choices id="physical_res_02" title="0, 1 or 2?">
+    <choice title="0." response="STR_DONE" result="SET_PHYSICAL_0" next="intro"/>
+    <choice title="1." response="STR_DONE" result="SET_PHYSICAL_1" next="intro"/>
+    <choice title="2." response="STR_DONE" result="SET_PHYSICAL_2" next="intro"/>
+  </choices>
+  <choices id="physical_res_35" title="3, 4 or 5?">
+    <choice title="3." response="STR_DONE" result="SET_PHYSICAL_3" next="intro"/>
+    <choice title="4." response="STR_DONE" result="SET_PHYSICAL_4" next="intro"/>
+    <choice title="5." response="STR_DONE" result="SET_PHYSICAL_5" next="intro"/>
+  </choices>
+  <choices id="physical_res_68" title="6, 7 or 8?">
+    <choice title="6." response="STR_DONE" result="SET_PHYSICAL_6" next="intro"/>
+    <choice title="7." response="STR_DONE" result="SET_PHYSICAL_7" next="intro"/>
+    <choice title="8." response="STR_DONE" result="SET_PHYSICAL_8" next="intro"/>
+  </choices>
+  <choices id="other_res" title="Elemental or natural?">
+    <choice title="Elemental." response="Low, medium or high?" result="" next="elemental_res"/>
+    <choice title="Natural." response="Low, medium or high?" result="" next="natural_res"/>
+  </choices>
+  <choices id="elemental_res" title="Low, medium or high?">
+    <choice title="Low. (0-2)" response="0, 1 or 2?" result="" next="elemental_res_02"/>
+    <choice title="Medium. (3-5)" response="3, 4 or 5?" result="" next="elemental_res_35"/>
+    <choice title="High. (6-8)" response="6, 7 or 8?" result="" next="elemental_res_68"/>
+  </choices>
+  <choices id="elemental_res_02" title="0, 1 or 2?">
+    <choice title="0." response="STR_DONE" result="SET_ELEMENTAL_0" next="intro"/>
+    <choice title="1." response="STR_DONE" result="SET_ELEMENTAL_1" next="intro"/>
+    <choice title="2." response="STR_DONE" result="SET_ELEMENTAL_2" next="intro"/>
+  </choices>
+  <choices id="elemental_res_35" title="3, 4 or 5?">
+    <choice title="3." response="STR_DONE" result="SET_ELEMENTAL_3" next="intro"/>
+    <choice title="4." response="STR_DONE" result="SET_ELEMENTAL_4" next="intro"/>
+    <choice title="5." response="STR_DONE" result="SET_ELEMENTAL_5" next="intro"/>
+  </choices>
+  <choices id="elemental_res_68" title="6, 7 or 8?">
+    <choice title="6." response="STR_DONE" result="SET_ELEMENTAL_6" next="intro"/>
+    <choice title="7." response="STR_DONE" result="SET_ELEMENTAL_7" next="intro"/>
+    <choice title="8." response="STR_DONE" result="SET_ELEMENTAL_8" next="intro"/>
+  </choices>
+  <choices id="natural_res" title="Low, medium or high?">
+    <choice title="Low. (0-2)" response="0, 1 or 2?" result="" next="natural_res_02"/>
+    <choice title="Medium. (3-5)" response="3, 4 or 5?" result="" next="natural_res_35"/>
+    <choice title="High. (6-8)" response="6, 7 or 8?" result="" next="natural_res_68"/>
+  </choices>
+  <choices id="natural_res_02" title="0, 1 or 2?">
+    <choice title="0." response="STR_DONE" result="SET_NATURAL_0" next="intro"/>
+    <choice title="1." response="STR_DONE" result="SET_NATURAL_1" next="intro"/>
+    <choice title="2." response="STR_DONE" result="SET_NATURAL_2" next="intro"/>
+  </choices>
+  <choices id="natural_res_35" title="3, 4 or 5?">
+    <choice title="3." response="STR_DONE" result="SET_NATURAL_3" next="intro"/>
+    <choice title="4." response="STR_DONE" result="SET_NATURAL_4" next="intro"/>
+    <choice title="5." response="STR_DONE" result="SET_NATURAL_5" next="intro"/>
+  </choices>
+  <choices id="natural_res_68" title="6, 7 or 8?">
+    <choice title="6." response="STR_DONE" result="SET_NATURAL_6" next="intro"/>
+    <choice title="7." response="STR_DONE" result="SET_NATURAL_7" next="intro"/>
+    <choice title="8." response="STR_DONE" result="SET_NATURAL_8" next="intro"/>
+  </choices>
+</dialogue>

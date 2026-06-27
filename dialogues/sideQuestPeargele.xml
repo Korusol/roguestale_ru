@@ -1,0 +1,80 @@
+<dialogue name="sideQuestPeargele" entry="intro" checksum="7f240c861b871bfa0b2f04d295e7fc1a8caacce1">
+  <choices id="intro" title="Ahh, thank you for setting me free.">
+    <choice title="What, I didn't set you free." response="You certainly did, just like I planned." result="" next="intro_desc_1"/>
+  </choices>
+  <choices id="intro_desc_1" title=" ">
+    <choice title="What do you mean?" response="Well, I was bound to the daemon realm until..." result="" next="intro_desc_2"/>
+  </choices>
+  <choices id="intro_desc_2" title=" ">
+    <choice title="Until what?" response="An exceptional person sacrifices themself for me..." result="" next="intro_desc_3"/>
+  </choices>
+  <choices id="intro_desc_3" title=" ">
+    <choice title="Uhuh?" response="And you made that happen by being a hero." result="" next="intro_desc_4"/>
+  </choices>
+  <choices id="intro_desc_4" title=" ">
+    <choice title="I don't understand, you planned this?" response="Yes, Indeed I did. Let me explain." result="" next="intro_desc_5"/>
+  </choices>
+  <choices id="intro_desc_5" title=" ">
+    <choice title="Go ahead." response="Some time ago I became aware of Shaydana and..." result="" next="intro_desc_6"/>
+  </choices>
+  <choices id="intro_desc_6" title=" ">
+    <choice title="And?" response="Her infinite desire for knowledge and power." result="" next="intro_desc_7"/>
+  </choices>
+  <choices id="intro_desc_7" title=" ">
+    <choice title="Go on." response="I promised to give her that in exchange for..." result="" next="intro_desc_8"/>
+  </choices>
+  <choices id="intro_desc_8" title=" ">
+    <choice title="Some hot action between the sheets?" response="Hah, you have a dirty mind but not that." result="" next="intro_desc_9"/>
+  </choices>
+  <choices id="intro_desc_9" title=" ">
+    <choice title="What then?" response="Some poor girls that nobody cares about." result="" next="intro_desc_10"/>
+  </choices>
+  <choices id="intro_desc_10" title=" ">
+    <choice title="What do you need poor girls for?" response="Well, there's never too many big mouths." result="" next="intro_desc_11"/>
+  </choices>
+  <choices id="intro_desc_11" title=" ">
+    <choice title="Wait what, you turn them into daemons?" response="Yes, they go straight into the slag pits..." result="" next="intro_desc_12"/>
+  </choices>
+  <choices id="intro_desc_12" title=" ">
+    <choice title="Uhh?" response="And they're morphed into big mouths." result="" next="intro_desc_13"/>
+  </choices>
+  <choices id="intro_desc_13" title=" ">
+    <choice title="Wow." response="It also saves some training time." result="" next="intro_desc_14"/>
+  </choices>
+  <choices id="intro_desc_14" title=" ">
+    <choice title="Why's that?" response="Because they were already quite capable..." result="" next="intro_desc_15"/>
+  </choices>
+  <choices id="intro_desc_15" title=" ">
+    <choice title="To do what?" response="To put things in their mouths, haha." result="" next="intro_desc_16"/>
+  </choices>
+  <choices id="intro_desc_16" title=" ">
+    <choice title="So, how do I fit in this plan of yours?" response="Well, Shaydana was many things but..." result="" next="intro_desc_17"/>
+  </choices>
+  <choices id="intro_desc_17" title=" ">
+    <choice title="But?" response="Suicidal was not one of them." result="" next="intro_desc_18"/>
+  </choices>
+  <choices id="intro_desc_18" title=" ">
+    <choice title="I still don't get it." response="My plan contained three steps..." result="" next="intro_desc_19"/>
+  </choices>
+  <choices id="intro_desc_19" title=" ">
+    <choice title="And those are?" response="Desire, guilt and a hero." result="" next="intro_desc_20"/>
+  </choices>
+  <choices id="intro_desc_20" title=" ">
+    <choice title="Oh, I see." response="Yes, desire can lead to guilt and..." result="" next="intro_desc_21"/>
+  </choices>
+  <choices id="intro_desc_21" title=" ">
+    <choice title="And?" response="When I say nobody cares I mean..." result="" next="intro_desc_22"/>
+  </choices>
+  <choices id="intro_desc_22" title=" ">
+    <choice title="Only heroes care." response="Yes, you understand me now." result="" next="intro_desc_23"/>
+  </choices>
+  <choices id="intro_desc_23" title=" ">
+    <choice title="I pushed her over the edge." response="Yes, and now I'm free to destroy your world." result="" next="intro_desc_24"/>
+  </choices>
+  <choices id="intro_desc_24" title=" ">
+    <choice title="There's a minor flaw in your plan." response="And what is that?" result="" next="intro_desc_25"/>
+  </choices>
+  <choices id="intro_desc_25" title=" ">
+    <choice title="I happen to be a superhero!" response="Haha, we'll see about that." result="SET_ENEMY" next=""/>
+  </choices>
+</dialogue>

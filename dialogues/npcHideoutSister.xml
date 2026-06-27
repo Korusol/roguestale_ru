@@ -1,0 +1,72 @@
+<dialogue name="npcHideoutSister" entry="intro" checksum="6c722d85ce543507277c343c639f4b75e9db9c12">
+  <choices id="intro" title="STR_INTRO_TOUGH">
+    <choice title="STR_ASK_NAME_1" response="STR_TELL_NAME_1" result="SET_KNOWN" next="intro_reply_1"/>
+    <choice title="STR_ATTACK_1" response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_reply_1" title="STR_INTRO_4">
+    <choice title="STR_SAY_PLAYER" response="STR_MEET_PLAYER" result="" next="intro_reply_2"/>
+  </choices>
+  <choices id="intro_reply_2" title="STR_INTRO_1">
+    <choice title="STR_ASK_JOB_2" response="I'm a Sloped Mountain Blues Sister." result="" next="intro_reply_3"/>
+  </choices>
+  <choices id="intro_reply_3" title="STR_INTRO_2">
+    <choice title="Uhh, the what sister?" response="We're a band of musicians." result="" next="intro_reply_4"/>
+  </choices>
+  <choices id="intro_reply_4" title="STR_INTRO_2">
+    <choice title="A band eh, where are the others?" response="Uhm, they may have gotten lost." result="" next="intro_reply_5"/>
+  </choices>
+  <choices id="intro_reply_5" title="STR_INTRO_2">
+    <choice title="Lost where, down here?" response="A bear killed and ate one..." result="" next="intro_reply_6"/>
+  </choices>
+  <choices id="intro_reply_6" title="STR_INTRO_2">
+    <choice title="Hmm, bears can do that." response="High heels and stairs got one..." result="" next="intro_reply_7"/>
+  </choices>
+  <choices id="intro_reply_7" title="STR_INTRO_2">
+    <choice title="Really?" response="One fell in a chasm and drowned..." result="" next="intro_reply_8"/>
+  </choices>
+  <choices id="intro_reply_8" title="STR_INTRO_2">
+    <choice title="Do you know if there is anyone alive?" response="I don't know about the three others..." result="" next="intro_reply_9"/>
+  </choices>
+  <choices id="intro_reply_9" title="STR_INTRO_2">
+    <choice title="Three others?" response="They were cornered by a burning monster." result="" next="intro_reply_10"/>
+  </choices>
+  <choices id="intro_reply_10" title="STR_INTRO_2">
+    <choice title="Do you mean fire elemental?" response="I don't know, it was big and on fire." result="" next="intro_reply_11"/>
+  </choices>
+  <choices id="intro_reply_11" title="STR_INTRO_2">
+    <choice title="Ok, they're dead then. Any others?" response="No, that's it, all seven of us." result="" next="intro_reply_12"/>
+  </choices>
+  <choices id="intro_reply_12" title="STR_INTRO_2">
+    <choice title="So, they're dead and you're lost." response="I suppose so." result="" next="intro_reply_13"/>
+  </choices>
+  <choices id="intro_reply_13" title="STR_INTRO_2">
+    <choice title="What should I do with you?" response="Please, take me back to town!" result="" next="intro_reply_14"/>
+  </choices>
+  <choices id="intro_reply_14" title="STR_INTRO_2">
+    <choice title="I need a musician for my bar, interested?" response=" " result="SISTER_OFFER_JOB" next="sister_intro"/>
+    <choice title="Fine, I'll take you back to town. (Travel)" response="Thank you so much!" result="LEAVE_DUNGEON" next=""/>
+  </choices>
+  <choices id="sister_intro" title="STR_INTRO_1">
+    <choice title="Can you play something for me?" response="Uhh, about that..." result="" next="sister_reply_1"/>
+  </choices>
+  <choices id="sister_reply_1" title="STR_INTRO_1">
+    <choice title="Don't tell me you can't play." response="Uhm, I can play but I need..." result="" next="sister_reply_2"/>
+  </choices>
+  <choices id="sister_reply_2" title="STR_INTRO_1">
+    <choice title="What do you need?" response="My notes. I need my notes." result="" next="sister_reply_3"/>
+  </choices>
+  <choices id="sister_reply_3" title="STR_INTRO_1">
+    <choice title="Ok, where can I find your notes?" response="At this point they could be anywhere." result="" next="sister_reply_4"/>
+  </choices>
+  <choices id="sister_reply_4" title="STR_INTRO_1">
+    <choice title="Alright, I'll keep my eyes open." response="Thank you again." result="SISTER_EXPLAINED" next="sister_reply_5"/>
+  </choices>
+  <choices id="sister_reply_5" title="STR_INTRO_1">
+    <choice title="Could you play something now?" response="I can play Rogue's Ballad." result="" next="outro"/>
+  </choices>
+  <choices id="outro" title="Hi boss, want me to play something?">
+    <choice title="Play the Warrior's Ballad." response="Hackety slash slash, hackety slash slash..." result="WARRIOR_BALLAD" next=""/>
+    <choice title="Play the Wizard's Ballad." response="Burn baby burn, taste my spell power..." result="WIZARD_BALLAD" next=""/>
+    <choice title="Play the Rogue's Ballad." response="Many monsters wish death upon me..." result="ROGUE_BALLAD" next=""/>
+  </choices>
+</dialogue>

@@ -1,0 +1,7 @@
+<dialogue name="mainQuestPhase1" entry="intro" checksum="d6521c32d6e5cb2af0dc5d59fd6af19a1f730cca">
+  <choices id="intro" title="So, you have killed all my guards...">
+    <choice title="It certainly seems so." response="Ahh well, I suppose these will have to do." result="SET_FINAL_PHASE_2" next=""/>
+    <choice title="They were no match for me." response="I hope these will provide a challenge then." result="SET_FINAL_PHASE_2" next=""/>
+    <choice title="Come here and I'll let you join them!" response="Why don't you play with these first." result="SET_FINAL_PHASE_2" next=""/>
+  </choices>
+</dialogue>

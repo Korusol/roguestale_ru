@@ -1,0 +1,31 @@
+<dialogue name="sideQuestDreamweaver" entry="intro" checksum="d8fa961545a1e14ce22481f4c1648d57b4965923">
+  <choices id="intro" title="STR_INTRO_6">
+    <choice title="I was told to talk to you about this pendant." response="Oh, that would be four-twenty." result="" next="intro_desc_1"/>
+    <choice title="I want three more wishes... and world peace." response="So, miss dungeon, what do you really want?" result="" next="intro_reply"/>
+    <choice title="I want everything you have!" response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_reply" title="STR_INTRO_6">
+    <choice title="I was told to talk to you about this pendant." response="Oh, that would be four-twenty." result="" next="intro_desc_1"/>
+    <choice title="I want everything you have... and world peace!" response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_desc_1" title="That would be four-twenty.">
+    <choice title="Uhh, four-twenty, what?" response="Four hundred and twenty gold coins." result="" next="intro_desc_2"/>
+    <choice title="Whatever, I'll just take all you have!" response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_desc_2" title="That would be four-twenty.">
+    <choice title="What do I get for all those gold coins?" response="The thing that you came here for." result="" next="intro_desc_3"/>
+    <choice title="How about zero gold and a broken skull?" response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_desc_3" title="That would be four-twenty.">
+    <choice title="And what might that be?" response="A thread for your amulet string." result="" next="intro_desc_4"/>
+    <choice title="I only need you in a pool of blood." response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_desc_4" title="That would be four-twenty.">
+    <choice title="Oh, ok, here, take my money." response="STR_BUY[Dreamweave,420]" result="CLOSE_DIALOGUE" next="intro_desc_5"/>
+    <choice title="Let me think about this (leave)." response="I don't have time for poor people." result="CLOSE_DIALOGUE" next="intro_desc_5"/>
+    <choice title="Actually, I'll just take it instead!" response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_desc_5" title="We're finished here, go away.">
+    <choice title="We're finished when I say so!" response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+</dialogue>

@@ -1,0 +1,7 @@
+<dialogue name="mainQuestPhase3" entry="intro" checksum="137a6bd16f0bcc78c1f72881681a4e6fc2d2be94">
+  <choices id="intro" title="What is this, you killed me?!?">
+    <choice title="You live by the sword, you die by the sword." response="Aaarrrggghhh..." result="SET_FINAL_PHASE_4" next=""/>
+    <choice title="You do know that there can be only one?" response="For Fubar's... aaarrgh..." result="SET_FINAL_PHASE_4" next=""/>
+    <choice title="I've seen girls fight better than you!" response="Why you little... aaarrgh..." result="SET_FINAL_PHASE_4" next=""/>
+  </choices>
+</dialogue>

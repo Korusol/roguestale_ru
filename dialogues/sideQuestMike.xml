@@ -1,0 +1,24 @@
+<dialogue name="sideQuestMike" entry="intro" checksum="91d27ebb39d7ab8a916337b31b3ab6b53b94601b">
+  <choices id="intro" title="You just had to kill her.">
+    <choice title="Ohh, she tripped and cracked her skull." response="I guess I'll add yours to the mantle." result="" next="intro_desc_1a"/>
+    <choice title="Nice entrance. How did you learn that?" response="I had to spend a few points for that." result="" next="intro_desc_1b"/>
+  </choices>
+  <choices id="intro_desc_1a" title=" ">
+    <choice title="Hah, many have tried that before." response="I think you don't quite understand." result="" next="intro_desc_2"/>
+  </choices>
+  <choices id="intro_desc_1b" title=" ">
+    <choice title="Oh well, winged or not, you're next." response="I think you don't quite understand." result="" next="intro_desc_2"/>
+  </choices>
+  <choices id="intro_desc_2" title=" ">
+    <choice title="I hit you, you die and then I'll loot you." response="And now I know you don't understand." result="" next="intro_desc_3"/>
+  </choices>
+  <choices id="intro_desc_3" title=" ">
+    <choice title="Understand what?" response="What you are experiencing here are..." result="" next="intro_desc_4"/>
+  </choices>
+  <choices id="intro_desc_4" title=" ">
+    <choice title="Having hard time finishing a sentence?" response="The last seconds of your miserable existence." result="" next="intro_desc_5"/>
+  </choices>
+  <choices id="intro_desc_5" title=" ">
+    <choice title="Sure, whatever, let's see what you got." response="As you wish." result="CLOSE_DIALOGUE" next=""/>
+  </choices>
+</dialogue>

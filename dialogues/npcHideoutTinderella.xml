@@ -1,0 +1,63 @@
+<dialogue name="npcHideoutTinderella" entry="intro" checksum="1ecf03441a2f2fdbc6c0872f1df8bab5b1283bea">
+  <choices id="intro" title="Hey, stop that!">
+    <choice title="Uhh, hey, uhm, sorry." response="You ruined my afternoon swim!" result="" next="intro_reply_1"/>
+  </choices>
+  <choices id="intro_reply_1" title=" ">
+    <choice title="Uhh, yeah, who are you?" response="I'm Tinderella." result="" next="intro_reply_2"/>
+  </choices>
+  <choices id="intro_reply_2" title=" ">
+    <choice title="And?" response="I'm here to finish the project." result="" next="intro_reply_3"/>
+  </choices>
+  <choices id="intro_reply_3" title=" ">
+    <choice title="What project?" response="This little hideout of yours." result="" next="intro_reply_4"/>
+  </choices>
+  <choices id="intro_reply_4" title=" ">
+    <choice title="Ohh, you're Tinker's son?" response="Are you stupid?" result="" next="intro_reply_5"/>
+  </choices>
+  <choices id="intro_reply_5" title=" ">
+    <choice title="Uhh?" response="I'm Tinker's daughter!" result="" next="intro_reply_6"/>
+  </choices>
+  <choices id="intro_reply_6" title=" ">
+    <choice title="Ohh, how was I supposed to know that?" response="You see these spikes on my back?" result="" next="intro_reply_7"/>
+  </choices>
+  <choices id="intro_reply_7" title=" ">
+    <choice title="Uhh, yes." response="With my species that means I'm a girl." result="" next="intro_reply_8"/>
+  </choices>
+  <choices id="intro_reply_8" title=" ">
+    <choice title="I'm not a biologist." response="I'm not a biologist either but..." result="" next="intro_reply_9"/>
+  </choices>
+  <choices id="intro_reply_9" title=" ">
+    <choice title="But?" response="If one of your species has muscles and..." result="" next="intro_reply_10"/>
+  </choices>
+  <choices id="intro_reply_10" title=" ">
+    <choice title="And?" response="And clearly visible dangly bits..." result="" next="intro_reply_11"/>
+  </choices>
+  <choices id="intro_reply_11" title=" ">
+    <choice title="Uhuh?" response="You may want to call that boy..." result="" next="intro_reply_12"/>
+  </choices>
+  <choices id="intro_reply_12" title=" ">
+    <choice title="What?" response="Michael instead of Michelle." result="" next="intro_reply_13"/>
+  </choices>
+  <choices id="intro_reply_13" title=" ">
+    <choice title="All righty then." response="Now, about the project..." result="" next="intro_reply_14"/>
+  </choices>
+  <choices id="intro_reply_14" title=" ">
+    <choice title="Uhuh." response="Building code 13 F.U. requires some changes." result="" next="intro_reply_15"/>
+  </choices>
+  <choices id="intro_reply_15" title=" ">
+    <choice title="What does F.U. stand for?" response="Functional utilities." result="" next="intro_reply_16"/>
+  </choices>
+  <choices id="intro_reply_16" title=" ">
+    <choice title="Ok, and that means?" response="It means your guests can't sleep on the floor..." result="" next="intro_reply_17"/>
+  </choices>
+  <choices id="intro_reply_17" title=" ">
+    <choice title="And?" response="And your utility rooms must be organized." result="" next="intro_reply_18"/>
+  </choices>
+  <choices id="intro_reply_18" title=" ">
+    <choice title="Ok, and that means more tasks?" response="Yes, would you like to see them now?" result="" next="outro"/>
+  </choices>
+  <choices id="outro" title="Are you here for more tasks?">
+    <choice title="STR_YES" response="Excellent." result="SHOW_PROGRESS" next=""/>
+    <choice title="STR_NO" response="See you later then." result="CLOSE_DIALOGUE" next=""/>
+  </choices>
+</dialogue>

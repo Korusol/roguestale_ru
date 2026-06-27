@@ -1,0 +1,38 @@
+<dialogue name="sideQuestShaydana" entry="intro" checksum="f134fe0888553d38275a2d4daca6569e9a061672">
+  <choices id="intro" title="Who are you and how did you get here?">
+    <choice title="I'm me and I put one leg in front of the other." response="Haha, funny. What are you doing here?" result="" next="intro_reply"/>
+  </choices>
+  <choices id="intro_reply" title=" ">
+    <choice title="I'm trying to locate some missing entrepreneurs." response="How did you... Ahh, the guild sent you, right?" result="" next="intro_desc_1"/>
+  </choices>
+  <choices id="intro_desc_1" title=" ">
+    <choice title="Yuup. They seem to care a lot about these girls." response="Hah, you are such a tool." result="" next="intro_desc_2"/>
+  </choices>
+  <choices id="intro_desc_2" title=" ">
+    <choice title="What do you mean?" response="They don't care about the girls." result="" next="intro_desc_3"/>
+  </choices>
+  <choices id="intro_desc_3" title=" ">
+    <choice title="Why did they send me here then?" response="They just want to achieve post nut clarity." result="" next="intro_desc_4"/>
+  </choices>
+  <choices id="intro_desc_4" title=" ">
+    <choice title="The what nut you're talking about?" response="Like I said, you are such a tool." result="" next="intro_desc_5"/>
+  </choices>
+  <choices id="intro_desc_5" title=" ">
+    <choice title="I'm starting to feel like a hammer now." response="Good for you." result="" next="intro_desc_6"/>
+  </choices>
+  <choices id="intro_desc_6" title=" ">
+    <choice title="Now where are the girls?" response="You're a nail short and a day too late." result="" next="intro_desc_7"/>
+  </choices>
+  <choices id="intro_desc_7" title=" ">
+    <choice title="What are you talking about?" response="The girls have been processed already." result="" next="intro_desc_8"/>
+  </choices>
+  <choices id="intro_desc_8" title=" ">
+    <choice title="What do you mean by processed?" response="Sliced, diced and fed to my master." result="" next="intro_desc_9"/>
+  </choices>
+  <choices id="intro_desc_9" title=" ">
+    <choice title="You really are a nut I want to crack." response="Why don't you start hammering then?" result="" next="intro_desc_10"/>
+  </choices>
+  <choices id="intro_desc_10" title=" ">
+    <choice title="You're right, let's finish this!" response="With pleasure." result="SET_ENEMY" next=""/>
+  </choices>
+</dialogue>

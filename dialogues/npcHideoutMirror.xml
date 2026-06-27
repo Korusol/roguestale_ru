@@ -1,0 +1,64 @@
+<dialogue name="npcHideoutMirror" entry="intro" checksum="db996104d50105fdd1e8cecd51463e735f692b1e">
+  <choices id="intro" title="Wassup?">
+    <choice title="Change hair color." response="Light, medium or dark?" result="" next="set_hair_color"/>
+    <choice title="Change hair style." response="Bald, bearded or beardless?" result="MALE_ONLY" next="set_hair_style_male"/>
+    <choice title="Change hair style." response="Short, medium or long?" result="FEMALE_ONLY" next="set_hair_style_female"/>
+  </choices>
+  <choices id="set_hair_color" title="Light, medium or dark?">
+    <choice title="Light. (Gray, Brown, Blonde)" response="Gray, brown or blonde?" result="" next="set_hair_color_a"/>
+    <choice title="Medium. (Ginger, Copper)" response="Ginger or copper?" result="" next="set_hair_color_b"/>
+    <choice title="Dark. (Gray, Brown, Black)" response="Gray, brown or black?" result="" next="set_hair_color_c"/>
+  </choices>
+  <choices id="set_hair_color_a" title="Gray, brown or blonde?">
+    <choice title="Gray." response="STR_DONE" result="SET_HAIR_COLOR_2" next="intro"/>
+    <choice title="Brown." response="STR_DONE" result="SET_HAIR_COLOR_3" next="intro"/>
+    <choice title="Blonde." response="STR_DONE" result="SET_HAIR_COLOR_7" next="intro"/>
+  </choices>
+  <choices id="set_hair_color_b" title="Ginger or copper?">
+    <choice title="Ginger." response="STR_DONE" result="SET_HAIR_COLOR_5" next="intro"/>
+    <choice title="Copper." response="STR_DONE" result="SET_HAIR_COLOR_6" next="intro"/>
+  </choices>
+  <choices id="set_hair_color_c" title="Gray, brown or black?">
+    <choice title="Gray." response="STR_DONE" result="SET_HAIR_COLOR_1" next="intro"/>
+    <choice title="Brown." response="STR_DONE" result="SET_HAIR_COLOR_4" next="intro"/>
+    <choice title="Black." response="STR_DONE" result="SET_HAIR_COLOR_0" next="intro"/>
+  </choices>
+  <choices id="set_hair_style_male" title="Bald, bearded or beardless?">
+    <choice title="Bald." response="Egghead or ballsack?" result="" next="set_hair_style_male_a"/>
+    <choice title="Bearded." response="Raider, outlaw or bandit?" result="" next="set_hair_style_male_b"/>
+    <choice title="Beardless." response="Raider, outlaw or bandit?" result="" next="set_hair_style_male_c"/>
+  </choices>
+  <choices id="set_hair_style_male_a" title="Egghead or ballsack?">
+    <choice title="Egghead." response="STR_DONE" result="SET_HAIR_STYLE_0" next="intro"/>
+    <choice title="Ballsack." response="STR_DONE" result="SET_HAIR_STYLE_1" next="intro"/>
+  </choices>
+  <choices id="set_hair_style_male_b" title="Raider, outlaw or bandit?">
+    <choice title="Raider." response="STR_DONE" result="SET_HAIR_STYLE_7" next="intro"/>
+    <choice title="Outlaw." response="STR_DONE" result="SET_HAIR_STYLE_3" next="intro"/>
+    <choice title="Bandit." response="STR_DONE" result="SET_HAIR_STYLE_5" next="intro"/>
+  </choices>
+  <choices id="set_hair_style_male_c" title="Raider, outlaw or bandit?">
+    <choice title="Raider." response="STR_DONE" result="SET_HAIR_STYLE_6" next="intro"/>
+    <choice title="Outlaw." response="STR_DONE" result="SET_HAIR_STYLE_2" next="intro"/>
+    <choice title="Bandit." response="STR_DONE" result="SET_HAIR_STYLE_4" next="intro"/>
+  </choices>
+  <choices id="set_hair_style_female" title="Short, medium or long?">
+    <choice title="Short." response="Minx, siren or tramp?" result="" next="set_hair_style_female_a"/>
+    <choice title="Medium." response="Floozie or trollop?" result="" next="set_hair_style_female_b"/>
+    <choice title="Long." response="Doxie, hussy or wench?" result="" next="set_hair_style_female_c"/>
+  </choices>
+  <choices id="set_hair_style_female_a" title="Minx, siren or tramp?">
+    <choice title="Minx." response="STR_DONE" result="SET_HAIR_STYLE_0" next="intro"/>
+    <choice title="Siren." response="STR_DONE" result="SET_HAIR_STYLE_1" next="intro"/>
+    <choice title="Tramp." response="STR_DONE" result="SET_HAIR_STYLE_2" next="intro"/>
+  </choices>
+  <choices id="set_hair_style_female_b" title="Floozie or trollop?">
+    <choice title="Floozie." response="STR_DONE" result="SET_HAIR_STYLE_3" next="intro"/>
+    <choice title="Trollop." response="STR_DONE" result="SET_HAIR_STYLE_4" next="intro"/>
+  </choices>
+  <choices id="set_hair_style_female_c" title="Doxie, hussy or wench?">
+    <choice title="Doxie." response="STR_DONE" result="SET_HAIR_STYLE_5" next="intro"/>
+    <choice title="Hussy." response="STR_DONE" result="SET_HAIR_STYLE_6" next="intro"/>
+    <choice title="Wench." response="STR_DONE" result="SET_HAIR_STYLE_7" next="intro"/>
+  </choices>
+</dialogue>

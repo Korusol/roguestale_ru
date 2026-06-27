@@ -1,0 +1,49 @@
+<dialogue name="sideQuestMarksman" entry="intro" checksum="8b7d56d38b0bad60406d21f9bdd0379b18588280">
+  <choices id="intro" title="Oh look, a stranger, what brings you here?">
+    <choice title="You must be Boarstone?" response="That's me, who are you?" result="SET_KNOWN" next="intro_name"/>
+  </choices>
+  <choices id="intro_name" title="Who are you?">
+    <choice title="STR_SAY_PLAYER" response="STR_MEET_PLAYER" result="" next="intro_name_reply"/>
+    <choice title="STR_SAY_ALIAS" response="STR_MEET_ALIAS" result="" next="intro_name_reply"/>
+    <choice title="I'm the hangman." response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_name_reply" title="What are you doing here?">
+    <choice title="I was sent to deliver a crossbow to you." response="Oh alright, you can keep it." result="" next="intro_desc_1"/>
+  </choices>
+  <choices id="intro_desc_1" title="STR_NAME said you can keep the crossbow.">
+    <choice title="What?" response="I just wanted someone to clear out the crabs..." result="" next="intro_desc_2"/>
+  </choices>
+  <choices id="intro_desc_2" title="STR_NAME said you can keep the crossbow.">
+    <choice title="Okay." response="So, instead of hiring a bunch of cleaners..." result="" next="intro_desc_3"/>
+  </choices>
+  <choices id="intro_desc_3" title="STR_NAME said you can keep the crossbow.">
+    <choice title="Go on." response="I ordered a cheap crossbow with free shipping..." result="" next="intro_desc_4"/>
+  </choices>
+  <choices id="intro_desc_4" title="STR_NAME said you can keep the crossbow.">
+    <choice title="Wow." response="Knowing that the delivery guy must clear them out..." result="" next="intro_desc_5"/>
+  </choices>
+  <choices id="intro_desc_5" title="STR_NAME said you can keep the crossbow.">
+    <choice title="Smart." response="And if the delivery guy happens to die..." result="" next="intro_desc_6"/>
+  </choices>
+  <choices id="intro_desc_6" title="STR_NAME said you can keep the crossbow.">
+    <choice title="That would be me." response="There's money back guarantee, ha ha ha." result="" next="intro_desc_7"/>
+  </choices>
+  <choices id="intro_desc_7" title="STR_NAME said you can keep the crossbow.">
+    <choice title="That's the spirit. Ends justify the means." response="I like you, now let me show you something." result="" next="desc_slow_and_steady"/>
+    <choice title="Eeew, that's evil. You evil person." response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="desc_slow_and_steady" title="STR_NAME wanted to show you something.">
+    <choice title="What's that?" response="I can teach you how to use crossbows effectively." result="" next="learn_slow_and_steady"/>
+  </choices>
+  <choices id="learn_slow_and_steady" title="STR_INTRO_TRICKS">
+    <choice title="STR_ASK_TEACH_TALENT_27" response="STR_CONFIRM" result="" next="confirm_slow_and_steady"/>
+    <choice title="Nah, not interested. I'll be leaving now. (Travel)" response="See you later crab slayer." result="FINISH_QUEST" next=""/>
+    <choice title="All I want is what you're wearing." response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="confirm_slow_and_steady" title="STR_INTRO_READY">
+    <choice title="STR_YES_PLEASE" response="STR_TEACH_TALENT" result="LEARN_SLOW_AND_STEADY" next=""/>
+    <choice title="I think I'll be leaving now. (Travel)" response="Don't let the door hit you on your way out." result="FINISH_QUEST" next=""/>
+    <choice title="Actually, I want you to die!" response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="outro" title="finish_quest"/>
+</dialogue>

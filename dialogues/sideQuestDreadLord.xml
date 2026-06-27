@@ -1,0 +1,83 @@
+<dialogue name="sideQuestDreadLord" entry="intro" checksum="90eac567aef6d6af821f2facf90247c0933c1902">
+  <choices id="intro" title="Who are you?">
+    <choice title="I'm STR_PLAYER." response="Well, STR_PLAYER, what do you want?" result="" next="intro_reply_1"/>
+    <choice title="(Lie) I'm STR_ALIAS." response="Well, STR_ALIAS, what do you want?" result="" next="intro_reply_1"/>
+  </choices>
+  <choices id="intro_reply_1" title="">
+    <choice title="I'm here to collect your head." response="Hah, aren't you a funny person." result="" next="intro_reply_2"/>
+    <choice title="I need to unlock a challenge." response="Hmm, okay then whatever that means." result="" next="intro_reply_2"/>
+  </choices>
+  <choices id="intro_reply_2" title="">
+    <choice title="So, are you ready to die?" response="Again?" result="" next="intro_reply_3"/>
+  </choices>
+  <choices id="intro_reply_3" title="">
+    <choice title="What do you mean again?" response="Well, every now and then..." result="" next="intro_reply_4"/>
+    <choice title="Let's cut the chitchat." response="Let's have it your way." result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_reply_4" title="">
+    <choice title="Go on." response="Someone like you comes along..." result="" next="intro_reply_5"/>
+    <choice title="Let's cut the chitchat." response="Let's have it your way." result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_reply_5" title="">
+    <choice title="And?" response="And tries to kill me..." result="" next="intro_reply_6"/>
+    <choice title="Let's cut the chitchat." response="Let's have it your way." result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_reply_6" title="">
+    <choice title="But?" response="But as long as my Immortals are alive..." result="" next="intro_reply_7"/>
+    <choice title="Let's cut the chitchat." response="Let's have it your way." result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_reply_7" title="">
+    <choice title="Go on." response="I cannot be killed." result="" next="intro_reply_8"/>
+    <choice title="Let's cut the chitchat." response="Let's have it your way." result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_reply_8" title="">
+    <choice title="Why are you telling me this?" response="Well, do you have any idea..." result="" next="intro_reply_9"/>
+    <choice title="Let's cut the chitchat." response="Let's have it your way." result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_reply_9" title="">
+    <choice title="About what?" response="How boring it gets when..." result="" next="intro_reply_10"/>
+    <choice title="Let's cut the chitchat." response="Let's have it your way." result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_reply_10" title="">
+    <choice title="Go on." response="When there is no challenge." result="" next="intro_reply_11"/>
+    <choice title="Let's cut the chitchat." response="Let's have it your way." result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_reply_11" title="">
+    <choice title="I'll give you a challenge." response="So did the guy that came before you..." result="" next="intro_reply_12"/>
+    <choice title="Let's cut the chitchat." response="Let's have it your way." result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_reply_12" title="">
+    <choice title="About these Immortals..." response="Yes?" result="" next="intro_reply_13"/>
+    <choice title="Let's cut the chitchat." response="Let's have it your way." result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_reply_13" title="">
+    <choice title="I can't see them, where are they?" response="You'll join them soon enough." result="" next="intro_reply_14"/>
+    <choice title="Let's cut the chitchat." response="Let's have it your way." result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_reply_14" title="">
+    <choice title="I have one more question." response="Why don't you ask it then?" result="" next="intro_reply_15"/>
+    <choice title="Let's cut the chitchat." response="Let's have it your way." result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_reply_15" title="">
+    <choice title="It's about your armour." response="What about it?" result="" next="intro_reply_16"/>
+    <choice title="Let's cut the chitchat." response="Let's have it your way." result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_reply_16" title="">
+    <choice title="What was the name of the..." response="Name of whom?" result="" next="intro_reply_17"/>
+    <choice title="Let's cut the chitchat." response="Let's have it your way." result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_reply_17" title="">
+    <choice title="The crossdresser you robbed for it?" response="Oh, I think we're done here." result="" next="intro_reply_18"/>
+    <choice title="Let's cut the chitchat." response="Let's have it your way." result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_reply_18" title="">
+    <choice title="Now there, aren't you a crybaby?" response="I've heard all the insults there is." result="" next="intro_reply_19"/>
+    <choice title="Let's cut the chitchat." response="Let's have it your way." result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_reply_19" title="">
+    <choice title="Ok, let's finish this." response="Hmm, whatever." result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="set_enemy" title="Hrmph, dying feels... refreshing!">
+    <choice title="I'll kill you again!" response="Splendid!" result="SET_ENEMY" next=""/>
+  </choices>
+</dialogue>

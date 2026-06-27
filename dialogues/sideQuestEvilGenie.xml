@@ -1,0 +1,100 @@
+<dialogue name="sideQuestEvilGenie" entry="intro" checksum="02673a7be297332139eab3ab1add6f522ea19d64">
+  <choices id="intro" title="The wand appears to be talking to you.">
+    <choice title="Uhh what?" response="Why hello there." result="" next="intro_reply"/>
+    <choice title="What is this?" response="This is magic." result="" next="intro_reply"/>
+    <choice title="A talking wand, great." response="Indeed it is." result="" next="intro_reply"/>
+  </choices>
+  <choices id="intro_reply" title="The wand appears to be talking to you.">
+    <choice title="So, umm, what are you?" response="I'm a genie trapped in this wand." result="" next="intro_name"/>
+  </choices>
+  <choices id="intro_name" title="The genie appears to be trapped.">
+    <choice title="Trapped you say?" response="Yes. For centuries now." result="" next="intro_name_reply"/>
+  </choices>
+  <choices id="intro_name_reply" title="The genie appears to be trapped.">
+    <choice title="Why were you trapped?" response="For carrying out wishes of others." result="" next="intro_name_job"/>
+  </choices>
+  <choices id="intro_name_job" title="The genie appears to be trapped.">
+    <choice title="You can make wishes come true?" response="Yes. Anything you wish is yours." result="" next="wait_for_wish"/>
+  </choices>
+  <choices id="wait_for_wish" title="The genie waits for your wish.">
+    <choice title="I wish to be filthy rich!" response="Don't spend it all at once." result="SET_FIRST_WISH" next=""/>
+    <choice title="I wish for a love of my life." response="One soul mate coming right up." result="SET_SECOND_WISH" next=""/>
+    <choice title="I wish for more wishes." response="Done. See you when you find another wand." result="SET_THIRD_WISH" next=""/>
+  </choices>
+  <choices id="three_wishes" title="You have made your three wishes already.">
+    <choice title="What is this?!? Only three wishes?" response="There's one more but you don't want to wish that." result="" next="fourth_wish_0"/>
+    <choice title="I wish you would show your face!" response="If you really insist." result="SET_THREE_WISHES" next=""/>
+  </choices>
+  <choices id="fourth_wish_0" title="The genie waits for your wish.">
+    <choice title="Why is that?" response="The wish for power comes with a cost." result="" next="fourth_wish_1"/>
+  </choices>
+  <choices id="fourth_wish_1" title="The genie waits for your response.">
+    <choice title="Cost? Like what, gold?" response="Oh no, nothing like that." result="" next="fourth_wish_2"/>
+  </choices>
+  <choices id="fourth_wish_2" title="The genie waits for your response.">
+    <choice title="What then, my soul?" response="No no no no, nothing from you." result="" next="fourth_wish_3"/>
+  </choices>
+  <choices id="fourth_wish_3" title="The genie waits for your response.">
+    <choice title="Well, what's the problem then?" response="There is no problem." result="" next="fourth_wish_4"/>
+  </choices>
+  <choices id="fourth_wish_4" title="The genie waits for your response.">
+    <choice title="Then get on with the wish." response="You need to be specific." result="" next="fourth_wish_5"/>
+  </choices>
+  <choices id="fourth_wish_5" title="The genie waits for your response.">
+    <choice title="Alright. I wish for more power." response="Very well then." result="" next="fourth_wish_6"/>
+  </choices>
+  <choices id="fourth_wish_6" title="The genie waits for your response.">
+    <choice title="That's it? I don't feel anything." response="Why would you, you are not a dwarf." result="" next="fourth_wish_7"/>
+  </choices>
+  <choices id="fourth_wish_7" title="The genie waits for your response.">
+    <choice title="What do you mean with that?" response="Well, in order to give you more power..." result="" next="fourth_wish_8"/>
+  </choices>
+  <choices id="fourth_wish_8" title="The genie waits for your response.">
+    <choice title="Yes?" response="I had to take it from someone who has it..." result="" next="fourth_wish_9"/>
+  </choices>
+  <choices id="fourth_wish_9" title="The genie waits for your response.">
+    <choice title="And?" response="And in this case it came from dwarves." result="" next="fourth_wish_10"/>
+  </choices>
+  <choices id="fourth_wish_10" title="The genie waits for your response.">
+    <choice title="Dwarves, who or what are they?" response="Well, nobody anymore." result="" next="fourth_wish_11"/>
+  </choices>
+  <choices id="fourth_wish_11" title="The genie waits for your response.">
+    <choice title="What?" response="There were 287684 dwarves alive just seconds ago..." result="" next="fourth_wish_12"/>
+  </choices>
+  <choices id="fourth_wish_12" title="The genie waits for your response.">
+    <choice title="What?!?" response="But now they exist only in rune form." result="" next="fourth_wish_13"/>
+  </choices>
+  <choices id="fourth_wish_13" title="The genie waits for your response.">
+    <choice title="You must be kidding?" response="You got me." result="" next="fourth_wish_14"/>
+  </choices>
+  <choices id="fourth_wish_14" title="The genie waits for your response.">
+    <choice title="Ha ha, you're funny." response="Yes I am, I left one dwarf alive..." result="" next="fourth_wish_15"/>
+  </choices>
+  <choices id="fourth_wish_15" title="The genie waits for your response.">
+    <choice title="Stop joking." response="Because he looked like a tripod." result="" next="fourth_wish_16"/>
+  </choices>
+  <choices id="fourth_wish_16" title="The genie waits for your response.">
+    <choice title="What?" response="Lyrion Bannister is his name." result="" next="fourth_wish_17"/>
+  </choices>
+  <choices id="fourth_wish_17" title="The genie waits for your response.">
+    <choice title="Seriously?" response="Yes, I'm totally serious." result="" next="fourth_wish_18"/>
+  </choices>
+  <choices id="fourth_wish_18" title="The genie waits for your response.">
+    <choice title="You are mad!" response="Maybe a little but that doesn't change..." result="" next="fourth_wish_19"/>
+  </choices>
+  <choices id="fourth_wish_19" title="The genie waits for your response.">
+    <choice title="Change what?" response="The fact that you are responsible for..." result="" next="fourth_wish_20"/>
+  </choices>
+  <choices id="fourth_wish_20" title="The genie waits for your response.">
+    <choice title="For what?" response="The fate of an entire race." result="" next="fourth_wish_21"/>
+  </choices>
+  <choices id="fourth_wish_21" title="The genie waits for your response.">
+    <choice title="You're not kidding, are you?" response="No I'm not." result="" next="fourth_wish_22"/>
+  </choices>
+  <choices id="fourth_wish_22" title="The genie waits for your response.">
+    <choice title="So, what now?" response="Well, now I'm going to complete your wish..." result="" next="fourth_wish_23"/>
+  </choices>
+  <choices id="fourth_wish_23" title="The genie waits for your response.">
+    <choice title="And?" response="Grant you the power you seek." result="SET_DWARFAGEDDON" next=""/>
+  </choices>
+</dialogue>

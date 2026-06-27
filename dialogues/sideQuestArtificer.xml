@@ -1,0 +1,76 @@
+<dialogue name="sideQuestArtificer" entry="intro" checksum="571f9f22574a9036c2ab42fee25afc70e3c8b4ee">
+  <choices id="intro" title="Hey there, can you help me get out of here?">
+    <choice title="Who are you?" response="I'm STR_NAME." result="SET_KNOWN" next="intro_name"/>
+  </choices>
+  <choices id="intro_name" title="STR_NAME seems eager to get out.">
+    <choice title="What are you doing here?" response="Those bandits were paid to kill me..." result="" next="intro_desc_1"/>
+  </choices>
+  <choices id="intro_desc_1" title="STR_NAME mentioned something about bandits.">
+    <choice title="But?" response="But apparently they decided otherwise..." result="" next="intro_desc_2"/>
+  </choices>
+  <choices id="intro_desc_2" title="STR_NAME mentioned something about a decision.">
+    <choice title="And?" response="And now they hold me here for ransom..." result="" next="intro_desc_3"/>
+  </choices>
+  <choices id="intro_desc_3" title="STR_NAME mentioned something about a ransom.">
+    <choice title="Go on." response="Which they will likely never receive..." result="" next="intro_desc_4"/>
+  </choices>
+  <choices id="intro_desc_4" title="STR_NAME mentioned something about a receiving.">
+    <choice title="Oh?" response="Since the people who could pay them..." result="" next="intro_desc_5"/>
+  </choices>
+  <choices id="intro_desc_5" title="STR_NAME mentioned something about payment.">
+    <choice title="Uhh?" response="Are the ones that paid them to kill me." result="" next="intro_desc_6"/>
+  </choices>
+  <choices id="intro_desc_6" title="STR_NAME mentioned something about his enemies.">
+    <choice title="Is there anything I can do?" response="Well, you could crank the lever and let me out." result="" next="intro_desc_7"/>
+    <choice title="So, what is it that you do?" response="I'm the Artificer, or master of the Artisans' Guild." result="" next="intro_job_1"/>
+  </choices>
+  <choices id="intro_job_1" title="STR_NAME told you that he is a guild master.">
+    <choice title="Guild master eh?" response="Great job with good perks and frequent death threats." result="" next="intro_job_2"/>
+  </choices>
+  <choices id="intro_job_2" title="STR_NAME told you about his work benefits.">
+    <choice title="So, is there anything I can do?" response="Well, you could crank the lever and let me out." result="" next="intro_desc_7"/>
+  </choices>
+  <choices id="intro_desc_7" title="STR_NAME mentioned that there's a lever.">
+    <choice title="Oh you mean this lever?" response="That's the one." result="" next="intro_desc_8"/>
+  </choices>
+  <choices id="intro_desc_8" title="STR_NAME would like you to crank the lever.">
+    <choice title="Very well then, I'll set you free." response="Thank you very much!" result="" next="intro_desc_19"/>
+    <choice title="Tell me one thing, what's in it for me?" response="You want a reward for letting me out?" result="" next="intro_desc_9"/>
+  </choices>
+  <choices id="intro_desc_9" title="STR_NAME seems annoyed by your question.">
+    <choice title="Yes, what is my reward for all this?" response="I can make you an honorary member of the guild." result="" next="intro_desc_10"/>
+  </choices>
+  <choices id="intro_desc_10" title="STR_NAME told you about the reward.">
+    <choice title="And what does honorary member mean?" response="You can have items crafted by the artisans." result="" next="intro_desc_11"/>
+  </choices>
+  <choices id="intro_desc_11" title="STR_NAME told you about crafting items.">
+    <choice title="Wait, what, you're not offering any gold?" response="Well, there's no point to do that now is there?" result="" next="intro_desc_12"/>
+  </choices>
+  <choices id="intro_desc_12" title="STR_NAME told you that you're not getting any gold.">
+    <choice title="What do you mean?" response="If you kill me or leave me here you get nothing..." result="" next="intro_desc_13"/>
+  </choices>
+  <choices id="intro_desc_13" title="STR_NAME told you that you're not getting any gold.">
+    <choice title="And?" response="And you must've cleared the way to reach here..." result="" next="intro_desc_14"/>
+  </choices>
+  <choices id="intro_desc_14" title="STR_NAME told you that you're not getting any gold.">
+    <choice title="So?" response="So the next guy who walks in would get the reward..." result="" next="intro_desc_15"/>
+  </choices>
+  <choices id="intro_desc_15" title="STR_NAME told you that you're not getting any gold.">
+    <choice title="Uhh?" response="And since greed often accompanies envy..." result="" next="intro_desc_16"/>
+  </choices>
+  <choices id="intro_desc_16" title="STR_NAME told you that you're not getting any gold.">
+    <choice title="Ehh?" response="You will set me free whether you want it or not..." result="" next="intro_desc_17"/>
+  </choices>
+  <choices id="intro_desc_17" title="STR_NAME told you that you're not getting any gold.">
+    <choice title="Why?" response="Because you don't want someone else to benefit." result="" next="intro_desc_18"/>
+  </choices>
+  <choices id="intro_desc_18" title="STR_NAME told you that you're not getting any gold.">
+    <choice title="Uhh, fine, I'll get you out of there." response="Well, thank you." result="" next="intro_desc_19"/>
+    <choice title="Aaarrgghh, I'll kill you myself!" response="Make it so." result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_desc_19" title="STR_NAME is waiting for you to crank the lever."/>
+  <choices id="finish_quest" title="STR_NAME seems pleased that you let him out.">
+    <choice title="I think we're done here. (Travel)" response="Splendid!" result="FINISH_QUEST" next=""/>
+  </choices>
+  <choices id="outro" title="finish_quest"/>
+</dialogue>

@@ -1,0 +1,63 @@
+<dialogue name="sideQuestOutcast" entry="intro" checksum="2994a71ac5b9cabdbb53688fbee45f144eec13a2">
+  <choices id="intro" title="Who are you and what are you doing here?">
+    <choice title="STR_SAY_PLAYER" response="Ok, and what are you doing here?" result="" next="intro_reply"/>
+    <choice title="STR_SAY_ALIAS" response="Ok, and what are you doing here?" result="" next="intro_reply"/>
+  </choices>
+  <choices id="intro_reply" title="What are you doing here?">
+    <choice title="I found this album and was told to shove it..." response="Oh, I suppose you want to know what it is?" result="" next="intro_desc_1"/>
+  </choices>
+  <choices id="intro_desc_1" title="So, do you want to know what it is?">
+    <choice title="STR_YES_PLEASE" response="It's a game." result="" next="intro_desc_2"/>
+  </choices>
+  <choices id="intro_desc_2" title="So, about the game.">
+    <choice title="A game?" response="Yes, a game where you collect cards..." result="" next="intro_desc_3"/>
+  </choices>
+  <choices id="intro_desc_3" title="So, you collect cards.">
+    <choice title="And?" response="You create a deck from those cards..." result="" next="intro_desc_4"/>
+  </choices>
+  <choices id="intro_desc_4" title="So, about the deck of cards.">
+    <choice title="Then what?" response="Use the album and talk to me again." result="SET_TCG_1" next="intro_desc_5"/>
+  </choices>
+  <choices id="intro_desc_5" title="You're back, good!">
+    <choice title="How do I play the game?" response="Do you see that pile of skulls behind me?" result="" next="intro_desc_6"/>
+  </choices>
+  <choices id="intro_desc_6" title="So, about the game.">
+    <choice title="STR_YES" response="Use the pile of skulls and talk to me again." result="SET_TCG_2" next="intro_desc_7"/>
+  </choices>
+  <choices id="intro_desc_7" title="You're back, very good!">
+    <choice title="Where can I find more skull piles?" response="They're everywhere." result="" next="intro_desc_8"/>
+  </choices>
+  <choices id="intro_desc_8" title="So, about the skull piles.">
+    <choice title="I haven't seen them anywhere." response="You haven't known what to look for." result="" next="intro_desc_9"/>
+  </choices>
+  <choices id="intro_desc_9" title="So, about the skull piles.">
+    <choice title="Is there anything else I need to know?" response="Just one thing." result="" next="intro_desc_10"/>
+  </choices>
+  <choices id="intro_desc_10" title="So, the thing you need to know.">
+    <choice title="And what is that?" response="If you happen to lose a game..." result="" next="intro_desc_11"/>
+  </choices>
+  <choices id="intro_desc_11" title="So, the thing you need to know.">
+    <choice title="Go on." response="There is a good chance that you will die." result="" next="intro_desc_12"/>
+  </choices>
+  <choices id="intro_desc_12" title="So, the thing you need to know.">
+    <choice title="Wait, what?" response="You can die in real life if you lose the game." result="" next="intro_desc_13"/>
+  </choices>
+  <choices id="intro_desc_13" title="So, the thing you need to know.">
+    <choice title="Uhh, for real?" response="Yes, all damage you take in the game..." result="" next="intro_desc_14"/>
+  </choices>
+  <choices id="intro_desc_14" title="So, the thing you need to know.">
+    <choice title="Uhuh." response="Whether it's restored or not..." result="" next="intro_desc_15"/>
+  </choices>
+  <choices id="intro_desc_15" title="So, the thing you need to know.">
+    <choice title="Hmm." response="Is directly transferred to you if you lose." result="" next="intro_desc_16"/>
+  </choices>
+  <choices id="intro_desc_16" title="So, the thing you need to know.">
+    <choice title="Ok, I get it, losing is bad." response="Good, now let me continue my studies." result="" next="intro_desc_17"/>
+    <choice title="Wow, that's crazy." response="Crazy? Imagine paying for gender studies." result="" next="intro_desc_17"/>
+  </choices>
+  <choices id="intro_desc_17" title="So, what now.">
+    <choice title="I think we're done here. (Travel)" response="Splendid!" result="FINISH_QUEST" next=""/>
+    <choice title="Nah, I think you're done here!" response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="outro" title="finish_quest"/>
+</dialogue>

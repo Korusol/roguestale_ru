@@ -1,0 +1,61 @@
+<dialogue name="npcHideoutWardrobe" entry="intro" checksum="341da830861a5791b5a7fc33c8de35d448308a8f">
+  <choices id="intro" title="Wassup?">
+    <choice title="Change shirt color." response="Commoner, middle class or noble?" result="" next="set_shirt_color"/>
+    <choice title="Change cloak color." response="Commoner, middle class or noble?" result="" next="set_cloak_color"/>
+    <choice title="Change cloak style." response="Back, side or mixed?" result="" next="set_cloak_style"/>
+  </choices>
+  <choices id="set_shirt_color" title="Commoner, middle class or noble?">
+    <choice title="Commoner. (Black, Yellow, Orange)" response="Black, yellow or orange?" result="" next="set_shirt_color_a"/>
+    <choice title="Middle class. (Red, Green, Blue)" response="Red, green or blue?" result="" next="set_shirt_color_b"/>
+    <choice title="Noble. (Purple, White)" response="Purple or white?" result="" next="set_shirt_color_c"/>
+  </choices>
+  <choices id="set_shirt_color_a" title="Black, yellow or orange?">
+    <choice title="Black." response="STR_DONE" result="SET_SHIRT_COLOR_0" next="intro"/>
+    <choice title="Yellow." response="STR_DONE" result="SET_SHIRT_COLOR_5" next="intro"/>
+    <choice title="Orange." response="STR_DONE" result="SET_SHIRT_COLOR_4" next="intro"/>
+  </choices>
+  <choices id="set_shirt_color_b" title="Red, green or blue?">
+    <choice title="Red." response="STR_DONE" result="SET_SHIRT_COLOR_1" next="intro"/>
+    <choice title="Green." response="STR_DONE" result="SET_SHIRT_COLOR_2" next="intro"/>
+    <choice title="Blue." response="STR_DONE" result="SET_SHIRT_COLOR_3" next="intro"/>
+  </choices>
+  <choices id="set_shirt_color_c" title="Purple or white?">
+    <choice title="Purple." response="STR_DONE" result="SET_SHIRT_COLOR_6" next="intro"/>
+    <choice title="White." response="STR_DONE" result="SET_SHIRT_COLOR_7" next="intro"/>
+  </choices>
+  <choices id="set_cloak_color" title="Commoner, middle class or noble?">
+    <choice title="Commoner. (Black, Brown)" response="Black or brown?" result="" next="set_cloak_color_a"/>
+    <choice title="Middle class. (Red, Green, Blue)" response="Red, green or blue?" result="" next="set_cloak_color_b"/>
+    <choice title="Noble. (Purple, White)" response="Purple or white?" result="" next="set_cloak_color_c"/>
+  </choices>
+  <choices id="set_cloak_color_a" title="Black or brown?">
+    <choice title="Black." response="STR_DONE" result="SET_CLOAK_COLOR_5" next="intro"/>
+    <choice title="Brown." response="STR_DONE" result="SET_CLOAK_COLOR_0" next="intro"/>
+  </choices>
+  <choices id="set_cloak_color_b" title="Red, green or blue?">
+    <choice title="Red." response="STR_DONE" result="SET_CLOAK_COLOR_1" next="intro"/>
+    <choice title="Green." response="STR_DONE" result="SET_CLOAK_COLOR_2" next="intro"/>
+    <choice title="Blue." response="STR_DONE" result="SET_CLOAK_COLOR_3" next="intro"/>
+  </choices>
+  <choices id="set_cloak_color_c" title="Purple or white?">
+    <choice title="Purple." response="STR_DONE" result="SET_CLOAK_COLOR_4" next="intro"/>
+    <choice title="White." response="STR_DONE" result="SET_CLOAK_COLOR_6" next="intro"/>
+  </choices>
+  <choices id="set_cloak_style" title="Back, side or mixed?">
+    <choice title="Back." response="Hidden or visible?" result="" next="set_cloak_style_a"/>
+    <choice title="Side." response="Main hand or offhand?" result="" next="set_cloak_style_b"/>
+    <choice title="Mixed." response="Main hand or offhand?" result="" next="set_cloak_style_c"/>
+  </choices>
+  <choices id="set_cloak_style_a" title="Hidden or visible?">
+    <choice title="Hidden." response="STR_DONE" result="SET_CLOAK_STYLE_0" next="intro"/>
+    <choice title="Visible." response="STR_DONE" result="SET_CLOAK_STYLE_1" next="intro"/>
+  </choices>
+  <choices id="set_cloak_style_b" title="Main hand or offhand?">
+    <choice title="Main hand." response="STR_DONE" result="SET_CLOAK_STYLE_2" next="intro"/>
+    <choice title="Offhand." response="STR_DONE" result="SET_CLOAK_STYLE_3" next="intro"/>
+  </choices>
+  <choices id="set_cloak_style_c" title="Main hand or offhand?">
+    <choice title="Main hand." response="STR_DONE" result="SET_CLOAK_STYLE_4" next="intro"/>
+    <choice title="Offhand." response="STR_DONE" result="SET_CLOAK_STYLE_5" next="intro"/>
+  </choices>
+</dialogue>

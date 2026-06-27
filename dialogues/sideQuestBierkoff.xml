@@ -1,0 +1,31 @@
+<dialogue name="sideQuestBierkoff" entry="intro" checksum="7c73e1a2795a0aa3150a7b96fbffc58ae065f1df">
+  <choices id="intro" title="No no no no no no, you should not be here!">
+    <choice title="Holy dingbat in a bat cave, what the frak are you?" response="I am STR_NAME, brewer and inventor of Cowrain!" result="SET_KNOWN" next="intro_reply_1"/>
+  </choices>
+  <choices id="intro_reply_1" title="STR_NAME mentioned about Cowrain.">
+    <choice title="Uhh, what is this Cowrain?" response="It's beer made from the finest ingredients!" result="" next="intro_reply_2"/>
+    <choice title="I don't care, I'm here to end your filthy business." response="Haha, say hello to my little friends!" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_reply_2" title="STR_NAME mentioned about ingredients.">
+    <choice title="I'm guessing there's a lot of soy in that beer." response="Soy? Only boys that poke each other use soy!" result="" next="intro_reply_3"/>
+    <choice title="Actually, I'll just end you here and now." response="Haha, say hello to my little friends!" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_reply_3" title="STR_NAME mentioned about ingredients.">
+    <choice title="If it's not soy then it must be something special." response="Indeed, it's made from bat soup and mad cow urine!" result="" next="intro_reply_4"/>
+    <choice title="Why did I even bothered to ask, just die already!" response="Haha, say hello to my little friends!" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_reply_4" title="STR_NAME mentioned about bat soup.">
+    <choice title="Wait a minute, what are you talking about?" response="Plenty of bats here as you may have noticed already." result="" next="intro_reply_5"/>
+    <choice title="Wow, I'm definitely going to end this now!" response="Haha, say hello to my little friends!" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_reply_5" title="STR_NAME mentioned about mad cow urine.">
+    <choice title="What was that about mad cow urine?" response="It gives the flavor and name to the product." result="" next="intro_reply_6"/>
+    <choice title="Yuuup, your time is up now!" response="Haha, say hello to my little friends!" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_reply_6" title="STR_NAME mentioned about product name.">
+    <choice title="Flavor and product name, seriously?" response="Cow rain sounds much better than cow shower, haha!" result="" next="intro_reply_7"/>
+  </choices>
+  <choices id="intro_reply_7" title="STR_NAME has told you everything there is to know.">
+    <choice title="It's time for me to come inside your no no square!" response="Haha, say hello to my little friends!" result="SET_ENEMY" next=""/>
+  </choices>
+</dialogue>

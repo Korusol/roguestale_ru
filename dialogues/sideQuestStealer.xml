@@ -1,0 +1,26 @@
+<dialogue name="sideQuestStealer" entry="intro" checksum="d8887c483b9ee3ea8abf624671e517729d026e86">
+  <choices id="intro" title="Ch'Ri!">
+    <choice title="What?" response="Ch'Ri, Ch'Ri!" result="" next="intro_reply_1"/>
+  </choices>
+  <choices id="intro_reply_1" title="">
+    <choice title="Uh, okay." response="Bling, bling, Ch'Ri!" result="" next="intro_reply_2"/>
+  </choices>
+  <choices id="intro_reply_2" title="">
+    <choice title="I think I'll call you Ch'Ri Bling." response="BLING! (one of your rings is stolen)" result="STEAL_RING_1" next="intro_reply_3"/>
+  </choices>
+  <choices id="intro_reply_3" title="">
+    <choice title="Uhh, Ch'Ri the Blingstealer it is then." response="Ch'Ri!" result="" next="intro_reply_4"/>
+  </choices>
+  <choices id="intro_reply_4" title="">
+    <choice title="Give my ring back!" response="Ch'Ri, Ch'Ri!" result="" next="intro_reply_5"/>
+  </choices>
+  <choices id="intro_reply_5" title="">
+    <choice title="Wow, you really are something." response="Bling, bling, Ch'Ri!" result="" next="intro_reply_6"/>
+  </choices>
+  <choices id="intro_reply_6" title="">
+    <choice title="I dare you to say another bling!" response="BLING! (one of your rings is stolen)" result="STEAL_RING_2" next="intro_reply_7"/>
+  </choices>
+  <choices id="intro_reply_7" title="">
+    <choice title="Ok, that's it, you're going to die now!" response="Ch'Ri!" result="SET_ENEMY" next=""/>
+  </choices>
+</dialogue>

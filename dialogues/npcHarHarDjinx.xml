@@ -1,0 +1,135 @@
+<dialogue name="npcHarHarJinx" entry="intro" checksum="1bc7f6725b0a6ba7b4c6eec963598abd1d8ec1d8">
+  <choices id="intro" title="You attempt to speak to the loot hoarder.">
+    <choice title="Uhh, hello." response="Har-Har." result="" next="intro_reply_1"/>
+  </choices>
+  <choices id="intro_reply_1" title="Har-Har.">
+    <choice title="Har-Har?" response="Har-Har Djinx." result="" next="intro_reply_2"/>
+  </choices>
+  <choices id="intro_reply_2" title="Har-Har Djinx.">
+    <choice title="( Scratch your head. )" response="Haha, you clearly don't speak Orcish." result="" next="intro_reply_3"/>
+    <choice title="( Sigh and roll your eyes. )" response="Haha, you clearly don't speak Orcish." result="" next="intro_reply_3"/>
+    <choice title="Die you evil green thing!" response="Why you motherwrecker!" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_reply_3" title="You resume the conversation.">
+    <choice title="What, you can understand me?" response="Of course. I may be short but I'm not stupid." result="" next="intro_reply_4"/>
+  </choices>
+  <choices id="intro_reply_4" title="You resume the conversation.">
+    <choice title="So, uhm, is your name Har-Har?" response="No you simpleton. You said hello..." result="" next="intro_reply_5"/>
+  </choices>
+  <choices id="intro_reply_5" title="You resume the conversation.">
+    <choice title="And?" response="I said hello hello back to you." result="" next="intro_reply_6"/>
+  </choices>
+  <choices id="intro_reply_6" title="You resume the conversation.">
+    <choice title="Ohh, what about that Djinx thing?" response="Long legs." result="" next="intro_reply_7"/>
+  </choices>
+  <choices id="intro_reply_7" title="You resume the conversation.">
+    <choice title="Ahh, hello hello long legs." response="Wow, perhaps you're one step above simpleton." result="" next="intro_reply_8"/>
+  </choices>
+  <choices id="intro_reply_8" title="You resume the conversation.">
+    <choice title="Uhh, are all greenskins as rude as you?" response="Greenskins?!?" result="" next="intro_reply_9"/>
+  </choices>
+  <choices id="intro_reply_9" title="You resume the conversation.">
+    <choice title="I have long legs and you call me long legs..." response="You can't call me a greenskin!" result="" next="intro_reply_10"/>
+  </choices>
+  <choices id="intro_reply_10" title="You resume the conversation.">
+    <choice title="Ok, how about shorty then?" response="No. That's not ok." result="" next="intro_reply_11"/>
+  </choices>
+  <choices id="intro_reply_11" title="You resume the conversation.">
+    <choice title="Wait, why can you call me long legs?" response="Because you have long legs." result="" next="intro_reply_12"/>
+  </choices>
+  <choices id="intro_reply_12" title="You resume the conversation.">
+    <choice title="Why can't I call you shorty?" response="Because I have short legs." result="" next="intro_reply_13"/>
+  </choices>
+  <choices id="intro_reply_13" title="You resume the conversation.">
+    <choice title="And?" response="That's condescending coming from you." result="" next="intro_reply_14"/>
+  </choices>
+  <choices id="intro_reply_14" title="You resume the conversation.">
+    <choice title="So, what can I call you?" response="You can call me long ears." result="" next="intro_reply_15"/>
+  </choices>
+  <choices id="intro_reply_15" title="You resume the conversation.">
+    <choice title="Ok, how do I say hello to you in Orcish?" response="Har-Har Zer Djigr." result="" next="intro_reply_16"/>
+  </choices>
+  <choices id="intro_reply_16" title="You resume the conversation.">
+    <choice title="So, Zer Djigr means long ears then?" response="No you silly. Djigr means long ears." result="" next="intro_reply_17"/>
+  </choices>
+  <choices id="intro_reply_17" title="You resume the conversation.">
+    <choice title="Then what does Zer mean?" response="Zer is my preferred pronoun." result="" next="intro_reply_18"/>
+  </choices>
+  <choices id="intro_reply_18" title="You resume the conversation.">
+    <choice title="Uhh, I'm glad we cleared that out..." response="All hail Orkhanada!" result="" next="intro_reply_19"/>
+  </choices>
+  <choices id="intro_reply_19" title="You resume the conversation.">
+    <choice title="Uhh, what?" response="Are you deaf, all hail Orkhanada!" result="" next="intro_reply_20"/>
+  </choices>
+  <choices id="intro_reply_20" title="You resume the conversation.">
+    <choice title="So, Orkhanada, Is that a place or a person?" response="It's the Orcish nation." result="" next="intro_reply_21"/>
+  </choices>
+  <choices id="intro_reply_21" title="You resume the conversation.">
+    <choice title="A place, area or country then?" response="Well, it's not a real country but..." result="" next="intro_reply_22"/>
+  </choices>
+  <choices id="intro_reply_22" title="You resume the conversation.">
+    <choice title="What then?" response="Anywhere where there are orcs in power." result="" next="intro_reply_23"/>
+  </choices>
+  <choices id="intro_reply_23" title="You resume the conversation.">
+    <choice title="Oh, that would be nowhere then." response="Very soon it will be everywhere." result="" next="intro_reply_24"/>
+  </choices>
+  <choices id="intro_reply_24" title="You resume the conversation.">
+    <choice title="What do you mean with everywhere?" response="Some time ago we were fighting dwarves." result="" next="intro_reply_25"/>
+  </choices>
+  <choices id="intro_reply_25" title="You resume the conversation.">
+    <choice title="Hmm, dwarves, never heard of them." response="And you never will because they're all dead." result="" next="intro_reply_26"/>
+  </choices>
+  <choices id="intro_reply_26" title="You resume the conversation.">
+    <choice title="So, you were fighting dwarves and then what?" response="During the battle of Craghoe..." result="" next="intro_reply_27"/>
+  </choices>
+  <choices id="intro_reply_27" title="You resume the conversation.">
+    <choice title="Go on." response="Or the mountain with a wide canyon." result="" next="intro_reply_28"/>
+  </choices>
+  <choices id="intro_reply_28" title="You resume the conversation.">
+    <choice title="Hah, Craghoe with a wide canyon." response="Stop interrupting me you simpleton." result="" next="intro_reply_29"/>
+    <choice title="Uhuh, and then what?" response="A young shaman turned all dwarves to stone." result="" next="intro_reply_30"/>
+  </choices>
+  <choices id="intro_reply_29" title="You resume the conversation.">
+    <choice title="Ok, ok, what happened then?" response="A young shaman turned all dwarves to stone." result="" next="intro_reply_30"/>
+  </choices>
+  <choices id="intro_reply_30" title="You resume the conversation.">
+    <choice title="And this relates to Orkhanada how?" response="Thousands of orcs were slaughtered every day..." result="" next="intro_reply_31"/>
+  </choices>
+  <choices id="intro_reply_31" title="You resume the conversation.">
+    <choice title="Go on." response="In the neverending battle against the dwarves." result="" next="intro_reply_32"/>
+  </choices>
+  <choices id="intro_reply_32" title="You resume the conversation.">
+    <choice title="Ohh." response="And now we're building our armies..." result="" next="intro_reply_33"/>
+  </choices>
+  <choices id="intro_reply_33" title="You resume the conversation.">
+    <choice title="Go on." response="In dwarven strongholds with their equipment." result="" next="intro_reply_34"/>
+  </choices>
+  <choices id="intro_reply_34" title="You resume the conversation.">
+    <choice title="Hmm, that sounds bad." response="Soon we will implement the green new deal..." result="" next="intro_reply_35"/>
+  </choices>
+  <choices id="intro_reply_35" title="You resume the conversation.">
+    <choice title="And what deal is that?" response="If you're not green you die!" result="" next="intro_reply_36"/>
+  </choices>
+  <choices id="intro_reply_36" title="You resume the conversation.">
+    <choice title="Well, it's been nice talking to you." response="Wait, before you leave, take this." result="GIVE_RUNE_STONE" next="intro_reply_37"/>
+  </choices>
+  <choices id="intro_reply_37" title="You resume the conversation.">
+    <choice title="What's that?" response="It's a dwarven rune stone." result="" next="intro_reply_38"/>
+  </choices>
+  <choices id="intro_reply_38" title="You resume the conversation.">
+    <choice title="Oh, thank you, but there's no rune on it." response="It's been ground off. Take it to your shaman..." result="" next="intro_reply_39"/>
+  </choices>
+  <choices id="intro_reply_39" title="You resume the conversation.">
+    <choice title="And?" response="And carve a new one while binding a soul to it." result="" next="intro_reply_40"/>
+  </choices>
+  <choices id="intro_reply_40" title="You resume the conversation.">
+    <choice title="You can do that?" response="Any shaman can do that." result="" next="intro_reply_41"/>
+  </choices>
+  <choices id="intro_reply_41" title="You resume the conversation.">
+    <choice title="Well, thanks, but now I have to..." response="Yes?" result="" next="intro_reply_42"/>
+  </choices>
+  <choices id="intro_reply_42" title="You resume the conversation.">
+    <choice title="Say good luck and farewell." response="Farewell." result="CLOSE_DIALOGUE" next=""/>
+    <choice title="Take all your stuff for the rogue clan." response="Why you motherwrecker!" result="SET_ENEMY" next=""/>
+  </choices>
+</dialogue>

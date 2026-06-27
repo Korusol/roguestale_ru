@@ -1,0 +1,29 @@
+<dialogue name="mainQuestVerdict" entry="intro" checksum="f5202bd44d279a3f0d46dfee587c4e2bf5ef36bf">
+  <choices id="intro" title="Answer these questions to start a new game...">
+    <choice title="Very well then." response="A servant girl spills your wine. Will you:" result="" next="question_1"/>
+  </choices>
+  <choices id="question_1" title="A servant girl spills your wine. Will you:">
+    <choice title="Feed her to the lions as a punishment." response="She was no better than lion food anyway!" result="SET_CRUEL" next="response_1"/>
+    <choice title="Hang her for the show of disrespect." response="Yeah, that'll teach her some respect!" result="SET_FAIR" next="response_1"/>
+    <choice title="Have her properly whipped." response="Isn't that a bit, lame, for such behaviour?" result="SET_GENTLE" next="response_1"/>
+  </choices>
+  <choices id="response_1" title="Answer two more questions to start a new game...">
+    <choice title="Go on with the questions." response="A starving farmer refuses to give his crop. Will you:" result="" next="question_2"/>
+  </choices>
+  <choices id="question_2" title="A starving farmer refuses to give his crop. Will you:">
+    <choice title="Mercilessly slaughter the farmer and his family." response="That'll teach the farmer who's in charge." result="SET_CRUEL" next="response_2"/>
+    <choice title="Send the farmer and his family to the mines." response="What? You let them live after such disobedience?" result="SET_GENTLE" next="response_2"/>
+    <choice title="Dismember the farmer and take the crops." response="Justice and practicality. Great choice!" result="SET_FAIR" next="response_2"/>
+  </choices>
+  <choices id="response_2" title="Answer one more question to start a new game...">
+    <choice title="I don't have all day." response="Two women claim to be a baby's mother. Will you:" result="" next="question_3"/>
+  </choices>
+  <choices id="question_3" title="Two women claim to be a baby's mother. Will you:">
+    <choice title="Stab the baby and kill the less shocked woman." response="Out of the box thinking. I like it." result="SET_FAIR" next="response_3"/>
+    <choice title="Give them swords and lean back for the show." response="Aaah, a cat fight. Splendid." result="SET_GENTLE" next="response_3"/>
+    <choice title="Kill them all for wasting your time." response="A messy solution but it works." result="SET_CRUEL" next="response_3"/>
+  </choices>
+  <choices id="response_3" title="Ready to hear your results?">
+    <choice title="So, what's the verdict?" response="" result="SET_VERDICT" next=""/>
+  </choices>
+</dialogue>

@@ -1,0 +1,46 @@
+<dialogue name="sideQuestCaretaker" entry="intro" checksum="a4d813a6d6f03783ca0b5040d85141d9b3b84c9e">
+  <choices id="intro" title="Welcome, young adventurer.">
+    <choice title="Who are you?" response="I'm the caretaker of this shrine." result="" next="intro_name"/>
+    <choice title="What is this place?" response="This is the shrine of Mike." result="" next="intro_desc_1"/>
+    <choice title="I hate priestesses!" response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_name" title="Welcome back, young adventurer.">
+    <choice title="Well, whose shrine is this?" response="This is the shrine of Mike." result="" next="intro_desc_1"/>
+    <choice title="Ohh, that means valuables!" response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_desc_1" title="Welcome back, young adventurer.">
+    <choice title="So, uhh, who's Mike?" response="He's the patron deity of young adventurers." result="" next="intro_desc_2"/>
+    <choice title="Valuables, hand them over!" response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_desc_2" title="Welcome back, young adventurer.">
+    <choice title="Wow, is there a way to get his blessing?" response="You have to recite the rite of Mike." result="" next="intro_desc_3"/>
+    <choice title="Give me all your shinies!" response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_desc_3" title="Welcome back, young adventurer.">
+    <choice title="The rite of Mike, what is that?" response="Mike is rite!" result="" next="intro_desc_4"/>
+    <choice title="Give me all your gold, now!" response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_desc_4" title="Welcome back, young adventurer.">
+    <choice title="Mike is rite?" response="No no no, don't question it, exclaim it!" result="" next="intro_desc_5"/>
+    <choice title="That staff looks shiny!" response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_desc_5" title="Welcome back, young adventurer.">
+    <choice title="Ohh, Mike is rite!" response="There you go, and don't you forget it!" result="SET_INFORMED" next="intro_desc_6"/>
+    <choice title="Everything you have, now!" response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_desc_6" title="Welcome back, young adventurer.">
+    <choice title="So, uhm, how does one become a deity?" response="You can try to save the world from a curse..." result="" next="intro_desc_7"/>
+    <choice title="Cool, I'll be going now (Travel)." response="Farewell." result="FINISH_QUEST" next=""/>
+    <choice title="About those valuables!" response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_desc_7" title="Welcome back, young adventurer.">
+    <choice title="Go on." response="That causes unimaginable pain and suffering..." result="" next="intro_desc_8"/>
+  </choices>
+  <choices id="intro_desc_8" title="Welcome back, young adventurer.">
+    <choice title="And?" response="While being the only one who can see it." result="" next="intro_desc_9"/>
+  </choices>
+  <choices id="intro_desc_9" title="Welcome back, young adventurer.">
+    <choice title="Awesome, I'll get right on it (Travel)." response="Farewell." result="FINISH_QUEST" next=""/>
+    <choice title="I almost forgot, shinies, now!" response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+</dialogue>

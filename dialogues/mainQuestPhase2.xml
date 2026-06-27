@@ -1,0 +1,7 @@
+<dialogue name="mainQuestPhase2" entry="intro" checksum="e75ee61abac3b8b7423912c4bd06f9f7ff62d861">
+  <choices id="intro" title="You really are becoming a nuisance...">
+    <choice title="I'm glad you noticed." response="Let's finish this in the throne room." result="SET_FINAL_PHASE_3" next=""/>
+    <choice title="I'm just doing my part." response="These goons certainly failed in that." result="SET_FINAL_PHASE_3" next=""/>
+    <choice title="Show yourself already!" response="I'm waiting for you in the throne room." result="SET_FINAL_PHASE_3" next=""/>
+  </choices>
+</dialogue>
