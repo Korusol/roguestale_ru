@@ -1,0 +1,207 @@
+<dialogue checksum="4a4db88b56081b899dfd09c61ef57d718e09421c" name="_npcHideoutTinker" entry="intro">
+  <choices id="intro" title="О, ты, должно быть, STR_PLAYER.">
+    <choice title="Эм, да, кто ты?" response="Я Тинкер, твой декоратор интерьера." result="" next="intro_reply_1"/>
+  </choices>
+  <choices id="intro_reply_1" title="STR_INTRO_6">
+    <choice title="Так, гм, чем ты занимаешься?" response="Я здесь, чтобы украсить интерьеры." result="" next="intro_reply_2"/>
+  </choices>
+  <choices id="intro_reply_2" title="STR_INTRO_6">
+    <choice title="Как ты это делаешь, с помощью волшебной палочки?" response="О, нет-нет-нет. Тяжёлую работу будешь делать ты." result="" next="intro_reply_3"/>
+  </choices>
+  <choices id="intro_reply_3" title="STR_INTRO_6">
+    <choice title="Что?" response="Вот как это работает." result="" next="intro_reply_4"/>
+  </choices>
+  <choices id="intro_reply_4" title="STR_INTRO_6">
+    <choice title="Ага." response="Я дам тебе задания для выполнения." result="" next="intro_reply_5"/>
+  </choices>
+  <choices id="intro_reply_5" title="STR_INTRO_6">
+    <choice title="И что?" response="Ты выполняешь задания." result="" next="intro_reply_6"/>
+  </choices>
+  <choices id="intro_reply_6" title="STR_INTRO_6">
+    <choice title="Очевидно." response="Гильдия ремесленников богатеет." result="" next="intro_reply_7"/>
+  </choices>
+  <choices id="intro_reply_7" title="STR_INTRO_6">
+    <choice title="Вау." response="Я получаю свою честную долю." result="" next="intro_reply_8"/>
+  </choices>
+  <choices id="intro_reply_8" title="STR_INTRO_6">
+    <choice title="И?" response="И тогда ты получишь новые интерьеры." result="" next="intro_reply_9"/>
+  </choices>
+  <choices id="intro_reply_9" title="STR_INTRO_6">
+    <choice title="То есть я плачу кредит, который не просил?" response="Убей медведя — получи пещеру." result="" next="intro_reply_10"/>
+  </choices>
+  <choices id="intro_reply_10" title="STR_INTRO_6">
+    <choice title="Почему я чувствую себя лохом?" response="Понятия не имею, но хочешь увидеть свои задания?" result="" next="outro"/>
+  </choices>
+  <choices id="outro" title="Ты здесь за новыми заданиями?">
+    <choice title="STR_YES" response="Отлично." result="SHOW_PROGRESS" next=""/>
+    <choice title="STR_NO" response="Тогда увидимся." result="CLOSE_DIALOGUE" next=""/>
+  </choices>
+  <choices id="adamas_intro" title="Ты вернулся. Хорошо.">
+    <choice title="Как дела?" response="Мне нужно, чтобы ты нашёл друзей и что-нибудь убил." result="" next="adamas_reply_1"/>
+  </choices>
+  <choices id="adamas_reply_1" title="Ты вернулся. Хорошо.">
+    <choice title="Эм, что?" response="Когда я был молод, мне поручили построить тюрьму..." result="" next="adamas_reply_2"/>
+  </choices>
+  <choices id="adamas_reply_2" title="Ты вернулся. Хорошо.">
+    <choice title="Ок." response="Это могло бы поймать и сдержать могущественного демона..." result="" next="adamas_reply_3"/>
+  </choices>
+  <choices id="adamas_reply_3" title="Ты вернулся. Хорошо.">
+    <choice title="Продолжай." response="Пока оно не стало неостановимым." result="" next="adamas_reply_4"/>
+  </choices>
+  <choices id="adamas_reply_4" title="Ты вернулся. Хорошо.">
+    <choice title="Зачем мне друзья для этого?" response="Сначала нужно освободить его, а потом убить..." result="" next="adamas_reply_5"/>
+  </choices>
+  <choices id="adamas_reply_5" title="Ты вернулся. Хорошо.">
+    <choice title="И?" response="И чтобы освободить его, нужно будет встать..." result="" next="adamas_reply_6"/>
+  </choices>
+  <choices id="adamas_reply_6" title="Ты вернулся. Хорошо.">
+    <choice title="Ага?" response="На четырёх напольных плитах, но есть загвоздка." result="" next="adamas_reply_7"/>
+  </choices>
+  <choices id="adamas_reply_7" title="Ты вернулся. Хорошо.">
+    <choice title="Конечно есть." response="Три из четырёх плит захватывают аур демона..." result="" next="adamas_reply_8"/>
+  </choices>
+  <choices id="adamas_reply_8" title="Ты вернулся. Хорошо.">
+    <choice title="Аура?" response="Разделяется на огонь, мороз и молнию слева направо." result="" next="adamas_reply_9"/>
+  </choices>
+  <choices id="adamas_reply_9" title="Ты вернулся. Хорошо.">
+    <choice title="В чём подвох?" response="Любой непоглощённый урон, нанесённый плитами..." result="" next="adamas_reply_10"/>
+  </choices>
+  <choices id="adamas_reply_10" title="Ты вернулся. Хорошо.">
+    <choice title="Продолжай." response="Также наносится всем остальным как магический урон..." result="" next="adamas_reply_11"/>
+  </choices>
+  <choices id="adamas_reply_11" title="Ты вернулся. Хорошо.">
+    <choice title="И?" response="И если твои друзья не смогут противостоять каждой стихии..." result="" next="adamas_reply_12"/>
+  </choices>
+  <choices id="adamas_reply_12" title="Ты вернулся. Хорошо.">
+    <choice title="Случится плохое?" response="Это быстро обострится, и ты умрёшь за секунды." result="" next="adamas_reply_13"/>
+  </choices>
+  <choices id="adamas_reply_13" title="Ты вернулся. Хорошо.">
+    <choice title="Что делает четвёртая плита?" response="Если демон достигнет этого, все умрут." result="" next="adamas_reply_14"/>
+  </choices>
+  <choices id="adamas_reply_14" title="Ты вернулся. Хорошо.">
+    <choice title="Значит, кто-то должен на ней стоять?" response="Да, кто-то, кто может сдерживать демона." result="" next="adamas_reply_15"/>
+  </choices>
+  <choices id="adamas_reply_15" title="Ты вернулся. Хорошо.">
+    <choice title="Ты шутишь, да?" response="Нет, я абсолютно серьёзен." result="" next="adamas_reply_16"/>
+  </choices>
+  <choices id="adamas_reply_16" title="Ты вернулся. Хорошо.">
+    <choice title="Зачем тебе это нужно сделать сейчас?" response="Тюрьма всегда была временным решением..." result="" next="adamas_reply_17"/>
+  </choices>
+  <choices id="adamas_reply_17" title="Ты вернулся. Хорошо.">
+    <choice title="И?" response="И время на исходе, пока оно набирает силу." result="" next="adamas_reply_18"/>
+  </choices>
+  <choices id="adamas_reply_18" title="Ты вернулся. Хорошо.">
+    <choice title="Почему бы тебе просто не отпустить его?" response="Потому что все умрут, если это случится." result="" next="adamas_reply_19"/>
+  </choices>
+  <choices id="adamas_reply_19" title="Ты вернулся. Хорошо.">
+    <choice title="А, понимаю." response="Хорошо, теперь найди друзей и убей демона." result="" next="adamas_outro"/>
+  </choices>
+  <choices id="adamas_outro" title="Найди друзей и отправляйся в город, когда будешь готов.">
+    <choice title="Так точно, сэр!" response="(Тинкер вздыхает в отчаянии.)" result="ADAMAS_EXPLAINED" next="adamas_outro"/>
+  </choices>
+  <choices id="faust_intro" title="Ты вернулся. Хорошо.">
+    <choice title="О, нет, только не снова." response="Да, я мог бы снова воспользоваться твоей помощью." result="" next="faust_reply_1"/>
+  </choices>
+  <choices id="faust_reply_1" title="Ты вернулся. Хорошо.">
+    <choice title="Что на этот раз?" response="Кажется, я что-то потерял..." result="" next="faust_reply_2"/>
+  </choices>
+  <choices id="faust_reply_2" title="Ты вернулся. Хорошо.">
+    <choice title="И?" response="И я бы хотел, чтобы ты нашёл его." result="" next="faust_reply_3"/>
+  </choices>
+  <choices id="faust_reply_3" title="Ты вернулся. Хорошо.">
+    <choice title="Как мне это сделать?" response="Вот, возьми эту Блестотную." result="GIVE_GLITTERGOO" next="faust_reply_4"/>
+  </choices>
+  <choices id="faust_reply_4" title="Ты вернулся. Хорошо.">
+    <choice title="Окей." response="Мне нужно, чтобы ты бросил это в гоблина." result="" next="faust_reply_5"/>
+  </choices>
+  <choices id="faust_reply_5" title="Ты вернулся. Хорошо.">
+    <choice title="Гоблин?" response="Те зелёные парни, которых вы называете накопителями добычи." result="" next="faust_reply_6"/>
+  </choices>
+  <choices id="faust_reply_6" title="Ты вернулся. Хорошо.">
+    <choice title="Эм, ладно." response="Тогда тебе нужно отшлёпать накопителя добычи." result="" next="faust_reply_7"/>
+  </choices>
+  <choices id="faust_reply_7" title="Ты вернулся. Хорошо.">
+    <choice title="Что?" response="Не убивай его, просто сделай полумёртвым." result="" next="faust_reply_8"/>
+  </choices>
+  <choices id="faust_reply_8" title="Ты вернулся. Хорошо.">
+    <choice title="Звучит достаточно просто." response="Поверь, это будет нелегко." result="" next="faust_reply_9"/>
+  </choices>
+  <choices id="faust_reply_9" title="Ты вернулся. Хорошо.">
+    <choice title="Почему так?" response="Когда гоблин ослаблен, срабатывает жижа." result="" next="faust_reply_10"/>
+  </choices>
+  <choices id="faust_reply_10" title="Ты вернулся. Хорошо.">
+    <choice title="Занимаясь чем именно?" response="Это заставляет гоблина транслировать призыв к добыче." result="" next="faust_reply_11"/>
+  </choices>
+  <choices id="faust_reply_11" title="Ты вернулся. Хорошо.">
+    <choice title="Что такое призыв к добыче?" response="Он говорит другим гоблинам, что есть огромный тайник." result="" next="faust_reply_12"/>
+  </choices>
+  <choices id="faust_reply_12" title="Ты вернулся. Хорошо.">
+    <choice title="Оо, и потом они приходят за ним?" response="Да, и потом ты можешь их зачистить..." result="" next="faust_reply_13"/>
+  </choices>
+  <choices id="faust_reply_13" title="Ты вернулся. Хорошо.">
+    <choice title="И?" response="И верни вещь, которую я потерял." result="" next="faust_reply_14"/>
+  </choices>
+  <choices id="faust_reply_14" title="Ты вернулся. Хорошо.">
+    <choice title="Что именно?" response="Просто свиток, ты узнаешь его, когда увидишь." result="" next="faust_reply_15"/>
+  </choices>
+  <choices id="faust_reply_15" title="Ты вернулся. Хорошо.">
+    <choice title="Ок, есть что-нибудь ещё?" response="Может, стоит взять с собой друга или двух." result="" next="faust_entry_16"/>
+  </choices>
+  <choices id="faust_entry_16" title="Ты вернулся. Хорошо.">
+    <choice title="Почему так?" response="Чтобы помочь тебе нести всю добычу, конечно!" result="" next="faust_outro"/>
+  </choices>
+  <choices id="faust_outro" title="Разве у тебя не было гоблинов для убийства?">
+    <choice title="О, ха-ха, я займусь этим." response="Отлично." result="FAUSTER_EXPLAINED" next="faust_outro"/>
+  </choices>
+  <choices id="settle_intro" title="Ты вернулся. Хорошо.">
+    <choice title="Оо, опять начинается." response="Оо, не в этот раз." result="" next="settle_entry_1"/>
+  </choices>
+  <choices id="settle_entry_1" title="Ты вернулся. Хорошо.">
+    <choice title="Что, ты болен или что?" response="Нет-нет-нет, я просто обустраиваюсь." result="" next="settle_entry_2"/>
+  </choices>
+  <choices id="settle_entry_2" title="Ты вернулся. Хорошо.">
+    <choice title="Надеюсь, ты вовремя платишь аренду." response="Ты должен платить мне за весь ремонт." result="" next="settle_entry_3"/>
+    <choice title="Можешь оставаться сколько хочешь." response="Я надеялся, что ты это скажешь." result="" next="settle_entry_3"/>
+  </choices>
+  <choices id="settle_entry_3" title="Ты вернулся. Хорошо.">
+    <choice title="И какие планы на пенсию?" response="Я просто буду торчать здесь и чинить вещи." result="" next="settle_entry_4"/>
+  </choices>
+  <choices id="settle_entry_4" title="Ты вернулся. Хорошо.">
+    <choice title="О, например?" response="Как двери, которые ты продолжаешь ломать." result="" next="settle_entry_5"/>
+  </choices>
+  <choices id="settle_entry_5" title="Ты вернулся. Хорошо.">
+    <choice title="Эм, да, есть другие планы?" response="Пожалуй, я снова начну тренироваться." result="" next="settle_entry_6"/>
+  </choices>
+  <choices id="settle_entry_6" title="Ты вернулся. Хорошо.">
+    <choice title="Оо, тренировка чего?" response="Что ж, раньше я был в Отряде Тюленей 69." result="" next="settle_entry_7"/>
+  </choices>
+  <choices id="settle_entry_7" title="Ты вернулся. Хорошо.">
+    <choice title="И что это значит?" response="Это значит, что я очень хорош в убийстве тюленей." result="" next="settle_entry_8"/>
+  </choices>
+  <choices id="settle_entry_8" title="Ты вернулся. Хорошо.">
+    <choice title="Вау." response="Именно, и знаешь что ещё?" result="" next="settle_entry_9"/>
+  </choices>
+  <choices id="settle_entry_9" title="Ты вернулся. Хорошо.">
+    <choice title="Там ещё?" response="Я был одним из немногих, обученных..." result="" next="settle_entry_10"/>
+  </choices>
+  <choices id="settle_entry_10" title="Ты вернулся. Хорошо.">
+    <choice title="Ага." response="Остановить угрозу на расстоянии." result="" next="settle_entry_11"/>
+  </choices>
+  <choices id="settle_entry_11" title="Ты вернулся. Хорошо.">
+    <choice title="Ты стрелял в детёнышей тюленей?" response="Именно, их нужно уничтожить!" result="" next="settle_entry_12"/>
+  </choices>
+  <choices id="settle_entry_12" title="Ты вернулся. Хорошо.">
+    <choice title="Эм, ага." response="Если хочешь, я могу показать, как." result="" next="settle_entry_13"/>
+  </choices>
+  <choices id="settle_entry_13" title="Ты вернулся. Хорошо.">
+    <choice title="Ок, покажи, на что ты способен." response="Отлично." result="" next="settle_outro"/>
+  </choices>
+  <choices id="settle_outro" title="Ты вернулся. Хорошо.">
+    <choice title="STR_ASK_TEACH_TALENT_27" response="STR_CONFIRM" result="" next="confirm_slow_and_steady"/>
+    <choice title="Эм, мне пора бежать, увидимся." response="Тогда увидимся." result="CLOSE_DIALOGUE" next="settle_outro"/>
+  </choices>
+  <choices id="confirm_slow_and_steady" title="STR_INTRO_READY">
+    <choice title="STR_YES_PLEASE" response="STR_TEACH_TALENT" result="LEARN_SLOW_AND_STEADY" next="settle_outro"/>
+    <choice title="Эм, мне пора бежать, увидимся." response="Тогда увидимся." result="CLOSE_DIALOGUE" next="settle_outro"/>
+  </choices>
+</dialogue>

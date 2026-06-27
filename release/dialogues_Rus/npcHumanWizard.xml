@@ -1,0 +1,66 @@
+<dialogue checksum="2978f533d45a9c534970a9d01af5fa1897781465" name="npcHumanWizard" entry="intro">
+  <choices id="intro" title="STR_INTRO_POMPOUS">
+    <choice title="STR_ASK_NAME_1" response="STR_TELL_NAME_1" result="SET_KNOWN" next="intro_name"/>
+    <choice title="STR_ASK_JOB_1" response="STR_WIZARD" result="" next="intro_job"/>
+    <choice title="STR_ATTACK_1" response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_name" title="STR_INTRO_4">
+    <choice title="STR_SAY_PLAYER" response="STR_MEET_PLAYER" result="" next="intro_name_reply"/>
+    <choice title="STR_SAY_ALIAS" response="STR_MEET_ALIAS" result="" next="intro_name_reply"/>
+    <choice title="STR_ATTACK_2" response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_name_reply" title="STR_INTRO_1">
+    <choice title="STR_ASK_JOB_2" response="STR_WIZARD" result="" next="intro_name_reply_job"/>
+    <choice title="STR_ATTACK_3" response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_name_reply_job" title="STR_INTRO_2">
+    <choice title="STR_ASK_SPELLS_1" response="STR_TELL_SPELLS" result="" next="learn_flaming_orb"/>
+    <choice title="STR_ATTACK_3" response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_job" title="STR_INTRO_3">
+    <choice title="STR_ASK_SPELLS_1" response="STR_TELL_SPELLS" result="" next="learn_flaming_orb"/>
+    <choice title="STR_ASK_NAME_2" response="STR_TELL_NAME_2" result="SET_KNOWN" next="intro_job_name"/>
+    <choice title="STR_ATTACK_1" response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_job_name" title="STR_INTRO_4">
+    <choice title="STR_SAY_PLAYER" response="STR_MEET_PLAYER" result="" next="intro_job_name_reply"/>
+    <choice title="STR_SAY_ALIAS" response="STR_MEET_ALIAS" result="" next="intro_job_name_reply"/>
+    <choice title="STR_ATTACK_2" response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_job_name_reply" title="STR_INTRO_2">
+    <choice title="STR_ASK_SPELLS_1" response="STR_TELL_SPELLS" result="" next="learn_flaming_orb"/>
+    <choice title="STR_ATTACK_3" response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="learn_flaming_orb" title="STR_INTRO_LESSON">
+    <choice title="STR_ASK_TEACH_SPELL_13" response="STR_CONFIRM" result="" next="confirm_flaming_orb"/>
+    <choice title="STR_ASK_SPELLS_2" response="STR_OF_COURSE" result="" next="learn_other_spells"/>
+    <choice title="STR_ATTACK_3" response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="confirm_flaming_orb" title="STR_INTRO_READY">
+    <choice title="STR_YES_PLEASE" response="STR_TEACH_SPELL" result="LEARN_FLAMING_ORB" next="end_conversation"/>
+    <choice title="STR_NO_THANKS" response="STR_RETHINK" result="" next="learn_flaming_orb"/>
+    <choice title="STR_ATTACK_4" response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="learn_other_spells" title="STR_INTRO_LESSON">
+    <choice title="STR_ASK_TEACH_OTHER" response="STR_NO" result="" next="learn_flaming_orb"/>
+    <choice title="STR_ATTACK_5" response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="end_conversation" title="STR_INTRO_GO_AWAY">
+    <choice title="STR_INTIMIDATE" response="" result="INTIMIDATE" next="intimidate"/>
+    <choice title="STR_PERSUADE" response="" result="PERSUADE" next="persuade"/>
+    <choice title="STR_ATTACK_6" response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intimidate" title="STR_INTRO_SCARED">
+    <choice title="STR_ATTACK_8" response="STR_BREAK_UP_1" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="persuade" title="STR_INTRO_SMITTEN">
+    <choice title="STR_ATTACK_8" response="STR_BREAK_UP_2" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="mercenary" title="STR_INTRO_MERC">
+    <choice title="STR_FIRE_MERC" response="STR_CONFIRM" result="" next="end_contract"/>
+  </choices>
+  <choices id="end_contract" title="STR_CONFIRM">
+    <choice title="STR_YES" response="STR_ALLRIGHT" result="FIRE_MERC" next=""/>
+    <choice title="STR_NO" response="STR_WHATEVER" result="CLOSE_DIALOGUE" next="mercenary"/>
+  </choices>
+</dialogue>

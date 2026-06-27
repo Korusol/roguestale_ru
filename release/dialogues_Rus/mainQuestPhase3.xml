@@ -1,0 +1,7 @@
+<dialogue checksum="416f585c399846df15677b9f035b958ceb654133" name="mainQuestPhase3" entry="intro">
+  <choices id="intro" title="Что это, ты убил меня?!?">
+    <choice title="Живёшь мечом — от меча и умрёшь." response="Аааррггххх..." result="SET_FINAL_PHASE_4" next=""/>
+    <choice title="Ты же знаешь, что может быть только один?" response="Ради Фубара... аааргх..." result="SET_FINAL_PHASE_4" next=""/>
+    <choice title="Я видел девушек, которые дерутся лучше тебя!" response="Ах ты маленький... аааргх..." result="SET_FINAL_PHASE_4" next=""/>
+  </choices>
+</dialogue>

@@ -1,0 +1,26 @@
+<dialogue checksum="85aed06541b624773e09d0fe25bfe12c74863e6e" name="sideQuestStealer" entry="intro">
+  <choices id="intro" title="Ч'Ри!">
+    <choice title="Что?" response="Ч'Ри, Ч'Ри!" result="" next="intro_reply_1"/>
+  </choices>
+  <choices id="intro_reply_1" title="">
+    <choice title="А, ладно." response="Бряк-бряк, Ч'Ри!" result="" next="intro_reply_2"/>
+  </choices>
+  <choices id="intro_reply_2" title="">
+    <choice title="Думаю, я буду звать тебя Ч'Ри Бряк." response="БРЯК! (одно из твоих колец украдено)" result="STEAL_RING_1" next="intro_reply_3"/>
+  </choices>
+  <choices id="intro_reply_3" title="">
+    <choice title="Эм, тогда Ч'Ри Брякокрад." response="Ч'Ри!" result="" next="intro_reply_4"/>
+  </choices>
+  <choices id="intro_reply_4" title="">
+    <choice title="Верни моё кольцо!" response="Ч'Ри, Ч'Ри!" result="" next="intro_reply_5"/>
+  </choices>
+  <choices id="intro_reply_5" title="">
+    <choice title="Вау, ты действительно нечто." response="Бряк-бряк, Ч'Ри!" result="" next="intro_reply_6"/>
+  </choices>
+  <choices id="intro_reply_6" title="">
+    <choice title="Попробуй скажи ещё раз «бряк»!" response="БРЯК! (одно из твоих колец украдено)" result="STEAL_RING_2" next="intro_reply_7"/>
+  </choices>
+  <choices id="intro_reply_7" title="">
+    <choice title="Ок, всё, ты сейчас умрёшь!" response="Ч'Ри!" result="SET_ENEMY" next=""/>
+  </choices>
+</dialogue>

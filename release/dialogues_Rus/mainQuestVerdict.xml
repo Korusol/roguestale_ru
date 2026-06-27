@@ -1,0 +1,29 @@
+<dialogue checksum="63f5e8c06f67d09d7bbb07858bde0d0bcfb2946f" name="mainQuestVerdict" entry="intro">
+  <choices id="intro" title="Ответь на эти вопросы, чтобы начать новую игру...">
+    <choice title="Тогда хорошо." response="Служанка проливает твоё вино. Ты:" result="" next="question_1"/>
+  </choices>
+  <choices id="question_1" title="Служанка проливает твоё вино. Ты:">
+    <choice title="Скормить её львам в наказание." response="Она всё равно не лучше львиной еды!" result="SET_CRUEL" next="response_1"/>
+    <choice title="Повесить её за проявление неуважения." response="Да, это научит её уважению!" result="SET_FAIR" next="response_1"/>
+    <choice title="Выпороть её как следует." response="Разве это не немного... тупо для такого поведения?" result="SET_GENTLE" next="response_1"/>
+  </choices>
+  <choices id="response_1" title="Ответь ещё на два вопроса, чтобы начать новую игру...">
+    <choice title="Продолжай с вопросами." response="Голодающий фермер отказывается отдавать урожай. Ты:" result="" next="question_2"/>
+  </choices>
+  <choices id="question_2" title="Голодающий фермер отказывается отдавать урожай. Ты:">
+    <choice title="Безжалостно зарежь фермера и его семью." response="Это научит фермера, кто здесь главный." result="SET_CRUEL" next="response_2"/>
+    <choice title="Отправить фермера и его семью в шахты." response="Что? Ты оставил их в живых после такого неповиновения?" result="SET_GENTLE" next="response_2"/>
+    <choice title="Расчлени фермера и забери урожай." response="Справедливость и практичность. Отличный выбор!" result="SET_FAIR" next="response_2"/>
+  </choices>
+  <choices id="response_2" title="Ответь ещё на один вопрос, чтобы начать новую игру...">
+    <choice title="У меня нет целого дня." response="Две женщины утверждают, что они матери ребёнка. Ты:" result="" next="question_3"/>
+  </choices>
+  <choices id="question_3" title="Две женщины утверждают, что они матери ребёнка. Ты:">
+    <choice title="Зарежь младенца и убей менее шокированную женщину." response="Нестандартное мышление. Мне нравится." result="SET_FAIR" next="response_3"/>
+    <choice title="Дай им мечи и откинься посмотреть на шоу." response="Ааах, кошачья драка. Великолепно." result="SET_GENTLE" next="response_3"/>
+    <choice title="Убей их всех за то, что тратят твоё время." response="Грязное решение, но работает." result="SET_CRUEL" next="response_3"/>
+  </choices>
+  <choices id="response_3" title="Готов услышать результаты?">
+    <choice title="И каков вердикт?" response="" result="SET_VERDICT" next=""/>
+  </choices>
+</dialogue>

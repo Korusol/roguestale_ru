@@ -1,0 +1,11 @@
+<dialogue checksum="bd5ff35f918d88fc3a5897cc29e9493febb87b6b" name="sideQuestExitPrompt" entry="intro">
+  <choices id="intro" title="Ты уверен, что хочешь покинуть уровень?">
+    <choice title="Да" response="Тогда проходи..." result="ABORT_QUEST" next=""/>
+    <choice title="Нет" response="Наслаждайся пребыванием..." result="CLOSE_DIALOGUE" next=""/>
+    <choice title="Что это?" response="Что ж, ты не сможешь вернуться, когда выйдешь..." result="" next="intro_why"/>
+  </choices>
+  <choices id="intro_why" title="Ты уверен, что хочешь покинуть уровень?">
+    <choice title="Лады, просто дай мне уже выйти." response="Тогда проходи..." result="ABORT_QUEST" next=""/>
+    <choice title="Эм, ладно, дай ещё раз подумать." response="Наслаждайся пребыванием..." result="CLOSE_DIALOGUE" next=""/>
+  </choices>
+</dialogue>

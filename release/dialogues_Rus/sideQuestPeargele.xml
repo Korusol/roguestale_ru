@@ -1,0 +1,80 @@
+<dialogue checksum="b64feefccc2825f42d5fea9215cdc0b2dd973655" name="sideQuestPeargele" entry="intro">
+  <choices id="intro" title="Ах, спасибо, что освободил меня.">
+    <choice title="Что, я тебя не освобождал." response="Ты определённо сделал это, как я и планировал." result="" next="intro_desc_1"/>
+  </choices>
+  <choices id="intro_desc_1" title=" ">
+    <choice title="Что ты имеешь в виду?" response="Что ж, я был привязан к миру демонов, пока..." result="" next="intro_desc_2"/>
+  </choices>
+  <choices id="intro_desc_2" title=" ">
+    <choice title="До чего?" response="Исключительный человек жертвует собой ради меня..." result="" next="intro_desc_3"/>
+  </choices>
+  <choices id="intro_desc_3" title=" ">
+    <choice title="Ага?" response="И ты сделал это, будучи героем." result="" next="intro_desc_4"/>
+  </choices>
+  <choices id="intro_desc_4" title=" ">
+    <choice title="Я не понимаю, ты это спланировал?" response="Да, действительно сделал. Дай объяснить." result="" next="intro_desc_5"/>
+  </choices>
+  <choices id="intro_desc_5" title=" ">
+    <choice title="Давай." response="Некоторое время назад я узнал о Шайдане и..." result="" next="intro_desc_6"/>
+  </choices>
+  <choices id="intro_desc_6" title=" ">
+    <choice title="И?" response="Её бесконечная жажда знаний и силы." result="" next="intro_desc_7"/>
+  </choices>
+  <choices id="intro_desc_7" title=" ">
+    <choice title="Продолжай." response="Я обещал отдать ей это в обмен на..." result="" next="intro_desc_8"/>
+  </choices>
+  <choices id="intro_desc_8" title=" ">
+    <choice title="Жаркие дела между простынями?" response="Ха, у тебя грязные мысли, но не то." result="" next="intro_desc_9"/>
+  </choices>
+  <choices id="intro_desc_9" title=" ">
+    <choice title="И что?" response="Несколько бедных девушек, о которых никто не заботится." result="" next="intro_desc_10"/>
+  </choices>
+  <choices id="intro_desc_10" title=" ">
+    <choice title="Зачем тебе бедные девушки?" response="Что ж, больших ртов много не бывает." result="" next="intro_desc_11"/>
+  </choices>
+  <choices id="intro_desc_11" title=" ">
+    <choice title="Погоди, ты превращаешь их в демонов?" response="Да, они отправляются прямо в шлаковые ямы..." result="" next="intro_desc_12"/>
+  </choices>
+  <choices id="intro_desc_12" title=" ">
+    <choice title="Эм?" response="И они превращаются в большие рты." result="" next="intro_desc_13"/>
+  </choices>
+  <choices id="intro_desc_13" title=" ">
+    <choice title="Вау." response="Это также экономит время на тренировку." result="" next="intro_desc_14"/>
+  </choices>
+  <choices id="intro_desc_14" title=" ">
+    <choice title="Почему?" response="Потому что они уже были довольно способны..." result="" next="intro_desc_15"/>
+  </choices>
+  <choices id="intro_desc_15" title=" ">
+    <choice title="Чтобы сделать что?" response="Чтобы засовывать вещи в их рты, ха-ха." result="" next="intro_desc_16"/>
+  </choices>
+  <choices id="intro_desc_16" title=" ">
+    <choice title="И как я вписываюсь в твой план?" response="Что ж, Шайдана была многим, но..." result="" next="intro_desc_17"/>
+  </choices>
+  <choices id="intro_desc_17" title=" ">
+    <choice title="Но?" response="Самоубийство не было одним из них." result="" next="intro_desc_18"/>
+  </choices>
+  <choices id="intro_desc_18" title=" ">
+    <choice title="Я всё ещё не понимаю." response="Мой план состоял из трёх шагов..." result="" next="intro_desc_19"/>
+  </choices>
+  <choices id="intro_desc_19" title=" ">
+    <choice title="И это?" response="Желание, вина и герой." result="" next="intro_desc_20"/>
+  </choices>
+  <choices id="intro_desc_20" title=" ">
+    <choice title="А, понимаю." response="Да, желание может привести к вине и..." result="" next="intro_desc_21"/>
+  </choices>
+  <choices id="intro_desc_21" title=" ">
+    <choice title="И?" response="Когда я говорю, что никого не волнует, я имею в виду..." result="" next="intro_desc_22"/>
+  </choices>
+  <choices id="intro_desc_22" title=" ">
+    <choice title="Только героев это волнует." response="Да, теперь ты меня понимаешь." result="" next="intro_desc_23"/>
+  </choices>
+  <choices id="intro_desc_23" title=" ">
+    <choice title="Я подтолкнул её к краю." response="Да, и теперь я свободен уничтожить твой мир." result="" next="intro_desc_24"/>
+  </choices>
+  <choices id="intro_desc_24" title=" ">
+    <choice title="В твоём плане есть небольшой изъян." response="И что это?" result="" next="intro_desc_25"/>
+  </choices>
+  <choices id="intro_desc_25" title=" ">
+    <choice title="Я, между прочим, супергерой!" response="Ха-ха, это мы ещё посмотрим." result="SET_ENEMY" next=""/>
+  </choices>
+</dialogue>

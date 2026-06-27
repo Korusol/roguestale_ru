@@ -1,0 +1,63 @@
+<dialogue checksum="7ae60a1e668ea65c76c95ecba20444dc050ac87b" name="sideQuestOutcast" entry="intro">
+  <choices id="intro" title="Кто ты и что ты здесь делаешь?">
+    <choice title="STR_SAY_PLAYER" response="Ок, и что ты здесь делаешь?" result="" next="intro_reply"/>
+    <choice title="STR_SAY_ALIAS" response="Ок, и что ты здесь делаешь?" result="" next="intro_reply"/>
+  </choices>
+  <choices id="intro_reply" title="Что ты здесь делаешь?">
+    <choice title="Я нашёл этот альбом, и мне сказали засунуть его..." response="О, полагаю, ты хочешь узнать, что это?" result="" next="intro_desc_1"/>
+  </choices>
+  <choices id="intro_desc_1" title="Так хочешь узнать, что это?">
+    <choice title="STR_YES_PLEASE" response="Это игра." result="" next="intro_desc_2"/>
+  </choices>
+  <choices id="intro_desc_2" title="Итак, насчёт игры.">
+    <choice title="Игра?" response="Да, игра, где ты собираешь карты..." result="" next="intro_desc_3"/>
+  </choices>
+  <choices id="intro_desc_3" title="Значит, ты собираешь карты.">
+    <choice title="И?" response="Ты создаёшь колоду из этих карт..." result="" next="intro_desc_4"/>
+  </choices>
+  <choices id="intro_desc_4" title="Итак, насчёт колоды карт.">
+    <choice title="И что?" response="Используй альбом и поговори со мной снова." result="SET_TCG_1" next="intro_desc_5"/>
+  </choices>
+  <choices id="intro_desc_5" title="Ты вернулся, отлично!">
+    <choice title="Как играть в эту игру?" response="Видишь ту кучу черепов позади меня?" result="" next="intro_desc_6"/>
+  </choices>
+  <choices id="intro_desc_6" title="Итак, насчёт игры.">
+    <choice title="STR_YES" response="Используй кучу черепов и поговори со мной снова." result="SET_TCG_2" next="intro_desc_7"/>
+  </choices>
+  <choices id="intro_desc_7" title="Ты вернулся, очень хорошо!">
+    <choice title="Где я могу найти больше куч черепов?" response="Они повсюду." result="" next="intro_desc_8"/>
+  </choices>
+  <choices id="intro_desc_8" title="Итак, насчёт куч черепов.">
+    <choice title="Я нигде их не видел." response="Ты не знал, что искать." result="" next="intro_desc_9"/>
+  </choices>
+  <choices id="intro_desc_9" title="Итак, насчёт куч черепов.">
+    <choice title="Мне нужно знать что-то ещё?" response="Ещё кое-что." result="" next="intro_desc_10"/>
+  </choices>
+  <choices id="intro_desc_10" title="Итак, что тебе нужно знать.">
+    <choice title="И что это?" response="Если ты вдруг проиграешь в игре..." result="" next="intro_desc_11"/>
+  </choices>
+  <choices id="intro_desc_11" title="Итак, что тебе нужно знать.">
+    <choice title="Продолжай." response="Есть большая вероятность, что ты умрёшь." result="" next="intro_desc_12"/>
+  </choices>
+  <choices id="intro_desc_12" title="Итак, что тебе нужно знать.">
+    <choice title="Погоди, что?" response="Ты можешь умереть в реальной жизни, если проиграешь игру." result="" next="intro_desc_13"/>
+  </choices>
+  <choices id="intro_desc_13" title="Итак, что тебе нужно знать.">
+    <choice title="Эм, серьёзно?" response="Да, весь урон, который ты получаешь в игре..." result="" next="intro_desc_14"/>
+  </choices>
+  <choices id="intro_desc_14" title="Итак, что тебе нужно знать.">
+    <choice title="Ага." response="Восстановлено оно или нет..." result="" next="intro_desc_15"/>
+  </choices>
+  <choices id="intro_desc_15" title="Итак, что тебе нужно знать.">
+    <choice title="Хм." response="Напрямую передаётся тебе, если ты проиграешь." result="" next="intro_desc_16"/>
+  </choices>
+  <choices id="intro_desc_16" title="Итак, что тебе нужно знать.">
+    <choice title="Ок, я понял, проигрывать плохо." response="Хорошо, теперь дай мне продолжить обучение." result="" next="intro_desc_17"/>
+    <choice title="Вау, это безумно." response="С ума сойти? Представь платить за гендерные исследования." result="" next="intro_desc_17"/>
+  </choices>
+  <choices id="intro_desc_17" title="И что теперь.">
+    <choice title="Думаю, мы закончили. (Путешествие)" response="Великолепно!" result="FINISH_QUEST" next=""/>
+    <choice title="Не, думаю, ты тут закончил!" response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="outro" title="finish_quest"/>
+</dialogue>

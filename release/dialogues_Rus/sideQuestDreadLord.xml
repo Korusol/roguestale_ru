@@ -1,0 +1,83 @@
+<dialogue checksum="26550c6df4437eeae60e4d9efde346316372642d" name="sideQuestDreadLord" entry="intro">
+  <choices id="intro" title="Кто ты?">
+    <choice title="Я STR_PLAYER." response="Что ж, STR_PLAYER, что ты хочешь?" result="" next="intro_reply_1"/>
+    <choice title="(Обман) Я STR_ALIAS." response="Что ж, STR_ALIAS, что ты хочешь?" result="" next="intro_reply_1"/>
+  </choices>
+  <choices id="intro_reply_1" title="">
+    <choice title="Я здесь за твоей головой." response="Ха, ну ты и забавный." result="" next="intro_reply_2"/>
+    <choice title="Мне нужно открыть вызов." response="Хм, ладно, что бы это ни значило." result="" next="intro_reply_2"/>
+  </choices>
+  <choices id="intro_reply_2" title="">
+    <choice title="Итак, ты готов умереть?" response="Снова?" result="" next="intro_reply_3"/>
+  </choices>
+  <choices id="intro_reply_3" title="">
+    <choice title="Что значит «снова»?" response="Что ж, время от времени..." result="" next="intro_reply_4"/>
+    <choice title="Давай без болтовни." response="Пусть будет по-твоему." result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_reply_4" title="">
+    <choice title="Продолжай." response="Появляется кто-то вроде тебя..." result="" next="intro_reply_5"/>
+    <choice title="Давай без болтовни." response="Пусть будет по-твоему." result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_reply_5" title="">
+    <choice title="И?" response="И пытается убить меня..." result="" next="intro_reply_6"/>
+    <choice title="Давай без болтовни." response="Пусть будет по-твоему." result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_reply_6" title="">
+    <choice title="Но?" response="Но пока мои Бессмертные живы..." result="" next="intro_reply_7"/>
+    <choice title="Давай без болтовни." response="Пусть будет по-твоему." result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_reply_7" title="">
+    <choice title="Продолжай." response="Меня нельзя убить." result="" next="intro_reply_8"/>
+    <choice title="Давай без болтовни." response="Пусть будет по-твоему." result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_reply_8" title="">
+    <choice title="Зачем ты мне это рассказываешь?" response="Что ж, ты хоть представляешь..." result="" next="intro_reply_9"/>
+    <choice title="Давай без болтовни." response="Пусть будет по-твоему." result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_reply_9" title="">
+    <choice title="О чём?" response="Как же становится скучно, когда..." result="" next="intro_reply_10"/>
+    <choice title="Давай без болтовни." response="Пусть будет по-твоему." result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_reply_10" title="">
+    <choice title="Продолжай." response="Когда нет вызова." result="" next="intro_reply_11"/>
+    <choice title="Давай без болтовни." response="Пусть будет по-твоему." result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_reply_11" title="">
+    <choice title="Я дам тебе испытание." response="Как и парень до тебя..." result="" next="intro_reply_12"/>
+    <choice title="Давай без болтовни." response="Пусть будет по-твоему." result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_reply_12" title="">
+    <choice title="Насчёт этих Бессмертных..." response="Да?" result="" next="intro_reply_13"/>
+    <choice title="Давай без болтовни." response="Пусть будет по-твоему." result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_reply_13" title="">
+    <choice title="Я их не вижу, где они?" response="Скоро присоединишься к ним." result="" next="intro_reply_14"/>
+    <choice title="Давай без болтовни." response="Пусть будет по-твоему." result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_reply_14" title="">
+    <choice title="У меня есть ещё один вопрос." response="Почему бы тебе не спросить его тогда?" result="" next="intro_reply_15"/>
+    <choice title="Давай без болтовни." response="Пусть будет по-твоему." result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_reply_15" title="">
+    <choice title="Это о твоей броне." response="А что с ним?" result="" next="intro_reply_16"/>
+    <choice title="Давай без болтовни." response="Пусть будет по-твоему." result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_reply_16" title="">
+    <choice title="Как звали того..." response="Чьё имя?" result="" next="intro_reply_17"/>
+    <choice title="Давай без болтовни." response="Пусть будет по-твоему." result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_reply_17" title="">
+    <choice title="Трансвестит, у которого ты это украл?" response="О, думаю, мы закончили." result="" next="intro_reply_18"/>
+    <choice title="Давай без болтовни." response="Пусть будет по-твоему." result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_reply_18" title="">
+    <choice title="Ну что, а ты не плакса?" response="Я слышал все существующие оскорбления." result="" next="intro_reply_19"/>
+    <choice title="Давай без болтовни." response="Пусть будет по-твоему." result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_reply_19" title="">
+    <choice title="Ок, давай закончим это." response="Хм, плевать." result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="set_enemy" title="Хмрф, умирать... освежает!">
+    <choice title="Я убью тебя снова!" response="Великолепно!" result="SET_ENEMY" next=""/>
+  </choices>
+</dialogue>

@@ -1,0 +1,64 @@
+<dialogue checksum="dba9573520c851da9e18ad3af19c1624318a06ba" name="npcHideoutMirror" entry="intro">
+  <choices id="intro" title="Как дела?">
+    <choice title="Сменить цвет волос." response="Светлый, средний или тёмный?" result="" next="set_hair_color"/>
+    <choice title="Сменить причёску." response="Лысый, бородатый или безбородый?" result="MALE_ONLY" next="set_hair_style_male"/>
+    <choice title="Сменить причёску." response="Короткий, средний или длинный?" result="FEMALE_ONLY" next="set_hair_style_female"/>
+  </choices>
+  <choices id="set_hair_color" title="Светлый, средний или тёмный?">
+    <choice title="Светлый. (Серый, Коричневый, Русый)" response="Серый, коричневый или русый?" result="" next="set_hair_color_a"/>
+    <choice title="Средний. (Рыжий, Медный)" response="Рыжий или медный?" result="" next="set_hair_color_b"/>
+    <choice title="Тёмный. (Серый, Коричневый, Чёрный)" response="Серый, коричневый или чёрный?" result="" next="set_hair_color_c"/>
+  </choices>
+  <choices id="set_hair_color_a" title="Серый, коричневый или русый?">
+    <choice title="Серый." response="STR_DONE" result="SET_HAIR_COLOR_2" next="intro"/>
+    <choice title="Коричневый." response="STR_DONE" result="SET_HAIR_COLOR_3" next="intro"/>
+    <choice title="Блондин." response="STR_DONE" result="SET_HAIR_COLOR_7" next="intro"/>
+  </choices>
+  <choices id="set_hair_color_b" title="Рыжий или медный?">
+    <choice title="Рыжий." response="STR_DONE" result="SET_HAIR_COLOR_5" next="intro"/>
+    <choice title="Медный." response="STR_DONE" result="SET_HAIR_COLOR_6" next="intro"/>
+  </choices>
+  <choices id="set_hair_color_c" title="Серый, коричневый или чёрный?">
+    <choice title="Серый." response="STR_DONE" result="SET_HAIR_COLOR_1" next="intro"/>
+    <choice title="Коричневый." response="STR_DONE" result="SET_HAIR_COLOR_4" next="intro"/>
+    <choice title="Чёрный." response="STR_DONE" result="SET_HAIR_COLOR_0" next="intro"/>
+  </choices>
+  <choices id="set_hair_style_male" title="Лысый, бородатый или безбородый?">
+    <choice title="Лысый." response="Яйцеголовый или лысый?" result="" next="set_hair_style_male_a"/>
+    <choice title="Бородатый." response="Налётчик, преступник или бандит?" result="" next="set_hair_style_male_b"/>
+    <choice title="Безбородый." response="Налётчик, преступник или бандит?" result="" next="set_hair_style_male_c"/>
+  </choices>
+  <choices id="set_hair_style_male_a" title="Яйцеголовый или лысый?">
+    <choice title="Яйцеголовый." response="STR_DONE" result="SET_HAIR_STYLE_0" next="intro"/>
+    <choice title="Яйцеголовый." response="STR_DONE" result="SET_HAIR_STYLE_1" next="intro"/>
+  </choices>
+  <choices id="set_hair_style_male_b" title="Налётчик, преступник или бандит?">
+    <choice title="Налётчик." response="STR_DONE" result="SET_HAIR_STYLE_7" next="intro"/>
+    <choice title="Преступник." response="STR_DONE" result="SET_HAIR_STYLE_3" next="intro"/>
+    <choice title="Бандит." response="STR_DONE" result="SET_HAIR_STYLE_5" next="intro"/>
+  </choices>
+  <choices id="set_hair_style_male_c" title="Налётчик, преступник или бандит?">
+    <choice title="Налётчик." response="STR_DONE" result="SET_HAIR_STYLE_6" next="intro"/>
+    <choice title="Преступник." response="STR_DONE" result="SET_HAIR_STYLE_2" next="intro"/>
+    <choice title="Бандит." response="STR_DONE" result="SET_HAIR_STYLE_4" next="intro"/>
+  </choices>
+  <choices id="set_hair_style_female" title="Короткий, средний или длинный?">
+    <choice title="Короткий." response="Плутовка, сирена или потаскушка?" result="" next="set_hair_style_female_a"/>
+    <choice title="Средний." response="Ветреница или потаскуха?" result="" next="set_hair_style_female_b"/>
+    <choice title="Длинный." response="Девица, распутница или девка?" result="" next="set_hair_style_female_c"/>
+  </choices>
+  <choices id="set_hair_style_female_a" title="Плутовка, сирена или потаскушка?">
+    <choice title="Плутовка." response="STR_DONE" result="SET_HAIR_STYLE_0" next="intro"/>
+    <choice title="Сирена." response="STR_DONE" result="SET_HAIR_STYLE_1" next="intro"/>
+    <choice title="Потаскушка." response="STR_DONE" result="SET_HAIR_STYLE_2" next="intro"/>
+  </choices>
+  <choices id="set_hair_style_female_b" title="Ветреница или потаскуха?">
+    <choice title="Ветреница." response="STR_DONE" result="SET_HAIR_STYLE_3" next="intro"/>
+    <choice title="Шлюха." response="STR_DONE" result="SET_HAIR_STYLE_4" next="intro"/>
+  </choices>
+  <choices id="set_hair_style_female_c" title="Девица, распутница или девка?">
+    <choice title="Девица." response="STR_DONE" result="SET_HAIR_STYLE_5" next="intro"/>
+    <choice title="Распутница." response="STR_DONE" result="SET_HAIR_STYLE_6" next="intro"/>
+    <choice title="Девка." response="STR_DONE" result="SET_HAIR_STYLE_7" next="intro"/>
+  </choices>
+</dialogue>

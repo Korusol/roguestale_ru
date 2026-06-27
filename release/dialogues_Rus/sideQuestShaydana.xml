@@ -1,0 +1,38 @@
+<dialogue checksum="7716f41474498a1c3c0c18a50ccceb4e7affb3f6" name="sideQuestShaydana" entry="intro">
+  <choices id="intro" title="Кто ты и как ты сюда попал?">
+    <choice title="Я — это я, и я ставлю одну ногу перед другой." response="Ха-ха, забавно. Что ты здесь делаешь?" result="" next="intro_reply"/>
+  </choices>
+  <choices id="intro_reply" title=" ">
+    <choice title="Я пытаюсь найти пропавших предпринимательниц." response="Как ты... Ах, гильдия тебя послала, верно?" result="" next="intro_desc_1"/>
+  </choices>
+  <choices id="intro_desc_1" title=" ">
+    <choice title="Ага. Они, кажется, очень заботятся об этих девушках." response="Ха, ты такой инструмент." result="" next="intro_desc_2"/>
+  </choices>
+  <choices id="intro_desc_2" title=" ">
+    <choice title="Что ты имеешь в виду?" response="Им плевать на девушек." result="" next="intro_desc_3"/>
+  </choices>
+  <choices id="intro_desc_3" title=" ">
+    <choice title="Тогда зачем они отправили меня сюда?" response="Они просто хотят достичь ясности после разрядки." result="" next="intro_desc_4"/>
+  </choices>
+  <choices id="intro_desc_4" title=" ">
+    <choice title="Какой ещё орех ты имеешь в виду?" response="Как я и сказал, ты такой инструмент." result="" next="intro_desc_5"/>
+  </choices>
+  <choices id="intro_desc_5" title=" ">
+    <choice title="Я начинаю чувствовать себя молотком." response="Молодец." result="" next="intro_desc_6"/>
+  </choices>
+  <choices id="intro_desc_6" title=" ">
+    <choice title="Где же девушки?" response="У тебя гвоздя не хватает, и опоздал ты на день." result="" next="intro_desc_7"/>
+  </choices>
+  <choices id="intro_desc_7" title=" ">
+    <choice title="О чём ты говоришь?" response="Девушки уже обработаны." result="" next="intro_desc_8"/>
+  </choices>
+  <choices id="intro_desc_8" title=" ">
+    <choice title="Что значит «обработаны»?" response="Нарезан, порублен и скормлен моему хозяину." result="" next="intro_desc_9"/>
+  </choices>
+  <choices id="intro_desc_9" title=" ">
+    <choice title="Ты действительно тот орешек, который я хочу расколоть." response="Почему бы тебе тогда не начать стучать?" result="" next="intro_desc_10"/>
+  </choices>
+  <choices id="intro_desc_10" title=" ">
+    <choice title="Ты прав, давай закончим это!" response="С удовольствием." result="SET_ENEMY" next=""/>
+  </choices>
+</dialogue>

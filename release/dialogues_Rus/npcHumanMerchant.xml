@@ -1,0 +1,36 @@
+<dialogue checksum="898a20ddfb728d6824a175d0f1db19bf9947b36d" name="npcHumanMerchant" entry="intro">
+  <choices id="intro" title="STR_INTRO_STERN">
+    <choice title="STR_ASK_NAME_1" response="STR_TELL_NAME_1" result="SET_KNOWN" next="intro_name"/>
+    <choice title="STR_ASK_JOB_1" response="STR_MERCHANT_1" result="" next="intro_job"/>
+    <choice title="STR_ATTACK_1" response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_name" title="STR_INTRO_4">
+    <choice title="STR_SAY_PLAYER" response="STR_MEET_PLAYER" result="" next="intro_name_reply"/>
+    <choice title="STR_SAY_ALIAS" response="STR_MEET_ALIAS" result="" next="intro_name_reply"/>
+    <choice title="STR_ATTACK_2" response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_name_reply" title="STR_INTRO_1">
+    <choice title="STR_ASK_JOB_2" response="STR_MERCHANT_2" result="" next="intro_name_reply_job"/>
+    <choice title="STR_ATTACK_3" response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_name_reply_job" title="STR_INTRO_5">
+    <choice title="STR_SHOW_WARES" response="STR_ALLRIGHT" result="SHOW_WARES" next=""/>
+    <choice title="STR_IDENTIFY" response="STR_CERTAINLY" result="IDENTIFY" next=""/>
+    <choice title="STR_ATTACK_7" response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_job" title="STR_INTRO_3">
+    <choice title="STR_SHOW_WARES" response="STR_ALLRIGHT" result="SHOW_WARES" next=""/>
+    <choice title="STR_ASK_NAME_2" response="STR_TELL_NAME_2" result="SET_KNOWN" next="intro_job_name"/>
+    <choice title="STR_ATTACK_7" response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_job_name" title="STR_INTRO_4">
+    <choice title="STR_SAY_PLAYER" response="STR_MEET_PLAYER" result="" next="intro_job_name_reply"/>
+    <choice title="STR_SAY_ALIAS" response="STR_MEET_ALIAS" result="" next="intro_job_name_reply"/>
+    <choice title="STR_ATTACK_2" response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_job_name_reply" title="STR_INTRO_5">
+    <choice title="STR_SHOW_WARES" response="STR_ALLRIGHT" result="SHOW_WARES" next=""/>
+    <choice title="STR_IDENTIFY" response="STR_CERTAINLY" result="IDENTIFY" next=""/>
+    <choice title="STR_ATTACK_7" response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+</dialogue>

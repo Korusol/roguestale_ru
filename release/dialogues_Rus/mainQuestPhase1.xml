@@ -1,0 +1,7 @@
+<dialogue checksum="8f4880e67578f8924ee3d777d79e87d9631902df" name="mainQuestPhase1" entry="intro">
+  <choices id="intro" title="Итак, ты убил всю мою стражу...">
+    <choice title="Определённо похоже на то." response="Ну что ж, думаю, эти подойдут." result="SET_FINAL_PHASE_2" next=""/>
+    <choice title="Им было со мной не совладать." response="Надеюсь, они обеспечат вызов." result="SET_FINAL_PHASE_2" next=""/>
+    <choice title="Иди сюда, и я позволю тебе присоединиться к ним!" response="Почему бы тебе сначала не поиграть с этим." result="SET_FINAL_PHASE_2" next=""/>
+  </choices>
+</dialogue>

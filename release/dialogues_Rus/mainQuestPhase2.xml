@@ -1,0 +1,7 @@
+<dialogue checksum="34522bc5be11aa790799d443c74428ae4d861c1b" name="mainQuestPhase2" entry="intro">
+  <choices id="intro" title="Ты действительно становишься надоедливым...">
+    <choice title="Рад, что ты заметил." response="Давай закончим это в тронном зале." result="SET_FINAL_PHASE_3" next=""/>
+    <choice title="Я просто делаю свою часть." response="Эти головорезы явно в этом провалились." result="SET_FINAL_PHASE_3" next=""/>
+    <choice title="Покажись уже!" response="Я жду тебя в тронном зале." result="SET_FINAL_PHASE_3" next=""/>
+  </choices>
+</dialogue>

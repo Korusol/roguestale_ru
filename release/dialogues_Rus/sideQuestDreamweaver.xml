@@ -1,0 +1,31 @@
+<dialogue checksum="95eec62f0d3c60334b7440daf135f8561a0fcf70" name="sideQuestDreamweaver" entry="intro">
+  <choices id="intro" title="STR_INTRO_6">
+    <choice title="Мне сказали поговорить с тобой об этом кулоне." response="А, это будет четыре-двадцать." result="" next="intro_desc_1"/>
+    <choice title="Я хочу ещё три желания... и мира во всём мире." response="Итак, мисс Подземелье, чего ты на самом деле хочешь?" result="" next="intro_reply"/>
+    <choice title="Я хочу всё, что у тебя есть!" response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_reply" title="STR_INTRO_6">
+    <choice title="Мне сказали поговорить с тобой об этом кулоне." response="А, это будет четыре-двадцать." result="" next="intro_desc_1"/>
+    <choice title="Я хочу всё, что у тебя есть... и мира во всём мире!" response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_desc_1" title="Это будет четыре-двадцать.">
+    <choice title="Эм, четыре-двадцать, что?" response="Четыреста двадцать золотых монет." result="" next="intro_desc_2"/>
+    <choice title="Плевать, я просто заберу всё, что у тебя есть!" response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_desc_2" title="Это будет четыре-двадцать.">
+    <choice title="Что я получу за все эти золотые монеты?" response="То, за чем ты сюда пришёл." result="" next="intro_desc_3"/>
+    <choice title="Как насчёт ноля золотых и разбитого черепа?" response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_desc_3" title="Это будет четыре-двадцать.">
+    <choice title="И что бы это могло быть?" response="Нитка для шнурка твоего амулета." result="" next="intro_desc_4"/>
+    <choice title="Ты мне нужен только в луже крови." response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_desc_4" title="Это будет четыре-двадцать.">
+    <choice title="О, ладно, вот, возьми мои деньги." response="STR_BUY[Dreamweave,420]" result="CLOSE_DIALOGUE" next="intro_desc_5"/>
+    <choice title="Дай подумать (уйти)." response="У меня нет времени на бедняков." result="CLOSE_DIALOGUE" next="intro_desc_5"/>
+    <choice title="Вообще-то, я просто заберу это!" response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_desc_5" title="Мы закончили, уходи.">
+    <choice title="Мы закончим, когда я скажу!" response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+</dialogue>

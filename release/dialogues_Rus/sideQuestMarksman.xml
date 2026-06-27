@@ -1,0 +1,49 @@
+<dialogue checksum="d98a19cfe517d540c7298144f8d8fb9c37fc5942" name="sideQuestMarksman" entry="intro">
+  <choices id="intro" title="О, гляди, незнакомец, что привело тебя сюда?">
+    <choice title="Ты, должно быть, Борстоун?" response="Это я, а ты кто?" result="SET_KNOWN" next="intro_name"/>
+  </choices>
+  <choices id="intro_name" title="Кто ты?">
+    <choice title="STR_SAY_PLAYER" response="STR_MEET_PLAYER" result="" next="intro_name_reply"/>
+    <choice title="STR_SAY_ALIAS" response="STR_MEET_ALIAS" result="" next="intro_name_reply"/>
+    <choice title="Я палач." response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_name_reply" title="Что ты здесь делаешь?">
+    <choice title="Меня послали доставить тебе арбалет." response="А, ладно, можешь оставить." result="" next="intro_desc_1"/>
+  </choices>
+  <choices id="intro_desc_1" title="STR_NAME сказал, что ты можешь оставить арбалет.">
+    <choice title="Что?" response="Я просто хотел, чтобы кто-то убрал крабов..." result="" next="intro_desc_2"/>
+  </choices>
+  <choices id="intro_desc_2" title="STR_NAME сказал, что ты можешь оставить арбалет.">
+    <choice title="Окей." response="То есть вместо найма кучи уборщиков..." result="" next="intro_desc_3"/>
+  </choices>
+  <choices id="intro_desc_3" title="STR_NAME сказал, что ты можешь оставить арбалет.">
+    <choice title="Продолжай." response="Я заказал дешёвый арбалет с бесплатной доставкой..." result="" next="intro_desc_4"/>
+  </choices>
+  <choices id="intro_desc_4" title="STR_NAME сказал, что ты можешь оставить арбалет.">
+    <choice title="Вау." response="Зная, что курьеру пришлось их зачистить..." result="" next="intro_desc_5"/>
+  </choices>
+  <choices id="intro_desc_5" title="STR_NAME сказал, что ты можешь оставить арбалет.">
+    <choice title="Умно." response="И если курьер случайно умрёт..." result="" next="intro_desc_6"/>
+  </choices>
+  <choices id="intro_desc_6" title="STR_NAME сказал, что ты можешь оставить арбалет.">
+    <choice title="Это буду я." response="Гарантия возврата денег, ха-ха-ха." result="" next="intro_desc_7"/>
+  </choices>
+  <choices id="intro_desc_7" title="STR_NAME сказал, что ты можешь оставить арбалет.">
+    <choice title="Вот это настрой. Цель оправдывает средства." response="Ты мне нравишься, дай кое-что показать." result="" next="desc_slow_and_steady"/>
+    <choice title="Фу, это зло. Ты злой человек." response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="desc_slow_and_steady" title="STR_NAME хотел тебе кое-что показать.">
+    <choice title="Что это?" response="Я могу научить тебя эффективно пользоваться арбалетами." result="" next="learn_slow_and_steady"/>
+  </choices>
+  <choices id="learn_slow_and_steady" title="STR_INTRO_TRICKS">
+    <choice title="STR_ASK_TEACH_TALENT_27" response="STR_CONFIRM" result="" next="confirm_slow_and_steady"/>
+    <choice title="Не, не интересно. Я пойду. (Путешествие)" response="Увидимся, убийца крабов." result="FINISH_QUEST" next=""/>
+    <choice title="Всё, что я хочу — это то, что на тебе надето." response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="confirm_slow_and_steady" title="STR_INTRO_READY">
+    <choice title="STR_YES_PLEASE" response="STR_TEACH_TALENT" result="LEARN_SLOW_AND_STEADY" next=""/>
+    <choice title="Думаю, я пойду. (Путешествие)" response="Дверью не ударься, когда будешь выходить." result="FINISH_QUEST" next=""/>
+    <choice title="Вообще-то, я хочу, чтобы ты умер!" response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="outro" title="finish_quest"/>
+</dialogue>

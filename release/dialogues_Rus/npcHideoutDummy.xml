@@ -1,0 +1,71 @@
+<dialogue checksum="f31cce992c2015e270d6bcd2eeefc41cf849d28c" name="npcHideoutDummy" entry="intro">
+  <choices id="intro" title="Как дела?">
+    <choice title="Установить физическое сопротивление." response="Низкий, средний или высокий?" result="" next="physical_res"/>
+    <choice title="Установить другие сопротивления." response="Элементальный или природный?" result="" next="other_res"/>
+    <choice title="Сбросить настройки и исцелиться." response="STR_DONE" result="RESET_SETTINGS" next="intro"/>
+  </choices>
+  <choices id="physical_res" title="Низкий, средний или высокий?">
+    <choice title="Низкий. (0-2)" response="0, 1 или 2?" result="" next="physical_res_02"/>
+    <choice title="Средний. (3-5)" response="3, 4 или 5?" result="" next="physical_res_35"/>
+    <choice title="Высокий. (6-8)" response="6, 7 или 8?" result="" next="physical_res_68"/>
+  </choices>
+  <choices id="physical_res_02" title="0, 1 или 2?">
+    <choice title="0." response="STR_DONE" result="SET_PHYSICAL_0" next="intro"/>
+    <choice title="1." response="STR_DONE" result="SET_PHYSICAL_1" next="intro"/>
+    <choice title="2." response="STR_DONE" result="SET_PHYSICAL_2" next="intro"/>
+  </choices>
+  <choices id="physical_res_35" title="3, 4 или 5?">
+    <choice title="3." response="STR_DONE" result="SET_PHYSICAL_3" next="intro"/>
+    <choice title="4." response="STR_DONE" result="SET_PHYSICAL_4" next="intro"/>
+    <choice title="5." response="STR_DONE" result="SET_PHYSICAL_5" next="intro"/>
+  </choices>
+  <choices id="physical_res_68" title="6, 7 или 8?">
+    <choice title="6." response="STR_DONE" result="SET_PHYSICAL_6" next="intro"/>
+    <choice title="7." response="STR_DONE" result="SET_PHYSICAL_7" next="intro"/>
+    <choice title="8." response="STR_DONE" result="SET_PHYSICAL_8" next="intro"/>
+  </choices>
+  <choices id="other_res" title="Элементальный или природный?">
+    <choice title="Элементальный." response="Низкий, средний или высокий?" result="" next="elemental_res"/>
+    <choice title="Природный." response="Низкий, средний или высокий?" result="" next="natural_res"/>
+  </choices>
+  <choices id="elemental_res" title="Низкий, средний или высокий?">
+    <choice title="Низкий. (0-2)" response="0, 1 или 2?" result="" next="elemental_res_02"/>
+    <choice title="Средний. (3-5)" response="3, 4 или 5?" result="" next="elemental_res_35"/>
+    <choice title="Высокий. (6-8)" response="6, 7 или 8?" result="" next="elemental_res_68"/>
+  </choices>
+  <choices id="elemental_res_02" title="0, 1 или 2?">
+    <choice title="0." response="STR_DONE" result="SET_ELEMENTAL_0" next="intro"/>
+    <choice title="1." response="STR_DONE" result="SET_ELEMENTAL_1" next="intro"/>
+    <choice title="2." response="STR_DONE" result="SET_ELEMENTAL_2" next="intro"/>
+  </choices>
+  <choices id="elemental_res_35" title="3, 4 или 5?">
+    <choice title="3." response="STR_DONE" result="SET_ELEMENTAL_3" next="intro"/>
+    <choice title="4." response="STR_DONE" result="SET_ELEMENTAL_4" next="intro"/>
+    <choice title="5." response="STR_DONE" result="SET_ELEMENTAL_5" next="intro"/>
+  </choices>
+  <choices id="elemental_res_68" title="6, 7 или 8?">
+    <choice title="6." response="STR_DONE" result="SET_ELEMENTAL_6" next="intro"/>
+    <choice title="7." response="STR_DONE" result="SET_ELEMENTAL_7" next="intro"/>
+    <choice title="8." response="STR_DONE" result="SET_ELEMENTAL_8" next="intro"/>
+  </choices>
+  <choices id="natural_res" title="Низкий, средний или высокий?">
+    <choice title="Низкий. (0-2)" response="0, 1 или 2?" result="" next="natural_res_02"/>
+    <choice title="Средний. (3-5)" response="3, 4 или 5?" result="" next="natural_res_35"/>
+    <choice title="Высокий. (6-8)" response="6, 7 или 8?" result="" next="natural_res_68"/>
+  </choices>
+  <choices id="natural_res_02" title="0, 1 или 2?">
+    <choice title="0." response="STR_DONE" result="SET_NATURAL_0" next="intro"/>
+    <choice title="1." response="STR_DONE" result="SET_NATURAL_1" next="intro"/>
+    <choice title="2." response="STR_DONE" result="SET_NATURAL_2" next="intro"/>
+  </choices>
+  <choices id="natural_res_35" title="3, 4 или 5?">
+    <choice title="3." response="STR_DONE" result="SET_NATURAL_3" next="intro"/>
+    <choice title="4." response="STR_DONE" result="SET_NATURAL_4" next="intro"/>
+    <choice title="5." response="STR_DONE" result="SET_NATURAL_5" next="intro"/>
+  </choices>
+  <choices id="natural_res_68" title="6, 7 или 8?">
+    <choice title="6." response="STR_DONE" result="SET_NATURAL_6" next="intro"/>
+    <choice title="7." response="STR_DONE" result="SET_NATURAL_7" next="intro"/>
+    <choice title="8." response="STR_DONE" result="SET_NATURAL_8" next="intro"/>
+  </choices>
+</dialogue>

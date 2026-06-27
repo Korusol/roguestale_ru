@@ -1,0 +1,31 @@
+<dialogue checksum="fc258eea34336dbbfd0f9d2d4c405b7ef14bd332" name="sideQuestBierkoff" entry="intro">
+  <choices id="intro" title="Нет-нет-нет-нет-нет, тебя здесь не должно быть!">
+    <choice title="Святые летучие мыши в пещере, кто ты, чёрт возьми?" response="Я STR_NAME, пивовар и изобретатель Короводождя!" result="SET_KNOWN" next="intro_reply_1"/>
+  </choices>
+  <choices id="intro_reply_1" title="STR_NAME упомянул о Короводожде.">
+    <choice title="Эм, что это за Короводождь?" response="Это пиво, сделанное из лучших ингредиентов!" result="" next="intro_reply_2"/>
+    <choice title="Мне всё равно, я здесь, чтобы покончить с твоим грязным бизнесом." response="Ха-ха, передавай привет моим маленьким друзьям!" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_reply_2" title="STR_NAME упомянул об ингредиентах.">
+    <choice title="Наверное, в этом пиве много сои." response="Соя? Только мальчики, которые тыкают друг друга, используют сою!" result="" next="intro_reply_3"/>
+    <choice title="Вообще-то, я просто покончу с тобой здесь и сейчас." response="Ха-ха, передавай привет моим маленьким друзьям!" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_reply_3" title="STR_NAME упомянул об ингредиентах.">
+    <choice title="Если не соя, значит, что-то особенное." response="Точно, сделано из супа из летучих мышей и мочи бешеной коровы!" result="" next="intro_reply_4"/>
+    <choice title="Зачем я вообще заморачивался спрашивать, просто умри уже!" response="Ха-ха, передавай привет моим маленьким друзьям!" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_reply_4" title="STR_NAME упомянул о супе из летучих мышей.">
+    <choice title="Погоди минутку, о чём ты говоришь?" response="Здесь полно летучих мышей, как ты, возможно, уже заметил." result="" next="intro_reply_5"/>
+    <choice title="Вау, я определённо положу этому конец сейчас!" response="Ха-ха, передавай привет моим маленьким друзьям!" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_reply_5" title="STR_NAME упомянул о моче бешеной коровы.">
+    <choice title="Что там насчёт мочи бешеной коровы?" response="Это придаёт вкус и название продукту." result="" next="intro_reply_6"/>
+    <choice title="Ага, твоё время вышло!" response="Ха-ха, передавай привет моим маленьким друзьям!" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_reply_6" title="STR_NAME упомянул о названии продукта.">
+    <choice title="Вкус и название продукта, серьёзно?" response="Короводождь звучит лучше, чем короводуш, ха-ха!" result="" next="intro_reply_7"/>
+  </choices>
+  <choices id="intro_reply_7" title="STR_NAME рассказал тебе всё, что нужно знать.">
+    <choice title="Мне пора войти в твой запретный квадратик!" response="Ха-ха, передавай привет моим маленьким друзьям!" result="SET_ENEMY" next=""/>
+  </choices>
+</dialogue>

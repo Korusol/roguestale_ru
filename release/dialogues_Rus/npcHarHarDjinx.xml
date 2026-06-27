@@ -1,0 +1,135 @@
+<dialogue checksum="eba87b4e48ab8019413f5ad1511619687c55fac4" name="npcHarHarJinx" entry="intro">
+  <choices id="intro" title="Ты пытаешься заговорить с накопителем добычи.">
+    <choice title="Эм, привет." response="Хар-Хар." result="" next="intro_reply_1"/>
+  </choices>
+  <choices id="intro_reply_1" title="Хар-Хар.">
+    <choice title="Хар-Хар?" response="Хар-Хар Джинкс." result="" next="intro_reply_2"/>
+  </choices>
+  <choices id="intro_reply_2" title="Хар-Хар Джинкс.">
+    <choice title="( Почесать голову. )" response="Ха-ха, ты явно не говоришь по-оркски." result="" next="intro_reply_3"/>
+    <choice title="( Вздохнуть и закатить глаза. )" response="Ха-ха, ты явно не говоришь по-оркски." result="" next="intro_reply_3"/>
+    <choice title="Умри, зелёная тварь!" response="Ах ты сукин сын!" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_reply_3" title="Ты возобновляешь разговор.">
+    <choice title="Что, ты меня понимаешь?" response="Конечно. Может, я и низкий, но не глупый." result="" next="intro_reply_4"/>
+  </choices>
+  <choices id="intro_reply_4" title="Ты возобновляешь разговор.">
+    <choice title="Так, гм, тебя зовут Хар-Хар?" response="Нет, простак. Ты сказал привет..." result="" next="intro_reply_5"/>
+  </choices>
+  <choices id="intro_reply_5" title="Ты возобновляешь разговор.">
+    <choice title="И?" response="Я сказал привет-привет в ответ." result="" next="intro_reply_6"/>
+  </choices>
+  <choices id="intro_reply_6" title="Ты возобновляешь разговор.">
+    <choice title="Оо, что насчёт этой штуки с Джинксом?" response="Длинноножка." result="" next="intro_reply_7"/>
+  </choices>
+  <choices id="intro_reply_7" title="Ты возобновляешь разговор.">
+    <choice title="Ах, привет-привет, длинноножка." response="Вау, возможно, ты на шаг выше простака." result="" next="intro_reply_8"/>
+  </choices>
+  <choices id="intro_reply_8" title="Ты возобновляешь разговор.">
+    <choice title="Эм, все зелёные такие грубые, как ты?" response="Зелёные?!?" result="" next="intro_reply_9"/>
+  </choices>
+  <choices id="intro_reply_9" title="Ты возобновляешь разговор.">
+    <choice title="У меня длинные ноги, и ты зовёшь меня длинноножкой..." response="Ты не можешь называть меня зелёным!" result="" next="intro_reply_10"/>
+  </choices>
+  <choices id="intro_reply_10" title="Ты возобновляешь разговор.">
+    <choice title="Ок, тогда как насчёт коротышка?" response="Нет. Это не нормально." result="" next="intro_reply_11"/>
+  </choices>
+  <choices id="intro_reply_11" title="Ты возобновляешь разговор.">
+    <choice title="Погоди, почему ты можешь называть меня длинноножкой?" response="Потому что у тебя длинные ноги." result="" next="intro_reply_12"/>
+  </choices>
+  <choices id="intro_reply_12" title="Ты возобновляешь разговор.">
+    <choice title="Почему я не могу называть тебя коротышкой?" response="Потому что у меня короткие ноги." result="" next="intro_reply_13"/>
+  </choices>
+  <choices id="intro_reply_13" title="Ты возобновляешь разговор.">
+    <choice title="И?" response="Это снисходительно с твоей стороны." result="" next="intro_reply_14"/>
+  </choices>
+  <choices id="intro_reply_14" title="Ты возобновляешь разговор.">
+    <choice title="Так как мне тебя называть?" response="Можешь звать меня длинноухий." result="" next="intro_reply_15"/>
+  </choices>
+  <choices id="intro_reply_15" title="Ты возобновляешь разговор.">
+    <choice title="Ок, как сказать тебе привет по-оркски?" response="Хар-Хар Зер Джигр." result="" next="intro_reply_16"/>
+  </choices>
+  <choices id="intro_reply_16" title="Ты возобновляешь разговор.">
+    <choice title="Значит, Зер Джигр — это длинные уши?" response="Нет, глупый. Джигр значит длинные уши." result="" next="intro_reply_17"/>
+  </choices>
+  <choices id="intro_reply_17" title="Ты возобновляешь разговор.">
+    <choice title="Тогда что значит Зер?" response="Зер — моё предпочитаемое местоимение." result="" next="intro_reply_18"/>
+  </choices>
+  <choices id="intro_reply_18" title="Ты возобновляешь разговор.">
+    <choice title="Эм, рад, что мы это прояснили..." response="Слава Орханаде!" result="" next="intro_reply_19"/>
+  </choices>
+  <choices id="intro_reply_19" title="Ты возобновляешь разговор.">
+    <choice title="Эм, что?" response="Ты глухой, слава Орханаде!" result="" next="intro_reply_20"/>
+  </choices>
+  <choices id="intro_reply_20" title="Ты возобновляешь разговор.">
+    <choice title="Итак, Орханада — это место или человек?" response="Это оркская нация." result="" next="intro_reply_21"/>
+  </choices>
+  <choices id="intro_reply_21" title="Ты возобновляешь разговор.">
+    <choice title="Тогда место, область или страна?" response="Что ж, это не настоящая страна, но..." result="" next="intro_reply_22"/>
+  </choices>
+  <choices id="intro_reply_22" title="Ты возобновляешь разговор.">
+    <choice title="И что?" response="Где угодно, где орки у власти." result="" next="intro_reply_23"/>
+  </choices>
+  <choices id="intro_reply_23" title="Ты возобновляешь разговор.">
+    <choice title="А, тогда это будет нигде." response="Очень скоро это будет повсюду." result="" next="intro_reply_24"/>
+  </choices>
+  <choices id="intro_reply_24" title="Ты возобновляешь разговор.">
+    <choice title="Что значит «повсюду»?" response="Некоторое время назад мы сражались с дварфами." result="" next="intro_reply_25"/>
+  </choices>
+  <choices id="intro_reply_25" title="Ты возобновляешь разговор.">
+    <choice title="Хм, дварфы, никогда не слышал о них." response="И ты никогда не узнаешь, потому что они все мертвы." result="" next="intro_reply_26"/>
+  </choices>
+  <choices id="intro_reply_26" title="Ты возобновляешь разговор.">
+    <choice title="Значит, вы сражались с дварфами, и что потом?" response="Во время битвы при Крагхоу..." result="" next="intro_reply_27"/>
+  </choices>
+  <choices id="intro_reply_27" title="Ты возобновляешь разговор.">
+    <choice title="Продолжай." response="Или гора с широким каньоном." result="" next="intro_reply_28"/>
+  </choices>
+  <choices id="intro_reply_28" title="Ты возобновляешь разговор.">
+    <choice title="Ха, Крагхоу с широким каньоном." response="Хватит меня перебивать, простак." result="" next="intro_reply_29"/>
+    <choice title="Ага, и что потом?" response="Молодой шаман превратил всех дварфов в камень." result="" next="intro_reply_30"/>
+  </choices>
+  <choices id="intro_reply_29" title="Ты возобновляешь разговор.">
+    <choice title="Ок, ок, что случилось потом?" response="Молодой шаман превратил всех дварфов в камень." result="" next="intro_reply_30"/>
+  </choices>
+  <choices id="intro_reply_30" title="Ты возобновляешь разговор.">
+    <choice title="И как это относится к Орханаде?" response="Тысячи орков были убиты каждый день..." result="" next="intro_reply_31"/>
+  </choices>
+  <choices id="intro_reply_31" title="Ты возобновляешь разговор.">
+    <choice title="Продолжай." response="В бесконечной битве против дварфов." result="" next="intro_reply_32"/>
+  </choices>
+  <choices id="intro_reply_32" title="Ты возобновляешь разговор.">
+    <choice title="Оо." response="И теперь мы строим наши армии..." result="" next="intro_reply_33"/>
+  </choices>
+  <choices id="intro_reply_33" title="Ты возобновляешь разговор.">
+    <choice title="Продолжай." response="В дварфийских крепостях с их снаряжением." result="" next="intro_reply_34"/>
+  </choices>
+  <choices id="intro_reply_34" title="Ты возобновляешь разговор.">
+    <choice title="Хм, звучит плохо." response="Скоро мы внедрим зелёную новую сделку..." result="" next="intro_reply_35"/>
+  </choices>
+  <choices id="intro_reply_35" title="Ты возобновляешь разговор.">
+    <choice title="И что это за сделка?" response="Если ты не зелёный, ты умрёшь!" result="" next="intro_reply_36"/>
+  </choices>
+  <choices id="intro_reply_36" title="Ты возобновляешь разговор.">
+    <choice title="Что ж, было приятно поболтать." response="Подожди, прежде чем уйти, возьми это." result="GIVE_RUNE_STONE" next="intro_reply_37"/>
+  </choices>
+  <choices id="intro_reply_37" title="Ты возобновляешь разговор.">
+    <choice title="Что это?" response="Это дварфийский рунный камень." result="" next="intro_reply_38"/>
+  </choices>
+  <choices id="intro_reply_38" title="Ты возобновляешь разговор.">
+    <choice title="О, спасибо, но на нём нет руны." response="Её сточили. Отнеси это своему шаману..." result="" next="intro_reply_39"/>
+  </choices>
+  <choices id="intro_reply_39" title="Ты возобновляешь разговор.">
+    <choice title="И?" response="И вырезать новый, привязывая к нему душу." result="" next="intro_reply_40"/>
+  </choices>
+  <choices id="intro_reply_40" title="Ты возобновляешь разговор.">
+    <choice title="Ты можешь это сделать?" response="Любой шаман может это сделать." result="" next="intro_reply_41"/>
+  </choices>
+  <choices id="intro_reply_41" title="Ты возобновляешь разговор.">
+    <choice title="Что ж, спасибо, но теперь мне нужно..." response="Да?" result="" next="intro_reply_42"/>
+  </choices>
+  <choices id="intro_reply_42" title="Ты возобновляешь разговор.">
+    <choice title="Пожелать удачи и попрощаться." response="Прощай." result="CLOSE_DIALOGUE" next=""/>
+    <choice title="Забрать все твои вещи для клана плутов." response="Ах ты сукин сын!" result="SET_ENEMY" next=""/>
+  </choices>
+</dialogue>

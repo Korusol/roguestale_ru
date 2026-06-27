@@ -1,0 +1,125 @@
+<dialogue checksum="bfa4977e037d615d99b962a625de35c7b07b9f35" name="sideQuestSalesman" entry="intro">
+  <choices id="intro" title="Привет, малыш.">
+    <choice title="Эм, привет." response="Не бойся, я не кусаюсь." result="" next="intro_desc_1"/>
+    <choice title="Умри, зловещее создание!" response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_desc_1" title=" ">
+    <choice title="Ок, поверю на слово." response="Что ты здесь делаешь?" result="" next="intro_desc_2"/>
+  </choices>
+  <choices id="intro_desc_2" title=" ">
+    <choice title="Я здесь ради лучшей сделки." response="Оо, давай сначала представимся." result="" next="intro_desc_3"/>
+  </choices>
+  <choices id="intro_desc_3" title=" ">
+    <choice title="STR_SAY_PLAYER" response="Рад встрече, я Арчибальд..." result="" next="intro_desc_4"/>
+    <choice title="STR_SAY_ALIAS" response="Рад встрече, я Арчибальд..." result="" next="intro_desc_4"/>
+    <choice title="Я Даффи Убийца Демонов!" response="Я отправлю тебя обратно в Кроликовейл." result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_desc_4" title=" ">
+    <choice title="Ок." response="Варфоломей..." result="" next="intro_desc_5"/>
+  </choices>
+  <choices id="intro_desc_5" title=" ">
+    <choice title="Классно." response="Каммингстон III." result="" next="intro_desc_6"/>
+  </choices>
+  <choices id="intro_desc_6" title=" ">
+    <choice title="Круто." response="Но можешь звать меня Арчи." result="" next="intro_desc_7"/>
+  </choices>
+  <choices id="intro_desc_7" title=" ">
+    <choice title="Ок, Арчи, зачем я здесь?" response="Ты здесь, чтобы инвестировать в своё будущее." result="" next="intro_desc_8"/>
+  </choices>
+  <choices id="intro_desc_8" title=" ">
+    <choice title="И как мне это сделать?" response="Ты продаёшь часть своей души мне..." result="" next="intro_desc_9"/>
+  </choices>
+  <choices id="intro_desc_9" title=" ">
+    <choice title="Эм..." response="И я дам тебе доступ к великой силе!" result="" next="intro_desc_10"/>
+  </choices>
+  <choices id="intro_desc_10" title=" ">
+    <choice title="Вау, просто так?" response="Да, всё, что тебе нужно сделать..." result="" next="intro_desc_11"/>
+  </choices>
+  <choices id="intro_desc_11" title=" ">
+    <choice title="Сидеть на диване и получать от адских?" response="Ха-ха, нет, подпиши этот стандартный контракт..." result="" next="intro_desc_12"/>
+  </choices>
+  <choices id="intro_desc_12" title=" ">
+    <choice title="Я так и знал! Моей кровью, верно?" response="Твоей кровью." result="" next="intro_desc_13"/>
+  </choices>
+  <choices id="intro_desc_13" title=" ">
+    <choice title="Вау, как оригинально." response="Вот почему это называется стандартным контрактом." result="" next="intro_desc_14"/>
+    <choice title="Я пролью твою кровь вместо этого!" response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_desc_14" title=" ">
+    <choice title="То есть, по сути, бери или проваливай?" response="Хочешь увидеть контракт или нет?" result="" next="intro_desc_15"/>
+  </choices>
+  <choices id="intro_desc_15" title=" ">
+    <choice title="Да." response="Поговори со мной снова, когда подпишешь." result="TAKE_CONTRACT" next="contract"/>
+    <choice title="Нет." response="Что ж, это твоя потеря." result="TELEPORT_AWAY" next=""/>
+  </choices>
+  <choices id="contract" title="Ты подписал контракт?">
+    <choice title="Да." response="Отлично! Я возьму это, а ты можешь взять вот это..." result="RETURN_CONTRACT" next="intro_desc_16"/>
+    <choice title="Нет." response="Что ж, у меня нет целого дня." result="TELEPORT_AWAY" next=""/>
+  </choices>
+  <choices id="intro_desc_16" title=" ">
+    <choice title="Что это?" response="Дай сначала прочитать мелкий шрифт..." result="" next="intro_desc_17"/>
+  </choices>
+  <choices id="intro_desc_17" title=" ">
+    <choice title="Ок." response="Итак, в обмен на 99% твоей души..." result="" next="intro_desc_18"/>
+  </choices>
+  <choices id="intro_desc_18" title=" ">
+    <choice title="Погоди, что, в контракте был 1%!" response="Нет, в контракте сказано, что ты оставляешь себе 1%." result="" next="intro_desc_19"/>
+  </choices>
+  <choices id="intro_desc_19" title=" ">
+    <choice title="Так меня надул продавец подержанных повозок." response="Не, ты только что подписал что-то кровью..." result="" next="intro_desc_20"/>
+  </choices>
+  <choices id="intro_desc_20" title=" ">
+    <choice title="Ага?" response="Что ты явно не мог полностью понять..." result="" next="intro_desc_21"/>
+  </choices>
+  <choices id="intro_desc_21" title=" ">
+    <choice title="Проклятье!" response="Это случается почти с каждым человеком." result="" next="intro_desc_22"/>
+  </choices>
+  <choices id="intro_desc_22" title=" ">
+    <choice title="Хорошо. Тогда давай послушаем мелкий шрифт." response="Итак, в обмен на 99% твоей души..." result="" next="intro_desc_23"/>
+  </choices>
+  <choices id="intro_desc_23" title=" ">
+    <choice title="Бла-бла." response="Ты получишь это странное устройство..." result="" next="intro_desc_24"/>
+  </choices>
+  <choices id="intro_desc_24" title=" ">
+    <choice title="Бла-бла." response="Это позволяет тебе откачивать души и..." result="" next="intro_desc_25"/>
+  </choices>
+  <choices id="intro_desc_25" title=" ">
+    <choice title="Вау." response="Сохрани часть той откачанной энергии..." result="" next="intro_desc_26"/>
+  </choices>
+  <choices id="intro_desc_26" title=" ">
+    <choice title="Становится всё лучше и лучше." response="Чтобы дать тебе невообразимую силу!" result="" next="intro_desc_27"/>
+  </choices>
+  <choices id="intro_desc_27" title=" ">
+    <choice title="Отлично. То, что мне нужно!" response="Оо, ещё кое-что." result="" next="intro_desc_28"/>
+  </choices>
+  <choices id="intro_desc_28" title=" ">
+    <choice title="Что это?" response="Души нельзя просто взять, если только..." result="" next="intro_desc_29"/>
+  </choices>
+  <choices id="intro_desc_29" title=" ">
+    <choice title="Продолжай." response="Цель должным образом разозлена или доверчива..." result="" next="intro_desc_30"/>
+  </choices>
+  <choices id="intro_desc_30" title=" ">
+    <choice title="Как я?" response="Гм, вроде того, но, к счастью для тебя..." result="" next="intro_desc_31"/>
+  </choices>
+  <choices id="intro_desc_31" title=" ">
+    <choice title="Ага?" response="Устройство может помочь тебе злить..." result="" next="intro_desc_32"/>
+  </choices>
+  <choices id="intro_desc_32" title=" ">
+    <choice title="Правда?" response="Твоя добыча достаточна, чтобы их души покинули тела." result="" next="intro_desc_33"/>
+  </choices>
+  <choices id="intro_desc_33" title=" ">
+    <choice title="То есть, по сути, я должен убивать для тебя?" response="Нет-нет-нет. Ты убиваешь для себя..." result="" next="intro_desc_34"/>
+  </choices>
+  <choices id="intro_desc_34" title=" ">
+    <choice title="И?" response="И я забираю большую часть откачанных душ." result="" next="intro_desc_35"/>
+  </choices>
+  <choices id="intro_desc_35" title=" ">
+    <choice title="То есть это был трудовой контракт?" response="Стандартный контракт вечного рабства." result="" next="intro_desc_36"/>
+  </choices>
+  <choices id="intro_desc_36" title=" ">
+    <choice title="Погоди, что, вечное рабство?" response="Твои многочисленные потомки будут любить тебя за это." result="" next="intro_desc_37"/>
+  </choices>
+  <choices id="intro_desc_37" title=" ">
+    <choice title="Почему-то я сомневаюсь." response="Счастливой охоты и добро пожаловать на тёмную сторону!" result="TELEPORT_AWAY" next=""/>
+  </choices>
+</dialogue>

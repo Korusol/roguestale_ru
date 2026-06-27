@@ -1,0 +1,72 @@
+<dialogue checksum="d1713662ac891d905799d48f0ab22349c4746aea" name="npcHideoutSister" entry="intro">
+  <choices id="intro" title="STR_INTRO_TOUGH">
+    <choice title="STR_ASK_NAME_1" response="STR_TELL_NAME_1" result="SET_KNOWN" next="intro_reply_1"/>
+    <choice title="STR_ATTACK_1" response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_reply_1" title="STR_INTRO_4">
+    <choice title="STR_SAY_PLAYER" response="STR_MEET_PLAYER" result="" next="intro_reply_2"/>
+  </choices>
+  <choices id="intro_reply_2" title="STR_INTRO_1">
+    <choice title="STR_ASK_JOB_2" response="Я сестра блюза с Покатой Горы." result="" next="intro_reply_3"/>
+  </choices>
+  <choices id="intro_reply_3" title="STR_INTRO_2">
+    <choice title="Эм, какая сестра?" response="Мы группа музыкантов." result="" next="intro_reply_4"/>
+  </choices>
+  <choices id="intro_reply_4" title="STR_INTRO_2">
+    <choice title="Группа, да? Где остальные?" response="Гм, они могли потеряться." result="" next="intro_reply_5"/>
+  </choices>
+  <choices id="intro_reply_5" title="STR_INTRO_2">
+    <choice title="Потерял где, здесь внизу?" response="Медведь убил и съел одного..." result="" next="intro_reply_6"/>
+  </choices>
+  <choices id="intro_reply_6" title="STR_INTRO_2">
+    <choice title="Хм, медведи умеют это делать." response="Высокие каблуки и лестница убили одного..." result="" next="intro_reply_7"/>
+  </choices>
+  <choices id="intro_reply_7" title="STR_INTRO_2">
+    <choice title="Правда?" response="Один упал в расщелину и утонул..." result="" next="intro_reply_8"/>
+  </choices>
+  <choices id="intro_reply_8" title="STR_INTRO_2">
+    <choice title="Ты знаешь, есть ли кто-нибудь живой?" response="Я не знаю насчёт трёх других..." result="" next="intro_reply_9"/>
+  </choices>
+  <choices id="intro_reply_9" title="STR_INTRO_2">
+    <choice title="Трое других?" response="Их загнал в угол горящий монстр." result="" next="intro_reply_10"/>
+  </choices>
+  <choices id="intro_reply_10" title="STR_INTRO_2">
+    <choice title="Ты имеешь в виду огненного элементаля?" response="Не знаю, оно было большим и в огне." result="" next="intro_reply_11"/>
+  </choices>
+  <choices id="intro_reply_11" title="STR_INTRO_2">
+    <choice title="Ок, они мертвы. Есть ещё?" response="Нет, всё, нас семеро." result="" next="intro_reply_12"/>
+  </choices>
+  <choices id="intro_reply_12" title="STR_INTRO_2">
+    <choice title="Итак, они мертвы, а ты потерялся." response="Полагаю, что так." result="" next="intro_reply_13"/>
+  </choices>
+  <choices id="intro_reply_13" title="STR_INTRO_2">
+    <choice title="Что мне с тобой делать?" response="Пожалуйста, отведи меня обратно в город!" result="" next="intro_reply_14"/>
+  </choices>
+  <choices id="intro_reply_14" title="STR_INTRO_2">
+    <choice title="Мне нужен музыкант для моего бара, интересно?" response=" " result="SISTER_OFFER_JOB" next="sister_intro"/>
+    <choice title="Ладно, я отведу тебя в город. (Путешествие)" response="Большое спасибо!" result="LEAVE_DUNGEON" next=""/>
+  </choices>
+  <choices id="sister_intro" title="STR_INTRO_1">
+    <choice title="Можешь сыграть для меня?" response="Эм, насчёт этого..." result="" next="sister_reply_1"/>
+  </choices>
+  <choices id="sister_reply_1" title="STR_INTRO_1">
+    <choice title="Не говори мне, что не умеешь играть." response="Гм, я могу играть, но мне нужно..." result="" next="sister_reply_2"/>
+  </choices>
+  <choices id="sister_reply_2" title="STR_INTRO_1">
+    <choice title="Что тебе нужно?" response="Мои записи. Мне нужны мои записи." result="" next="sister_reply_3"/>
+  </choices>
+  <choices id="sister_reply_3" title="STR_INTRO_1">
+    <choice title="Ок, где мне найти твои записи?" response="На данный момент они могут быть где угодно." result="" next="sister_reply_4"/>
+  </choices>
+  <choices id="sister_reply_4" title="STR_INTRO_1">
+    <choice title="Ладно, буду держать ухо востро." response="Ещё раз спасибо." result="SISTER_EXPLAINED" next="sister_reply_5"/>
+  </choices>
+  <choices id="sister_reply_5" title="STR_INTRO_1">
+    <choice title="Не мог бы ты сыграть сейчас?" response="Я могу сыграть Балладу Плута." result="" next="outro"/>
+  </choices>
+  <choices id="outro" title="Привет, босс, хочешь, сыграю что-нибудь?">
+    <choice title="Сыграй Балладу Воина." response="Тык-пык, тык-пык..." result="WARRIOR_BALLAD" next=""/>
+    <choice title="Сыграй Балладу Волшебника." response="Гори-гори ясно, вкуси силу моего заклинания..." result="WIZARD_BALLAD" next=""/>
+    <choice title="Сыграй Балладу Плута." response="Многие монстры желают мне смерти..." result="ROGUE_BALLAD" next=""/>
+  </choices>
+</dialogue>

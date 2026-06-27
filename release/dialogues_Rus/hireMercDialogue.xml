@@ -1,0 +1,43 @@
+<dialogue checksum="8a85d85e6153303c1929d64e2a6e6ad1c9b743a1" name="hireMercDialogue" entry="intro">
+  <choices id="intro" title="Что бы ты хотел сделать?">
+    <choice title="Нанять наёмника." response="Ближний бой, дальний бой или заклинатель?" result="" next="hire_merc"/>
+    <choice title="Посмотреть структуру расходов." response="Стоимость найма или содержания?" result="" next="view_terms"/>
+  </choices>
+  <choices id="hire_merc" title=" ">
+    <choice title="Ближний бой." response="Воин, боец или дуэлянт?" result="" next="hire_melee"/>
+    <choice title="Дальний бой." response="Лучник, стрелок или снайпер?" result="" next="hire_ranged"/>
+    <choice title="Заклинатель." response="Клирик, жрец или волшебник?" result="" next="hire_caster"/>
+  </choices>
+  <choices id="hire_melee" title=" ">
+    <choice title="Воин." response="STR_HIRE_MERC" result="HIRE_WARRIOR" next=""/>
+    <choice title="Боец." response="STR_HIRE_MERC" result="HIRE_FIGHTER" next=""/>
+    <choice title="Дуэлянт." response="STR_HIRE_MERC" result="HIRE_DUELIST" next=""/>
+  </choices>
+  <choices id="hire_ranged" title=" ">
+    <choice title="Лучник." response="STR_HIRE_MERC" result="HIRE_ARCHER" next=""/>
+    <choice title="Стрелок." response="STR_HIRE_MERC" result="HIRE_BOWMAN" next=""/>
+    <choice title="Снайпер." response="STR_HIRE_MERC" result="HIRE_MARKSMAN" next=""/>
+  </choices>
+  <choices id="hire_caster" title=" ">
+    <choice title="Клирик." response="STR_HIRE_MERC" result="HIRE_CLERIC" next=""/>
+    <choice title="Жрец." response="STR_HIRE_MERC" result="HIRE_PRIEST" next=""/>
+    <choice title="Волшебник." response="STR_HIRE_MERC" result="HIRE_WIZARD" next=""/>
+  </choices>
+  <choices id="view_terms" title=" ">
+    <choice title="Стоимость найма." response="Стоимость найма — 25з за уровень опыта." result="" next="view_terms_1"/>
+    <choice title="Стоимость содержания." response="Стоимость содержания — 25з за зачищенное подземелье." result="" next="view_terms_2"/>
+    <choice title="Неважно." response="Что бы ты хотел сделать?" result="" next="intro"/>
+  </choices>
+  <choices id="view_terms_1" title=" ">
+    <choice title="Стоимость содержания." response="Стоимость содержания — 25з за зачищенное подземелье." result="" next="view_terms_3"/>
+  </choices>
+  <choices id="view_terms_2" title=" ">
+    <choice title="Стоимость найма." response="Стоимость найма — 25з за уровень опыта." result="" next="view_terms_3"/>
+  </choices>
+  <choices id="view_terms_3" title=" ">
+    <choice title="Нанять наёмника." response="Ближний бой, дальний бой или заклинатель?" result="" next="hire_merc"/>
+  </choices>
+  <choices id="outro" title=" ">
+    <choice title="Неважно." response="Увидимся." result="CLOSE_DIALOGUE" next=""/>
+  </choices>
+</dialogue>

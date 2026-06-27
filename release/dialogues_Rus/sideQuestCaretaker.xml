@@ -1,0 +1,46 @@
+<dialogue checksum="fc7d9e36baa4f66140e091ed404bf62afb5a7ab9" name="sideQuestCaretaker" entry="intro">
+  <choices id="intro" title="Добро пожаловать, юный искатель приключений.">
+    <choice title="Кто ты?" response="Я смотритель этого святилища." result="" next="intro_name"/>
+    <choice title="Что это за место?" response="Это святилище Майка." result="" next="intro_desc_1"/>
+    <choice title="Ненавижу жриц!" response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_name" title="С возвращением, юный искатель приключений.">
+    <choice title="Что ж, чьё это святилище?" response="Это святилище Майка." result="" next="intro_desc_1"/>
+    <choice title="Оо, это значит ценности!" response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_desc_1" title="С возвращением, юный искатель приключений.">
+    <choice title="Так, э-э, кто такой Майк?" response="Он божество-покровитель юных искателей приключений." result="" next="intro_desc_2"/>
+    <choice title="Ценности, отдавай!" response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_desc_2" title="С возвращением, юный искатель приключений.">
+    <choice title="Вау, есть способ получить его благословение?" response="Ты должен произнести обряд Майка." result="" next="intro_desc_3"/>
+    <choice title="Отдай все свои блестяшки!" response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_desc_3" title="С возвращением, юный искатель приключений.">
+    <choice title="Обряд Майка, что это?" response="Майк — это обряд!" result="" next="intro_desc_4"/>
+    <choice title="Отдай всё своё золото, сейчас же!" response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_desc_4" title="С возвращением, юный искатель приключений.">
+    <choice title="Майк — это обряд?" response="Нет-нет-нет, не спрашивай, воскликни!" result="" next="intro_desc_5"/>
+    <choice title="Этот посох выглядит блестящим!" response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_desc_5" title="С возвращением, юный искатель приключений.">
+    <choice title="Оо, Майк — это обряд!" response="Вот так, и не забывай!" result="SET_INFORMED" next="intro_desc_6"/>
+    <choice title="Всё, что у тебя есть, сейчас же!" response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_desc_6" title="С возвращением, юный искатель приключений.">
+    <choice title="Так, гм, как становятся божеством?" response="Ты можешь попытаться спасти мир от проклятия..." result="" next="intro_desc_7"/>
+    <choice title="Круто, я пойду (Путешествие)." response="Прощай." result="FINISH_QUEST" next=""/>
+    <choice title="Насчёт тех ценностей!" response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_desc_7" title="С возвращением, юный искатель приключений.">
+    <choice title="Продолжай." response="Это вызывает невообразимую боль и страдания..." result="" next="intro_desc_8"/>
+  </choices>
+  <choices id="intro_desc_8" title="С возвращением, юный искатель приключений.">
+    <choice title="И?" response="При этом будучи единственным, кто может его видеть." result="" next="intro_desc_9"/>
+  </choices>
+  <choices id="intro_desc_9" title="С возвращением, юный искатель приключений.">
+    <choice title="Отлично, я займусь этим (Путешествие)." response="Прощай." result="FINISH_QUEST" next=""/>
+    <choice title="Я почти забыл, блестяшки, сейчас же!" response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+</dialogue>

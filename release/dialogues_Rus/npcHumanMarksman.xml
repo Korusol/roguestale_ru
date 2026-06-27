@@ -1,0 +1,61 @@
+<dialogue checksum="a70f33924fb63da5e7a98bc7aebb184ccdf07d40" name="npcHumanMarksman" entry="intro">
+  <choices id="intro" title="STR_INTRO_STERN">
+    <choice title="STR_ASK_NAME_1" response="STR_TELL_NAME_1" result="SET_KNOWN" next="intro_name"/>
+    <choice title="STR_ASK_JOB_1" response="STR_MARKSMAN" result="" next="intro_job"/>
+    <choice title="STR_ATTACK_1" response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_name" title="STR_INTRO_4">
+    <choice title="STR_SAY_PLAYER" response="STR_MEET_PLAYER" result="" next="intro_name_reply"/>
+    <choice title="STR_SAY_ALIAS" response="STR_MEET_ALIAS" result="" next="intro_name_reply"/>
+    <choice title="STR_ATTACK_2" response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_name_reply" title="STR_INTRO_1">
+    <choice title="STR_ASK_JOB_2" response="STR_MARKSMAN" result="" next="intro_name_reply_job"/>
+    <choice title="STR_ATTACK_3" response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_name_reply_job" title="STR_INTRO_2">
+    <choice title="STR_ASK_TRICKS" response="STR_TELL_PERHAPS" result="" next="learn_slow_and_steady"/>
+    <choice title="STR_ATTACK_3" response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_job" title="STR_INTRO_3">
+    <choice title="STR_ASK_TRICKS" response="STR_TELL_PERHAPS" result="" next="learn_slow_and_steady"/>
+    <choice title="STR_ASK_NAME_2" response="STR_TELL_NAME_2" result="SET_KNOWN" next="intro_job_name"/>
+    <choice title="STR_ATTACK_1" response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_job_name" title="STR_INTRO_4">
+    <choice title="STR_SAY_PLAYER" response="STR_MEET_PLAYER" result="" next="intro_job_name_reply"/>
+    <choice title="STR_SAY_ALIAS" response="STR_MEET_ALIAS" result="" next="intro_job_name_reply"/>
+    <choice title="STR_ATTACK_2" response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_job_name_reply" title="STR_INTRO_2">
+    <choice title="STR_ASK_TRICKS" response="STR_TELL_PERHAPS" result="" next="learn_slow_and_steady"/>
+    <choice title="STR_ATTACK_3" response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="learn_slow_and_steady" title="STR_INTRO_TRICKS">
+    <choice title="STR_ASK_TEACH_TALENT_27" response="STR_CONFIRM" result="" next="confirm_slow_and_steady"/>
+    <choice title="STR_ATTACK_3" response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="confirm_slow_and_steady" title="STR_INTRO_READY">
+    <choice title="STR_YES_PLEASE" response="STR_TEACH_TALENT" result="LEARN_SLOW_AND_STEADY" next="end_conversation"/>
+    <choice title="STR_NO_THANKS" response="STR_RETHINK" result="" next="learn_slow_and_steady"/>
+    <choice title="STR_ATTACK_4" response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="end_conversation" title="STR_INTRO_GO_AWAY">
+    <choice title="STR_INTIMIDATE" response="" result="INTIMIDATE" next="intimidate"/>
+    <choice title="STR_PERSUADE" response="" result="PERSUADE" next="persuade"/>
+    <choice title="STR_ATTACK_6" response="STR_FUBAR" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intimidate" title="STR_INTRO_SCARED">
+    <choice title="STR_ATTACK_8" response="STR_BREAK_UP_1" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="persuade" title="STR_INTRO_SMITTEN">
+    <choice title="STR_ATTACK_8" response="STR_BREAK_UP_2" result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="mercenary" title="STR_INTRO_MERC">
+    <choice title="STR_FIRE_MERC" response="STR_CONFIRM" result="" next="end_contract"/>
+  </choices>
+  <choices id="end_contract" title="STR_CONFIRM">
+    <choice title="STR_YES" response="STR_ALLRIGHT" result="FIRE_MERC" next=""/>
+    <choice title="STR_NO" response="STR_WHATEVER" result="CLOSE_DIALOGUE" next="mercenary"/>
+  </choices>
+</dialogue>

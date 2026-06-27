@@ -1,0 +1,24 @@
+<dialogue checksum="97d817ba61c3df4d3f6f74ba22faa8c2d5a04da0" name="sideQuestMike" entry="intro">
+  <choices id="intro" title="Тебе просто нужно было убить её.">
+    <choice title="Оо, она споткнулась и разбила череп." response="Думаю, я добавлю твой к коллекции." result="" next="intro_desc_1a"/>
+    <choice title="Красивый вход. Как ты этому научился?" response="Мне пришлось потратить на это несколько очков." result="" next="intro_desc_1b"/>
+  </choices>
+  <choices id="intro_desc_1a" title=" ">
+    <choice title="Ха, многие пытались это сделать раньше." response="Кажется, ты не совсем понимаешь." result="" next="intro_desc_2"/>
+  </choices>
+  <choices id="intro_desc_1b" title=" ">
+    <choice title="Ну что ж, крылатый или нет, ты следующий." response="Кажется, ты не совсем понимаешь." result="" next="intro_desc_2"/>
+  </choices>
+  <choices id="intro_desc_2" title=" ">
+    <choice title="Я бью тебя, ты умираешь, потом я тебя граблю." response="И теперь я знаю, что ты не понимаешь." result="" next="intro_desc_3"/>
+  </choices>
+  <choices id="intro_desc_3" title=" ">
+    <choice title="Понять что?" response="То, что ты испытываешь здесь..." result="" next="intro_desc_4"/>
+  </choices>
+  <choices id="intro_desc_4" title=" ">
+    <choice title="Трудно закончить предложение?" response="Последние секунды твоего жалкого существования." result="" next="intro_desc_5"/>
+  </choices>
+  <choices id="intro_desc_5" title=" ">
+    <choice title="Конечно, без разницы, покажи, на что способен." response="Как пожелаешь." result="CLOSE_DIALOGUE" next=""/>
+  </choices>
+</dialogue>

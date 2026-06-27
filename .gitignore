@@ -13,10 +13,10 @@ venv/
 *.iml
 .vscode/
 
-# Generated output
-dialogues_Rus/
-Russian1.xml
-Russian1.xml.txt
+# Generated output (root level only)
+/dialogues_Rus/
+/Russian1.xml
+/Russian1.xml.txt
 *.bak
 
 # Temp test files

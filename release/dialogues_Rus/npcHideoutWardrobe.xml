@@ -1,0 +1,61 @@
+<dialogue checksum="9ab262fad48fa546224febda2a36af7a8abc3fc7" name="npcHideoutWardrobe" entry="intro">
+  <choices id="intro" title="Как дела?">
+    <choice title="Сменить цвет рубашки." response="Простолюдин, средний класс или дворянин?" result="" next="set_shirt_color"/>
+    <choice title="Сменить цвет плаща." response="Простолюдин, средний класс или дворянин?" result="" next="set_cloak_color"/>
+    <choice title="Сменить фасон плаща." response="Спина, бок или комби?" result="" next="set_cloak_style"/>
+  </choices>
+  <choices id="set_shirt_color" title="Простолюдин, средний класс или дворянин?">
+    <choice title="Простолюдин. (Чёрный, Жёлтый, Оранжевый)" response="Чёрный, жёлтый или оранжевый?" result="" next="set_shirt_color_a"/>
+    <choice title="Средний класс. (Красный, Зелёный, Синий)" response="Красный, зелёный или синий?" result="" next="set_shirt_color_b"/>
+    <choice title="Дворянин. (Фиолетовый, Белый)" response="Фиолетовый или белый?" result="" next="set_shirt_color_c"/>
+  </choices>
+  <choices id="set_shirt_color_a" title="Чёрный, жёлтый или оранжевый?">
+    <choice title="Чёрный." response="STR_DONE" result="SET_SHIRT_COLOR_0" next="intro"/>
+    <choice title="Жёлтый." response="STR_DONE" result="SET_SHIRT_COLOR_5" next="intro"/>
+    <choice title="Оранжевый." response="STR_DONE" result="SET_SHIRT_COLOR_4" next="intro"/>
+  </choices>
+  <choices id="set_shirt_color_b" title="Красный, зелёный или синий?">
+    <choice title="Красный." response="STR_DONE" result="SET_SHIRT_COLOR_1" next="intro"/>
+    <choice title="Зелёный." response="STR_DONE" result="SET_SHIRT_COLOR_2" next="intro"/>
+    <choice title="Синий." response="STR_DONE" result="SET_SHIRT_COLOR_3" next="intro"/>
+  </choices>
+  <choices id="set_shirt_color_c" title="Фиолетовый или белый?">
+    <choice title="Фиолетовый." response="STR_DONE" result="SET_SHIRT_COLOR_6" next="intro"/>
+    <choice title="Белый." response="STR_DONE" result="SET_SHIRT_COLOR_7" next="intro"/>
+  </choices>
+  <choices id="set_cloak_color" title="Простолюдин, средний класс или дворянин?">
+    <choice title="Простолюдин. (Чёрный, Коричневый)" response="Чёрный или коричневый?" result="" next="set_cloak_color_a"/>
+    <choice title="Средний класс. (Красный, Зелёный, Синий)" response="Красный, зелёный или синий?" result="" next="set_cloak_color_b"/>
+    <choice title="Дворянин. (Фиолетовый, Белый)" response="Фиолетовый или белый?" result="" next="set_cloak_color_c"/>
+  </choices>
+  <choices id="set_cloak_color_a" title="Чёрный или коричневый?">
+    <choice title="Чёрный." response="STR_DONE" result="SET_CLOAK_COLOR_5" next="intro"/>
+    <choice title="Коричневый." response="STR_DONE" result="SET_CLOAK_COLOR_0" next="intro"/>
+  </choices>
+  <choices id="set_cloak_color_b" title="Красный, зелёный или синий?">
+    <choice title="Красный." response="STR_DONE" result="SET_CLOAK_COLOR_1" next="intro"/>
+    <choice title="Зелёный." response="STR_DONE" result="SET_CLOAK_COLOR_2" next="intro"/>
+    <choice title="Синий." response="STR_DONE" result="SET_CLOAK_COLOR_3" next="intro"/>
+  </choices>
+  <choices id="set_cloak_color_c" title="Фиолетовый или белый?">
+    <choice title="Фиолетовый." response="STR_DONE" result="SET_CLOAK_COLOR_4" next="intro"/>
+    <choice title="Белый." response="STR_DONE" result="SET_CLOAK_COLOR_6" next="intro"/>
+  </choices>
+  <choices id="set_cloak_style" title="Спина, бок или комби?">
+    <choice title="Спина." response="Скрытый или видимый?" result="" next="set_cloak_style_a"/>
+    <choice title="Бок." response="Основная или дополнительная рука?" result="" next="set_cloak_style_b"/>
+    <choice title="Комби." response="Основная или дополнительная рука?" result="" next="set_cloak_style_c"/>
+  </choices>
+  <choices id="set_cloak_style_a" title="Скрытый или видимый?">
+    <choice title="Скрытый." response="STR_DONE" result="SET_CLOAK_STYLE_0" next="intro"/>
+    <choice title="Видимый." response="STR_DONE" result="SET_CLOAK_STYLE_1" next="intro"/>
+  </choices>
+  <choices id="set_cloak_style_b" title="Основная или дополнительная рука?">
+    <choice title="Основная рука." response="STR_DONE" result="SET_CLOAK_STYLE_2" next="intro"/>
+    <choice title="Дополнительная рука." response="STR_DONE" result="SET_CLOAK_STYLE_3" next="intro"/>
+  </choices>
+  <choices id="set_cloak_style_c" title="Основная или дополнительная рука?">
+    <choice title="Основная рука." response="STR_DONE" result="SET_CLOAK_STYLE_4" next="intro"/>
+    <choice title="Дополнительная рука." response="STR_DONE" result="SET_CLOAK_STYLE_5" next="intro"/>
+  </choices>
+</dialogue>

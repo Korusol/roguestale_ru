@@ -1,0 +1,100 @@
+<dialogue checksum="7065cc5daaf8b61c1515958f3f6c731146f8a547" name="sideQuestEvilGenie" entry="intro">
+  <choices id="intro" title="Кажется, палочка говорит с тобой.">
+    <choice title="Эм, что?" response="Ну привет." result="" next="intro_reply"/>
+    <choice title="Что это?" response="Это магия." result="" next="intro_reply"/>
+    <choice title="Говорящая палочка, отлично." response="Вот именно." result="" next="intro_reply"/>
+  </choices>
+  <choices id="intro_reply" title="Кажется, палочка говорит с тобой.">
+    <choice title="Так, мм, кто ты?" response="Я джинн, запертый в этой палочке." result="" next="intro_name"/>
+  </choices>
+  <choices id="intro_name" title="Джинн, кажется, заперт.">
+    <choice title="Заперт, говоришь?" response="Да. Уже столетиями." result="" next="intro_name_reply"/>
+  </choices>
+  <choices id="intro_name_reply" title="Джинн, кажется, заперт.">
+    <choice title="Почему тебя заперли?" response="За исполнение желаний других." result="" next="intro_name_job"/>
+  </choices>
+  <choices id="intro_name_job" title="Джинн, кажется, заперт.">
+    <choice title="Ты можешь исполнять желания?" response="Да. Всё, что пожелаешь, твоё." result="" next="wait_for_wish"/>
+  </choices>
+  <choices id="wait_for_wish" title="Джинн ждёт твоего желания.">
+    <choice title="Я желаю быть сказочно богатым!" response="Не потрать всё сразу." result="SET_FIRST_WISH" next=""/>
+    <choice title="Я желаю любви всей моей жизни." response="Одна родственная душа, сейчас будет." result="SET_SECOND_WISH" next=""/>
+    <choice title="Я желаю больше желаний." response="Готово. Увидимся, когда найдёшь другую палочку." result="SET_THIRD_WISH" next=""/>
+  </choices>
+  <choices id="three_wishes" title="Ты уже загадал свои три желания.">
+    <choice title="Что это?!? Всего три желания?" response="Есть ещё одно, но ты не захочешь его загадывать." result="" next="fourth_wish_0"/>
+    <choice title="Хоть бы ты показал своё лицо!" response="Если ты настаиваешь." result="SET_THREE_WISHES" next=""/>
+  </choices>
+  <choices id="fourth_wish_0" title="Джинн ждёт твоего желания.">
+    <choice title="Почему так?" response="Желание силы имеет свою цену." result="" next="fourth_wish_1"/>
+  </choices>
+  <choices id="fourth_wish_1" title="Джинн ждёт твоего ответа.">
+    <choice title="Цена? Что, золото?" response="О нет, ничего подобного." result="" next="fourth_wish_2"/>
+  </choices>
+  <choices id="fourth_wish_2" title="Джинн ждёт твоего ответа.">
+    <choice title="И что, моя душа?" response="Нет-нет-нет, от тебя ничего." result="" next="fourth_wish_3"/>
+  </choices>
+  <choices id="fourth_wish_3" title="Джинн ждёт твоего ответа.">
+    <choice title="Что ж, тогда в чём проблема?" response="Нет проблемы." result="" next="fourth_wish_4"/>
+  </choices>
+  <choices id="fourth_wish_4" title="Джинн ждёт твоего ответа.">
+    <choice title="Тогда приступай к желанию." response="Нужно быть конкретным." result="" next="fourth_wish_5"/>
+  </choices>
+  <choices id="fourth_wish_5" title="Джинн ждёт твоего ответа.">
+    <choice title="Хорошо. Я желаю большей силы." response="Тогда хорошо." result="" next="fourth_wish_6"/>
+  </choices>
+  <choices id="fourth_wish_6" title="Джинн ждёт твоего ответа.">
+    <choice title="И всё? Я ничего не чувствую." response="Зачем тебе, ты же не дварф." result="" next="fourth_wish_7"/>
+  </choices>
+  <choices id="fourth_wish_7" title="Джинн ждёт твоего ответа.">
+    <choice title="Что ты этим имеешь в виду?" response="Что ж, чтобы дать тебе больше силы..." result="" next="fourth_wish_8"/>
+  </choices>
+  <choices id="fourth_wish_8" title="Джинн ждёт твоего ответа.">
+    <choice title="Да?" response="Мне пришлось взять это у того, у кого оно есть..." result="" next="fourth_wish_9"/>
+  </choices>
+  <choices id="fourth_wish_9" title="Джинн ждёт твоего ответа.">
+    <choice title="И?" response="И в этом случае оно пришло от дварфов." result="" next="fourth_wish_10"/>
+  </choices>
+  <choices id="fourth_wish_10" title="Джинн ждёт твоего ответа.">
+    <choice title="Дварфы — кто или что они?" response="Что ж, уже никто." result="" next="fourth_wish_11"/>
+  </choices>
+  <choices id="fourth_wish_11" title="Джинн ждёт твоего ответа.">
+    <choice title="Что?" response="Всего секунду назад было 287684 живых дварфов..." result="" next="fourth_wish_12"/>
+  </choices>
+  <choices id="fourth_wish_12" title="Джинн ждёт твоего ответа.">
+    <choice title="Что?!?" response="Но теперь они существуют только в форме рун." result="" next="fourth_wish_13"/>
+  </choices>
+  <choices id="fourth_wish_13" title="Джинн ждёт твоего ответа.">
+    <choice title="Ты, должно быть, шутишь?" response="Ты меня поймал." result="" next="fourth_wish_14"/>
+  </choices>
+  <choices id="fourth_wish_14" title="Джинн ждёт твоего ответа.">
+    <choice title="Ха-ха, ты забавный." response="Да, я оставил одного дварфа в живых..." result="" next="fourth_wish_15"/>
+  </choices>
+  <choices id="fourth_wish_15" title="Джинн ждёт твоего ответа.">
+    <choice title="Хватит шутить." response="Потому что он был похож на треногу." result="" next="fourth_wish_16"/>
+  </choices>
+  <choices id="fourth_wish_16" title="Джинн ждёт твоего ответа.">
+    <choice title="Что?" response="Лирион Баннистер — его имя." result="" next="fourth_wish_17"/>
+  </choices>
+  <choices id="fourth_wish_17" title="Джинн ждёт твоего ответа.">
+    <choice title="Серьёзно?" response="Да, я абсолютно серьёзен." result="" next="fourth_wish_18"/>
+  </choices>
+  <choices id="fourth_wish_18" title="Джинн ждёт твоего ответа.">
+    <choice title="Ты безумен!" response="Может, немного, но это не меняет..." result="" next="fourth_wish_19"/>
+  </choices>
+  <choices id="fourth_wish_19" title="Джинн ждёт твоего ответа.">
+    <choice title="Что сменить?" response="Тот факт, что ты ответственен за..." result="" next="fourth_wish_20"/>
+  </choices>
+  <choices id="fourth_wish_20" title="Джинн ждёт твоего ответа.">
+    <choice title="За что?" response="Судьба целой расы." result="" next="fourth_wish_21"/>
+  </choices>
+  <choices id="fourth_wish_21" title="Джинн ждёт твоего ответа.">
+    <choice title="Ты не шутишь, ведь так?" response="Нет, я не." result="" next="fourth_wish_22"/>
+  </choices>
+  <choices id="fourth_wish_22" title="Джинн ждёт твоего ответа.">
+    <choice title="И что теперь?" response="Что ж, теперь я исполню твоё желание..." result="" next="fourth_wish_23"/>
+  </choices>
+  <choices id="fourth_wish_23" title="Джинн ждёт твоего ответа.">
+    <choice title="И?" response="Дарую тебе силу, которую ты ищешь." result="SET_DWARFAGEDDON" next=""/>
+  </choices>
+</dialogue>

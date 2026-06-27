@@ -1,0 +1,63 @@
+<dialogue checksum="1912e4a9e61fe1355f8f5b40063326f2d0bfc7d1" name="npcHideoutTinderella" entry="intro">
+  <choices id="intro" title="Эй, прекрати!">
+    <choice title="Эм, привет, гм, извини." response="Ты испортил мой послеобеденный заплыв!" result="" next="intro_reply_1"/>
+  </choices>
+  <choices id="intro_reply_1" title=" ">
+    <choice title="Эм, да, кто ты?" response="Я Тиндерелла." result="" next="intro_reply_2"/>
+  </choices>
+  <choices id="intro_reply_2" title=" ">
+    <choice title="И?" response="Я здесь, чтобы закончить проект." result="" next="intro_reply_3"/>
+  </choices>
+  <choices id="intro_reply_3" title=" ">
+    <choice title="Какой проект?" response="Это твоё маленькое убежище." result="" next="intro_reply_4"/>
+  </choices>
+  <choices id="intro_reply_4" title=" ">
+    <choice title="Оо, ты сын Тинкера?" response="Ты глупый?" result="" next="intro_reply_5"/>
+  </choices>
+  <choices id="intro_reply_5" title=" ">
+    <choice title="Эм?" response="Я дочь Тинкера!" result="" next="intro_reply_6"/>
+  </choices>
+  <choices id="intro_reply_6" title=" ">
+    <choice title="Оо, откуда мне было знать?" response="Видишь эти шипы у меня на спине?" result="" next="intro_reply_7"/>
+  </choices>
+  <choices id="intro_reply_7" title=" ">
+    <choice title="Эм, да." response="Для моего вида это значит, что я девушка." result="" next="intro_reply_8"/>
+  </choices>
+  <choices id="intro_reply_8" title=" ">
+    <choice title="Я не биолог." response="Я тоже не биолог, но..." result="" next="intro_reply_9"/>
+  </choices>
+  <choices id="intro_reply_9" title=" ">
+    <choice title="Но?" response="Если у кого-то из твоего вида есть мышцы и..." result="" next="intro_reply_10"/>
+  </choices>
+  <choices id="intro_reply_10" title=" ">
+    <choice title="И?" response="И отчётливо видимые болтающиеся части..." result="" next="intro_reply_11"/>
+  </choices>
+  <choices id="intro_reply_11" title=" ">
+    <choice title="Ага?" response="Может, стоит позвать того парня..." result="" next="intro_reply_12"/>
+  </choices>
+  <choices id="intro_reply_12" title=" ">
+    <choice title="Что?" response="Майкл вместо Мишель." result="" next="intro_reply_13"/>
+  </choices>
+  <choices id="intro_reply_13" title=" ">
+    <choice title="Ну ладно тогда." response="Итак, насчёт проекта..." result="" next="intro_reply_14"/>
+  </choices>
+  <choices id="intro_reply_14" title=" ">
+    <choice title="Ага." response="Строительный код 13 Ф.У. требует некоторых изменений." result="" next="intro_reply_15"/>
+  </choices>
+  <choices id="intro_reply_15" title=" ">
+    <choice title="Что означает Ф.У.?" response="Функциональные помещения." result="" next="intro_reply_16"/>
+  </choices>
+  <choices id="intro_reply_16" title=" ">
+    <choice title="Ок, и что это значит?" response="Это значит, что твои гости не смогут спать на полу..." result="" next="intro_reply_17"/>
+  </choices>
+  <choices id="intro_reply_17" title=" ">
+    <choice title="И?" response="А твои подсобки должны быть организованы." result="" next="intro_reply_18"/>
+  </choices>
+  <choices id="intro_reply_18" title=" ">
+    <choice title="Ок, и это значит больше заданий?" response="Да, хочешь увидеть их сейчас?" result="" next="outro"/>
+  </choices>
+  <choices id="outro" title="Ты здесь за новыми заданиями?">
+    <choice title="STR_YES" response="Отлично." result="SHOW_PROGRESS" next=""/>
+    <choice title="STR_NO" response="Тогда увидимся." result="CLOSE_DIALOGUE" next=""/>
+  </choices>
+</dialogue>

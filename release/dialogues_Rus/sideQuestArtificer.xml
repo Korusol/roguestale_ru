@@ -1,0 +1,76 @@
+<dialogue checksum="855fd39352b64276cb6e126daf185cd925be90fc" name="sideQuestArtificer" entry="intro">
+  <choices id="intro" title="Эй, можешь помочь мне выбраться отсюда?">
+    <choice title="Кто ты?" response="Я STR_NAME." result="SET_KNOWN" next="intro_name"/>
+  </choices>
+  <choices id="intro_name" title="STR_NAME явно хочет выбраться.">
+    <choice title="Что ты здесь делаешь?" response="Те бандиты были наняты, чтобы убить меня..." result="" next="intro_desc_1"/>
+  </choices>
+  <choices id="intro_desc_1" title="STR_NAME упомянул о каких-то бандитах.">
+    <choice title="Но?" response="Но, видимо, они решили иначе..." result="" next="intro_desc_2"/>
+  </choices>
+  <choices id="intro_desc_2" title="STR_NAME упомянул о каком-то решении.">
+    <choice title="И?" response="И теперь они держат меня здесь ради выкупа..." result="" next="intro_desc_3"/>
+  </choices>
+  <choices id="intro_desc_3" title="STR_NAME упомянул о каком-то выкупе.">
+    <choice title="Продолжай." response="Который они, вероятно, никогда не получат..." result="" next="intro_desc_4"/>
+  </choices>
+  <choices id="intro_desc_4" title="STR_NAME упомянул о каком-то получении.">
+    <choice title="О?" response="Поскольку люди, которые могли заплатить им..." result="" next="intro_desc_5"/>
+  </choices>
+  <choices id="intro_desc_5" title="STR_NAME упомянул о какой-то плате.">
+    <choice title="Эм?" response="Это те, кто заплатил им, чтобы убить меня." result="" next="intro_desc_6"/>
+  </choices>
+  <choices id="intro_desc_6" title="STR_NAME упомянул о своих врагах.">
+    <choice title="Я могу чем-то помочь?" response="Что ж, ты мог бы повернуть рычаг и выпустить меня." result="" next="intro_desc_7"/>
+    <choice title="Так чем ты занимаешься?" response="Я Артефактор, мастер Гильдии Ремесленников." result="" next="intro_job_1"/>
+  </choices>
+  <choices id="intro_job_1" title="STR_NAME сказал тебе, что он мастер гильдии.">
+    <choice title="Мастер гильдии, а?" response="Отличная работа с хорошими плюшками и частыми угрозами смерти." result="" next="intro_job_2"/>
+  </choices>
+  <choices id="intro_job_2" title="STR_NAME рассказал тебе о своих рабочих льготах.">
+    <choice title="Так я могу что-то сделать?" response="Что ж, ты мог бы повернуть рычаг и выпустить меня." result="" next="intro_desc_7"/>
+  </choices>
+  <choices id="intro_desc_7" title="STR_NAME упомянул, что там есть рычаг.">
+    <choice title="А, ты имеешь в виду этот рычаг?" response="Вот именно." result="" next="intro_desc_8"/>
+  </choices>
+  <choices id="intro_desc_8" title="STR_NAME хочет, чтобы ты повернул рычаг.">
+    <choice title="Тогда хорошо, я освобожу тебя." response="Большое спасибо!" result="" next="intro_desc_19"/>
+    <choice title="Скажи мне одно, что с этого мне?" response="Ты хочешь награду за то, что выпустишь меня?" result="" next="intro_desc_9"/>
+  </choices>
+  <choices id="intro_desc_9" title="STR_NAME раздражён твоим вопросом.">
+    <choice title="Да, какова моя награда за всё это?" response="Я могу сделать тебя почётным членом гильдии." result="" next="intro_desc_10"/>
+  </choices>
+  <choices id="intro_desc_10" title="STR_NAME рассказал тебе о награде.">
+    <choice title="И что значит «почётный член»?" response="Ты можешь заказывать предметы у ремесленников." result="" next="intro_desc_11"/>
+  </choices>
+  <choices id="intro_desc_11" title="STR_NAME рассказал тебе о создании предметов.">
+    <choice title="Погоди, что, ты не предлагаешь золота?" response="Что ж, в этом нет смысла, не так ли?" result="" next="intro_desc_12"/>
+  </choices>
+  <choices id="intro_desc_12" title="STR_NAME сказал, что ты не получишь золота.">
+    <choice title="Что ты имеешь в виду?" response="Если ты убьёшь меня или оставишь здесь, ты ничего не получишь..." result="" next="intro_desc_13"/>
+  </choices>
+  <choices id="intro_desc_13" title="STR_NAME сказал, что ты не получишь золота.">
+    <choice title="И?" response="И ты, должно быть, расчистил путь, чтобы добраться сюда..." result="" next="intro_desc_14"/>
+  </choices>
+  <choices id="intro_desc_14" title="STR_NAME сказал, что ты не получишь золота.">
+    <choice title="И?" response="Значит, следующий, кто войдёт, получит награду..." result="" next="intro_desc_15"/>
+  </choices>
+  <choices id="intro_desc_15" title="STR_NAME сказал, что ты не получишь золота.">
+    <choice title="Эм?" response="И поскольку жадность часто сопровождает зависть..." result="" next="intro_desc_16"/>
+  </choices>
+  <choices id="intro_desc_16" title="STR_NAME сказал, что ты не получишь золота.">
+    <choice title="Эх?" response="Ты освободишь меня, хочешь ты того или нет..." result="" next="intro_desc_17"/>
+  </choices>
+  <choices id="intro_desc_17" title="STR_NAME сказал, что ты не получишь золота.">
+    <choice title="Почему?" response="Потому что ты не хочешь, чтобы кто-то другой получал выгоду." result="" next="intro_desc_18"/>
+  </choices>
+  <choices id="intro_desc_18" title="STR_NAME сказал, что ты не получишь золота.">
+    <choice title="Эм, ладно, я вытащу тебя оттуда." response="Что ж, спасибо." result="" next="intro_desc_19"/>
+    <choice title="Аааргх, я убью тебя сам!" response="Сделай это." result="SET_ENEMY" next=""/>
+  </choices>
+  <choices id="intro_desc_19" title="STR_NAME ждёт, пока ты повернёшь рычаг."/>
+  <choices id="finish_quest" title="STR_NAME доволен, что ты его выпустил.">
+    <choice title="Думаю, мы закончили. (Путешествие)" response="Великолепно!" result="FINISH_QUEST" next=""/>
+  </choices>
+  <choices id="outro" title="finish_quest"/>
+</dialogue>
